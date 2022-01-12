@@ -1,9 +1,16 @@
-# json-server-base
+# API Simples
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
+
+
 
 ## Endpoints
 
+- URL base
+ 
+https://farting-robot.herokuapp.com
+
+- Rotas
+ 
 | Metodo | Caminho                | Descrição            |
 |--------|------------------------|----------------------|
 | POST   | [/register](#cadastro) | Cadastra usuário     |
@@ -13,8 +20,8 @@ Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configur
 | POST   | [/signin](#login)      | Autentica usuário    |
 | GET    | [/books](#books)       | Lista todos livros   |
 | POST   | [/books](#books)       | Adiciona novo livro  |
-| GET    | [/reviews](#reviews)    | Lista todos reviews  |
-| POST   | [/reviews](#reviews)                    | Adiciona novo review |
+| GET    | [/reviews](#reviews)   | Lista todos reviews  |
+| POST   | [/reviews](#reviews)   | Adiciona novo review |
 
 ### Autenticação
 
