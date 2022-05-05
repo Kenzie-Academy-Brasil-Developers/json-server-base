@@ -6,6 +6,30 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "sergio@mail.com",
+      "password": "$2a$10$r1r/jaV8sMBx0xn77xYXk.5sP3AY7zbuyTVmUq1eryuRfp3cLXuE6",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "text": "testando",
+      "userId": "2",
+      "id": 1
+    }
+  ],
+  "languages": [
+    {
+      "languages": "JavaScript",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "languages": "React",
+      "userId": 2,
+      "id": 2
     }
   ]
 }

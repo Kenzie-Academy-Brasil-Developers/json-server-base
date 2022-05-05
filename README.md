@@ -1,24 +1,72 @@
-# json-server-base
+EndPoints
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
 
-## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+Cadastro:
 
-### Cadastro
-
-POST /register <br/>
-POST /signup <br/>
 POST /users
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+ex:
+{
+    "email": "teste@teste.com",
+    "password": "123456"
+}
 
 
-### Login
+Login:
 
-POST /login <br/>
-POST /signin
+POST /login
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+ex:
+{
+    "email": "teste@teste.com",
+    "password": "123456"
+}
+
+response:
+{
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNlcmdpb0BtYWlsLmNvbSIsImlsdsdgsfTExMSwiZXhwIjoxNjUxNzg4NzExLCJzdWIiOiIyIn0.XpMIFM49i7yei5z6af4-ycFj5MMq7nLHZqIkLW5189E",
+	"user": {
+		"email": "teste@teste.com",
+		"id": 2
+	}
+}
+
+
+Postar comentários:
+
+Todos podem ler. Comentário associado ao usuário que escreveu.
+
+POST /posts
+
+ex:
+
+Bearer : token de autenticação
+
+Body:
+
+{    
+	"text" : "testando",
+	"userId": "2"
+}
+
+
+Adicionar linguagens:
+
+Só usuários autenticados podem ler
+
+POST /languages
+
+ex:
+
+Bearer : token de autenticação
+
+Body:
+
+{    
+	"languages" : "testando",
+	"userId": "2"
+}
+
+
+
