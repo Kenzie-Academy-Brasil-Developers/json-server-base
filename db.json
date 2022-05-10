@@ -9,27 +9,44 @@
     },
     {
       "email": "sergio@mail.com",
-      "password": "$2a$10$r1r/jaV8sMBx0xn77xYXk.5sP3AY7zbuyTVmUq1eryuRfp3cLXuE6",
+      "password": "$2a$10$iT64cNwuh2SCdqt.dwAWee3Zk5zPb9goRZO/Yz9uAo2rJ1Tb51gEC",
       "id": 2
-    }
-  ],
-  "posts": [
-    {
-      "text": "testando",
-      "userId": "2",
-      "id": 1
-    }
-  ],
-  "languages": [
-    {
-      "languages": "JavaScript",
-      "userId": 2,
-      "id": 1
     },
     {
-      "languages": "React",
-      "userId": 2,
-      "id": 2
+      "email": "hannibal@email.com",
+      "password": "$2a$10$mOpJwrd20VLgq47/PaPU7u8pECRzH6iaOWwH66Oaes5/y5ed2qAp2",
+      "name": "Hannibal Lecter",
+      "age": "59",
+      "id": 3
+    }
+  ],
+  "patients": [
+    {
+      "name": "Sérgio Othoniel",
+      "userId": "2",
+      "age": "32",
+      "email": "sergio@mail.com",
+      "appointments": [],
+      "id": 1
+    }
+  ],
+  "staff": [
+    {
+      "name": "Hannibal Lecter",
+      "userId": "3",
+      "age": "59",
+      "email": "hannibal@mail.com",
+      "specializations": [
+        "Psicologia Infantil",
+        "Tratamento pós-traumático",
+        "Canibalismo"
+      ],
+      "description": [
+        "Especialista em psicologia froudiana, infantil, pós-traumático, atendo há mais de 15 anos pacientes em um consultório em Campinas - SP."
+      ],
+      "appointments": [],
+      "documents": "12224993439 CRM",
+      "id": 1
     }
   ]
 }
