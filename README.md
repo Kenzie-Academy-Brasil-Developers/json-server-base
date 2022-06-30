@@ -1,27 +1,36 @@
-# json-server-base
+Rotas de Users
+    POST: /register -> será possível criar um novo usuário com o seguinte corpo
+        {
+            "name": "name",
+            "password": "password"
+        }
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
+        /login -> para logar com um usuário criado anteriormente
+        {
+            "name": "name",
+            "password":"password"
+        }
 
-## Endpoints
+    GET: /users/{id} -> necessário estar logado para visualizar informações relativas ao próprio usuário (o id passado deverá ser o mesmo do usuário logado)
+        - Não é necessário body
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+Rotas de Produtos
+    POST: /produtos -> O usuário poderá criar um novo produto, apenas se estiver logado (com token ativo)
+        {
+            "name": "name",
+            "price":"price",
+            "userId": "idUsuarioLogado"
+        }
+    
+    GET: /produtos -> Qualquer um poderá ver todos os produtos criados
+                   -> Não é necessário body
 
-### Cadastro
+Rotas de Cart
+    POST: /cart -> Necessário estar logado para criar um novo item de cart
+            {
+                "userId": "idUsuarioLogado"
+                "produtosId": "id" // id relativo ao do produto que deseja adicionar
+            }
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
-
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
-
-
-### Login
-
-POST /login <br/>
-POST /signin
-
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
-
-// Rota 644: notaModulos: qualquer um, mesmo sem estar logado, pode visualizar a nota do módulo
-// Rota 640: darNota: O usuário deve estar logado para dar uma nota e apenas se estiver logado, irá ler a nota dada ao módulo
+    GET: /cart -> Necessário estar logado para visualizar os itens que possuem o próprio token do usuário
+                -> Não necessita de body

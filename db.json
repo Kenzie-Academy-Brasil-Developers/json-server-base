@@ -18,6 +18,16 @@
       "userId": 1,
       "produtosId": 1,
       "id": 1
+    },
+    {
+      "userId": 1,
+      "produtosId": 1,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "produtosId": 1,
+      "id": 3
     }
   ],
   "produtos": [
@@ -26,6 +36,12 @@
       "price": "50",
       "userId": 2,
       "id": 1
+    },
+    {
+      "name": "Camiseta",
+      "price": "50",
+      "userId": 2,
+      "id": 2
     }
   ]
 }
