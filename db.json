@@ -6,6 +6,26 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "marcelo@mail.com.br",
+      "password": "$2a$10$/w4R0Bx7Xq9nHVLqq0i09.1y6.JY0frZwdScoit7dZkaITylw5ste",
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "userId": 1,
+      "produtosId": 1,
+      "id": 1
+    }
+  ],
+  "produtos": [
+    {
+      "name": "Camiseta",
+      "price": "50",
+      "userId": 2,
+      "id": 1
     }
   ]
 }

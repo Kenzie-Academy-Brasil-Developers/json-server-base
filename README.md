@@ -22,3 +22,6 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+// Rota 644: notaModulos: qualquer um, mesmo sem estar logado, pode visualizar a nota do módulo
+// Rota 640: darNota: O usuário deve estar logado para dar uma nota e apenas se estiver logado, irá ler a nota dada ao módulo
