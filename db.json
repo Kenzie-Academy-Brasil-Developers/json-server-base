@@ -6,65 +6,6 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
-    },
-    {
-      "email": "igor@gmail.com",
-      "password": "$2a$10$vdDKeGqxJXdaOvmFRmAPSOnQV7zhrVXxqyMTaDlddYLHECub2GLqG",
-      "id": 2
-    },
-    {
-      "email": "lovepaws@gmail.com",
-      "password": "$2a$10$U5ouEyE/m7miT3fMTdKUte3x2RnOB.DCMOenAH9qip4O/yNEAST.S",
-      "type": "ong",
-      "socialName": "Love Paws",
-      "cnpj": "123465789",
-      "ongProof": "Comprovante de ONG",
-      "ongLogo": "Logo da Ong",
-      "social": {
-        "instagram": "https://www.instagram.com/",
-        "twitter": "https://twitter.com/home",
-        "facebook": "https://www.facebook.com/",
-        "website": "kenzieacademy.com"
-      },
-      "address": {
-        "cep": "14706-092",
-        "logradouro": "Rua Peru",
-        "complemento": "",
-        "bairro": "Vila Sanderson",
-        "localidade": "Bebedouro",
-        "uf": "SP"
-      },
-      "occupationArea": "Animais Domésticos ou Selvagens",
-      "id": 3
-    },
-    {
-      "email": "igoruser@gmail.com",
-      "password": "$2a$10$NnwAfvBqXji514gM.IAHzutxV3LXNXtZL4H5LOg.Cf1yk47V62L9y",
-      "name": "Igor Garcia",
-      "cpf": "CPF/RG",
-      "address": {
-        "cep": "14706-092",
-        "logradouro": "Rua Peru",
-        "complemento": "",
-        "bairro": "Vila Sanderson",
-        "localidade": "Bebedouro",
-        "uf": "SP"
-      },
-      "avatar": "Foto do usuario",
-      "phone": "Telefone ",
-      "momey": "Média de Renda",
-      "Whatsapp": "Whatsapp",
-      "home": {
-        "typeHome": "Casa",
-        "tela": true,
-        "animals": {
-          "quantos": 2,
-          "quais": [
-            "Cachorro"
-          ]
-        }
-      },
-      "id": 4
     }
   ],
   "pet": [
