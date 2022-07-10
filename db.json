@@ -39,6 +39,7 @@
     },
     {
       "email": "igoruser@gmail.com",
+      "type": "pf",
       "password": "$2a$10$NnwAfvBqXji514gM.IAHzutxV3LXNXtZL4H5LOg.Cf1yk47V62L9y",
       "name": "Igor Garcia",
       "cpf": "CPF/RG",
