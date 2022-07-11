@@ -6,6 +6,63 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "igor@gmail.com",
+      "password": "$2a$10$vdDKeGqxJXdaOvmFRmAPSOnQV7zhrVXxqyMTaDlddYLHECub2GLqG",
+      "id": 2
+    },
+    {
+      "email": "lovepaws@gmail.com",
+      "password": "$2a$10$U5ouEyE/m7miT3fMTdKUte3x2RnOB.DCMOenAH9qip4O/yNEAST.S",
+      "type": "ong",
+      "socialName": "Love Paws",
+      "cnpj": "123465789",
+      "ongProof": "Comprovante de ONG",
+      "ongLogo": "Logo da Ong",
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "twitter": "https://twitter.com/home",
+        "facebook": "https://www.facebook.com/",
+        "website": "kenzieacademy.com"
+      },
+      "address": {
+        "cep": "14706-092",
+        "logradouro": "Rua Peru",
+        "complemento": "",
+        "bairro": "Vila Sanderson",
+        "localidade": "Bebedouro",
+        "uf": "SP"
+      },
+      "occupationArea": "Animais Domésticos ou Selvagens",
+      "id": 3
+    },
+    {
+      "email": "igoruser@gmail.com",
+      "password": "$2a$10$NnwAfvBqXji514gM.IAHzutxV3LXNXtZL4H5LOg.Cf1yk47V62L9y",
+      "name": "Igor Garcia",
+      "cpf": "CPF/RG",
+      "address": {
+        "cep": "14706-092",
+        "logradouro": "Rua Peru",
+        "complemento": "",
+        "bairro": "Vila Sanderson",
+        "localidade": "Bebedouro",
+        "uf": "SP"
+      },
+      "avatar": "Foto do usuario",
+      "phone": "Telefone ",
+      "momey": "Média de Renda",
+      "Whatsapp": "Whatsapp",
+      "home": {
+        "typeHome": "Casa",
+        "tela": true,
+        "animals": {
+          "quantos": 2,
+          "quais": ["Cachorro"]
+        }
+      },
+      "id": 4
     }
   ],
   "pet": [
@@ -34,7 +91,7 @@
       "gender": "Macho",
       "age": "filhote",
       "porte": "Pequeno",
-      "master": "LovePaws",
+      "ONG": "LovePaws",
       "ONG_id": 1,
       "description": "Doa-se filhotinho, já está vermifungado e já tem as três doses da vacina",
       "situation": "Filhote, vacinado e vermifungado, não possue nenhum problema de saúde"
@@ -327,7 +384,7 @@
     {
       "id": 22,
       "petName": "Fofinho",
-      "img": "https://guiaanimal.net/uploads/content/image/696/AdobeStock_17051961.jpeghttps://guiaanimal.net/uploads/content/image/696/AdobeStock_17051961.jpeg",
+      "img": "https://petkeen.com/wp-content/uploads/2020/10/Brown-Netherland-dwarf-rabbit_RATT_ANARACH_Shutterstock.webp",
       "breed": "Netherland Dwarf",
       "species": "Coelho",
       "color": "Caramelo",
@@ -371,18 +428,18 @@
     },
     {
       "id": 25,
-      "petName": "Pedro",
-      "img": "https://i.pinimg.com/originals/3a/af/b8/3aafb840681947bca958346e5c5b4bf9.jpg",
-      "breed": "Lebre Belga",
-      "species": "Coelho",
-      "color": "Preto",
-      "gender": "Macho",
+      "petName": "Felicia",
+      "img": "https://cdn.los-animales.org/fotos/415708476_3099848-lulu-da-pomerania-spitz-alemao-anao-branco-neve-femea-disponivel.jpg",
+      "breed": "Lulu da Pomerânia",
+      "species": "Cachorro",
+      "color": "Branco",
+      "gender": "Fêmea",
       "age": "Adulto",
-      "porte": "Grande",
+      "porte": "Pequeno",
       "ONG": "4Patas",
       "ONG_id": 2,
-      "description": "Dócil já acostumado com pesoas e crianças, precisa de uma familia.",
-      "situation": "Adulto, não castrado, não possue problemas de saúde."
+      "description": "Agressiva, traumatizada, precisa de uma familia paciênte",
+      "situation": "Adulto, não castrada, não possue problemas de saúde."
     },
     {
       "id": 26,
