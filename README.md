@@ -259,7 +259,7 @@ GET /pet
 ### Listar animais cadastrados - ONG
 
 ```
-GET /pet?idOwner=:id
+GET /pet?userId=:id
 ```
 
 # Rotas que precisam de autenticação (ROTAS PRIVADAS)
