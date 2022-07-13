@@ -45,8 +45,10 @@
       "ong": "LovePaws",
       "userId": 1,
       "description": "Doa-se esse lindo e amoroso cão da raça BorderCollie idoso 10 anos, castrado e vacinado, atende pelo nome Pimposo, foi encontrado abandonado em uma avenida e precisa de uma nova familia.",
+
       "situation": "Idoso, vacinado e castrado, não possue nenhum problema de saúde",
       "id": 2
+
     },
     {
       "petName": "Lexa",
@@ -105,8 +107,10 @@
       "ong": "LovePaws",
       "userId": 1,
       "description": "Muito dócil e brincalhão, snoop nasceu com as patinhas encurtadas, mas tem muito amor para dar.",
+
       "situation": "Adulto, vacinado e castrado, patas da frente mal formadas",
       "id": 6
+
     }
   ],
   "testemonials": []
