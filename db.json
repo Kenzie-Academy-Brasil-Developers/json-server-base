@@ -39,6 +39,7 @@
     },
     {
       "email": "igoruser@gmail.com",
+      "type": "pf",
       "password": "$2a$10$NnwAfvBqXji514gM.IAHzutxV3LXNXtZL4H5LOg.Cf1yk47V62L9y",
       "name": "Igor Garcia",
       "cpf": "CPF/RG",
@@ -59,7 +60,9 @@
         "tela": true,
         "animals": {
           "quantos": 2,
-          "quais": ["Cachorro"]
+          "quais": [
+            "Cachorro"
+          ]
         }
       },
       "id": 4
@@ -606,5 +609,6 @@
       "description": "Linda chinchilla adulta, dócil e adestrada.",
       "situation": "Adulta, não possue problemas de saúde."
     }
-  ]
+  ],
+  "testemonials": []
 }
