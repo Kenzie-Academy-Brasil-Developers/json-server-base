@@ -33,29 +33,11 @@ Formato da requisição ONG/Usuario
 ```json
 {
   "type": "user",
-  "email": "igoruser@gmail.com",
-  "name": "Igor Garcia",
-  "cpf": "1111111111",
-  "address": {
-    "cep": "11111-111",
-    "logradouro": "Rua Kenzie",
-    "complemento": "",
-    "bairro": "Kenzie",
-    "localidade": "Bebedouro",
-    "uf": "SP"
-  },
-  "avatar": "https://urllink.com/igor.jpg",
-  "phone": "111111111 ",
-  "momey": "Média de Renda",
-  "Whatsapp": "1711111111",
-  "home": {
-    "typeHome": "Casa",
-    "tela": true,
-    "animals": {
-      "howMany": 2,
-      "which": ["Cachorro"]
-    }
-  }
+  "email": "kenzinho@gmail.com",
+  "password": 123456,
+  "name": "Kenzinho",
+  "cpfcnpj": "12345678911",
+  "img": "https://urllink.com/igor.jpg"
 }
 ```
 
@@ -63,33 +45,14 @@ Formato da requisição ONG/Usuario
 
 ```json
 {
-  "accessToken": "xxxxxx.xxxxxx.xxxxx",
+  "accessToken": "xxxxx.xxxxx.xxxx",
   "user": {
-    "id": 1,
+    "email": "kenzinho@mail.com",
     "type": "user",
-    "email": "igoruser@gmail.com",
-    "name": "Igor Garcia",
-    "cpf": "CPF/RG",
-    "address": {
-      "cep": "14706-092",
-      "logradouro": "Rua Peru",
-      "complemento": "",
-      "bairro": "Vila Sanderson",
-      "localidade": "Bebedouro",
-      "uf": "SP"
-    },
-    "avatar": "https://static.wikia.nocookie.net/smite-br/images/b/ba/Chronos.jpg/revision/latest?cb=20141203152449&path-prefix=pt-br",
-    "phone": "1111111111 ",
-    "momey": "3000",
-    "Whatsapp": "11111111111",
-    "home": {
-      "typeHome": "Casa",
-      "tela": true,
-      "animals": {
-        "howMany": 2,
-        "which": ["Cachorro"]
-      }
-    }
+    "img": "https://urllink.com/kenzinho.jpg",
+    "name": "Kenzinho",
+    "cpfcnpj": 12345678911,
+    "id": 2
   }
 }
 ```
@@ -99,20 +62,11 @@ Formato da requisição ONG/Usuario
 ```json
 {
   "type": "ong",
-  "email": "igorong@gmail.com",
-  "name": "Igor Garcia",
-  "cpf": "1111111111",
-  "address": {
-    "cep": "11111-111",
-    "logradouro": "Rua Kenzie",
-    "complemento": "",
-    "bairro": "Kenzie",
-    "localidade": "Bebedouro",
-    "uf": "SP"
-  },
-  "avatar": "https://urllink.com/igor.jpg",
-  "phone": "111111111 ",
-  "Whatsapp": "1711111111"
+  "email": "kenzinho.ong@gmail.com",
+  "password": 123456,
+  "name": "Kenzinho ONG",
+  "cpfcnpj": "12345678911",
+  "img": "https://urllink.com/kenzinho.jpg"
 }
 ```
 
@@ -120,24 +74,14 @@ Formato da requisição ONG/Usuario
 
 ```json
 {
-  "accessToken": "xxxxxx.xxxxxx.xxxxx",
+  "accessToken": "xxxxx.xxxxx.xxxx",
   "user": {
-    "id": 2,
-    "type": "ong",
-    "email": "igorong@gmail.com",
-    "name": "Igor Garcia",
-    "cpf": "1111111111",
-    "address": {
-      "cep": "11111-111",
-      "logradouro": "Rua Kenzie",
-      "complemento": "",
-      "bairro": "Kenzie",
-      "localidade": "Bebedouro",
-      "uf": "SP"
-    },
-    "avatar": "https://urllink.com/igor.jpg",
-    "phone": "111111111 ",
-    "Whatsapp": "1711111111"
+    "email": "kenzinho@mail.com",
+    "type": "user",
+    "img": "https://urllink.com/kenzinho.jpg",
+    "name": "Kenzinho",
+    "cpfcnpj": 12345678911,
+    "id": 1
   }
 }
 ```
@@ -164,33 +108,13 @@ POST /signin
 
 ```json
 {
-  "accessToken": "xxxxxx.xxxxxx.xxxxx",
+  "accessToken": "xxxx.xxxx.xxxx",
   "user": {
-    "id": 1,
+    "email": "kenzinho@mail.com",
     "type": "user",
-    "email": "igoruser@gmail.com",
-    "name": "Igor Garcia",
-    "cpf": "CPF/RG",
-    "address": {
-      "cep": "14706-092",
-      "logradouro": "Rua Peru",
-      "complemento": "",
-      "bairro": "Vila Sanderson",
-      "localidade": "Bebedouro",
-      "uf": "SP"
-    },
-    "avatar": "https://static.wikia.nocookie.net/smite-br/images/b/ba/Chronos.jpg/revision/latest?cb=20141203152449&path-prefix=pt-br",
-    "phone": "1111111111 ",
-    "momey": "3000",
-    "Whatsapp": "11111111111",
-    "home": {
-      "typeHome": "Casa",
-      "tela": true,
-      "animals": {
-        "howMany": 2,
-        "which": ["Cachorro"]
-      }
-    }
+    "name": "kenzinho",
+    "cpfcnpj": 12345678911,
+    "id": 1
   }
 }
 ```
@@ -199,24 +123,13 @@ POST /signin
 
 ```json
 {
-  "accessToken": "xxxxxx.xxxxxx.xxxxx",
+  "accessToken": "xxxxxxx.xxxxxxx.",
   "user": {
-    "id": 2,
+    "email": "kenzinho.ong@mail.com",
     "type": "ong",
-    "email": "igorong@gmail.com",
-    "name": "Igor Garcia",
-    "cpf": "1111111111",
-    "address": {
-      "cep": "11111-111",
-      "logradouro": "Rua Kenzie",
-      "complemento": "",
-      "bairro": "Kenzie",
-      "localidade": "Bebedouro",
-      "uf": "SP"
-    },
-    "avatar": "https://urllink.com/igor.jpg",
-    "phone": "111111111 ",
-    "Whatsapp": "1711111111"
+    "name": "Kenzinho ONG",
+    "cpfcnpj": 12345678911,
+    "id": 1
   }
 }
 ```
@@ -230,32 +143,40 @@ GET /pet
 ### FORMATO DA RESPOSTA ONG - 201 OK
 
 ```json
-[
-  {
-    "id": 1,
-    "petName": "Pimposo",
-    "img": "https://wpets.com.br/wp-content/uploads/2020/02/4da2b8a9267c54394586f606bcc9f438.jpg",
-    "breed": "BorderCollie",
-    "species": "Cachorro",
-    "color": "Branco e Marrom",
-    "gender": "Macho",
-    "age": "Idoso",
-    "porte": "Grande",
-    "ong": "LovePaws",
-    "idOwner": 1,
-    "address": {
-      "cep": "11111-111",
-      "logradouro": "Rua Kenzie",
-      "complemento": "",
-      "bairro": "Kenzie",
-      "localidade": "Bebedouro",
-      "uf": "SP"
-    },
-    "description": "Doa-se esse lindo e amoroso cão da raça BorderCollie idoso 10 anos, castrado e vacinado, atende pelo nome Pimposo, foi encontrado abandonado em uma avenida e precisa de uma nova familia.",
-    "situation": "Idoso, vacinado e castrado, não possue nenhum problema de saúde"
-  }
+[[
+	{
+		"age": 8,
+		"breed": "Labrador1",
+		"color": "Caramelo",
+		"description": "Obediente, carinhosa e resmungona",
+		"gender": "Fêmea",
+		"userId": 1,
+		"img": "http://s2.glbimg.com/xEziWq5-XbP1d3TnsPDwYRaWKIM=/560x560/e.glbimg.com/og/ed/f/original/2017/01/20/breed-standard.jpg",
+		"ong": "Pancinha Feliz",
+		"petName": "Aika",
+		"porte": "Grande",
+		"situation": "Bem tratada, gosta de comer e gosta de atenção",
+		"species": "Cachorro",
+		"id": 1
+	},
+	{
+		"petName": "Pimposo",
+		"img": "https://wpets.com.br/wp-content/uploads/2020/02/4da2b8a9267c54394586f606bcc9f438.jpg",
+		"breed": "BorderCollie",
+		"species": "Cachorro",
+		"color": "Branco e Marrom",
+		"gender": "Macho",
+		"age": 6,
+		"porte": "Grande",
+		"ong": "LovePaws",
+		"userId": 1,
+		"description": "Doa-se esse lindo e amoroso cão da raça BorderCollie idoso 10 anos, castrado e vacinado, atende pelo nome Pimposo, foi encontrado abandonado em uma avenida e precisa de uma nova familia.",
+		"situation": "Idoso, vacinado e castrado, não possue nenhum problema de saúde",
+		"id": 2
+	}
 ]
 ```
+
 ### Listar animais cadastrados - ONG
 
 ```
@@ -272,30 +193,22 @@ GET /pet?userId=:id
 POST /pet
 ```
 
-### Formato da requisição 
+### Formato da requisição
 
 ```json
 {
-  "petName": "Pimposo",
-  "img": "https://wpets.com.br/wp-content/uploads/2020/02/4da2b8a9267c54394586f606bcc9f438.jpg",
-  "breed": "BorderCollie",
+  "petName": "Snoop",
+  "img": "https://fotos.amomeupet.org/uploads/fotos/412x0_1591881343_5ee22e7fa30f9_hd.webp",
+  "breed": "Sem raça definida",
   "species": "Cachorro",
-  "color": "Branco e Marrom",
+  "color": "Branco e Preto",
   "gender": "Macho",
-  "age": "Idoso",
-  "porte": "Grande",
+  "age": 5,
+  "porte": "Médio",
   "ong": "LovePaws",
-  "idOwner": 1,
-  "address": {
-    "cep": "11111-111",
-    "logradouro": "Rua Kenzie",
-    "complemento": "",
-    "bairro": "Kenzie",
-    "localidade": "Bebedouro",
-    "uf": "SP"
-  },
-  "description": "Doa-se esse lindo e amoroso cão da raça BorderCollie idoso 10 anos, castrado e vacinado, atende pelo nome Pimposo, foi encontrado abandonado em uma avenida e precisa de uma nova familia.",
-  "situation": "Idoso, vacinado e castrado, não possue nenhum problema de saúde"
+  "userId": 1,
+  "description": "Muito dócil e brincalhão, snoop nasceu com as patinhas encurtadas, mas tem muito amor para dar.",
+  "situation": "Adulto, vacinado e castrado, patas da frente mal formadas"
 }
 ```
 
@@ -303,26 +216,18 @@ POST /pet
 
 ```json
 {
-  "id": 1,
-  "petName": "Pimposo",
-  "img": "https://wpets.com.br/wp-content/uploads/2020/02/4da2b8a9267c54394586f606bcc9f438.jpg",
-  "breed": "BorderCollie",
+  "petName": "Snoop",
+  "img": "https://fotos.amomeupet.org/uploads/fotos/412x0_1591881343_5ee22e7fa30f9_hd.webp",
+  "breed": "Sem raça definida",
   "species": "Cachorro",
-  "color": "Branco e Marrom",
+  "color": "Branco e Preto",
   "gender": "Macho",
-  "age": "Idoso",
-  "porte": "Grande",
+  "age": 5,
+  "porte": "Médio",
   "ong": "LovePaws",
-  "idOwner": 1,
-  "address": {
-    "cep": "11111-111",
-    "logradouro": "Rua Kenzie",
-    "complemento": "",
-    "bairro": "Kenzie",
-    "localidade": "Bebedouro",
-    "uf": "SP"
-  },
-  "description": "Doa-se esse lindo e amoroso cão da raça BorderCollie idoso 10 anos, castrado e vacinado, atende pelo nome Pimposo, foi encontrado abandonado em uma avenida e precisa de uma nova familia.",
-  "situation": "Idoso, vacinado e castrado, não possue nenhum problema de saúde"
+  "userId": 1,
+  "description": "Muito dócil e brincalhão, snoop nasceu com as patinhas encurtadas, mas tem muito amor para dar.",
+  "situation": "Adulto, vacinado e castrado, patas da frente mal formadas",
+  "id": 6
 }
 ```
