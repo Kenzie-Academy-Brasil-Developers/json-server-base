@@ -1,24 +1,36 @@
 # json-server-base
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
+Essa é uma API-fake apenas com a finalidade de ser utilizada na leitura/fetch dos dados de um website ficticio de registro de devs em busca de emprego.
 
 ## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+A api possui 3 endpoints, sendo dois dele requerindo autenticação e o ultimo não.
 
-### Cadastro
+O url base da API é https://kenziehub.herokuapp.com
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+## Rotas que necessitam de autorização
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+Rotas que necessitam de autorização deve ser informado no cabeçalho da requisição o campo "Authorization", dessa forma:
 
+> Authorization: Bearer {token}
 
-### Login
+Após o usuário estar logado, ele deve conseguir resgatar as informações solicitadas.
 
-POST /login <br/>
-POST /signin
+### USERS
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+`GET /users`
+
+Este endpoint trara a lista dos usuários registrados no sistema, em um contexto onde as empresas buscam pelos nomes registrados no banco de dados
+para fins de pesquisa de talentos.
+
+### TECHS
+
+`GET /techs`
+
+Esse endpoint busca pelas tecnologias registradas de cada um dos usuários registrados, listando separademente do usuário.
+
+### JOBS
+
+`GET /jobs`
+
+Por fim, esse endpoint busca trazer a lista de cada uma das vagas registradas no website, trazendo especificamente o nome e salário de cada vaga.

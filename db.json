@@ -7,5 +7,28 @@
       "age": 38,
       "id": 1
     }
+  ],
+  "techs": [
+    {
+      "user_id": 1,
+      "names": ["javascript", "typescript", "nodeJS", "React"]
+    }
+  ],
+  "jobs": [
+    {
+      "name": "Empresa X",
+      "salary": 92000,
+      "id": 1
+    },
+    {
+      "name": "Empresa Y",
+      "salary": 87000,
+      "id": 1
+    },
+    {
+      "name": "Empresa z",
+      "salary": 64000,
+      "id": 1
+    }
   ]
 }
