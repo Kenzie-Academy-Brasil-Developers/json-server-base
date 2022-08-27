@@ -14,7 +14,7 @@ e dos moderadores da plataforma.
 
 O cadastro será de dois tipos: do cliente e do restaurante.
 
-`POST /users - FORMATO DA RESPOSTA - STATUS 201`
+`POST /register - FORMATO DA RESPOSTA - STATUS 201`
 
 Exemplo de requisição:
 
