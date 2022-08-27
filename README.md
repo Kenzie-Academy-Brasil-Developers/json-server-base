@@ -1,24 +1,100 @@
-# json-server-base
+# JSON-Server-API
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
+Esse é o repositório de uma API fake criada através do json-server-auth para
+realização do projeto final front-end.
 
 ## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+A aplicação contará com X end-points, sendo em volta do cliente, do restaurante
+e dos moderadores da plataforma.
 
-### Cadastro
+ <h2 align ='center'> Cadastro </h2>
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+O cadastro será de dois tipos: do cliente e do restaurante.
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+`POST /users - FORMATO DA RESPOSTA - STATUS 201`
 
+Exemplo de requisição:
 
-### Login
+```json
+//Cliente
+{
+	"name": "Guilherme",
+	"email": "gui.test2e@gmail.com",
+	"password":"teste123",
+	"type": "custommer"
+}
 
-POST /login <br/>
-POST /signin
+//Restaurante
+{
+	"name": "Vale do bem",
+    "url-img": "http://img",
+	"menu": [
+		{"food": "X-Burguer Vegano",
+		 "price": 20,
+		 "promo-price": 15,
+		 "category": ["vegan", "zero-lactose","zero-gluten","vegetarian"],
+         "description": "Hamburguer de soja com alface, tomate...  "
+		},
+		{
+		"food": "Pao de queijo vegano",
+		 "price": 5,
+		 "promo-price": 3,
+		 "category": ["vegan", "zero-lactose","vegetarian"],
+         "description": "Hamburguer de soja com alface, tomate...  "
+		}
+	],
+	"rate": 4
+}
+```
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+ <h2 align ='center'> Login </h2>
+
+`POST /users - FORMATO DA RESPOSTA - STATUS 201`
+
+Exemplo de requisição:
+
+```json
+{
+	"email": "gui.test2e@gmail.com",
+	"password": "teste123"
+}
+```
+
+ <h2 align ='center'> Editar perfil usuário/restaurante </h2>
+
+`PATCH /users/:ID - FORMATO DA RESPOSTA - STATUS 200`
+
+É necessário enviar o token Bearer para fazer essa requisição.
+
+Exemplo de requisição:
+
+```json
+{
+	"address": "Rua Veneza..."
+}
+```
+
+ <h2 align ='center'> Listar restaurantes </h2>
+
+`GET /restaurants - FORMATO DA RESPOSTA - STATUS 200`
+
+Resposta:
+
+```json
+{
+	"address": "Rua Veneza..."
+}
+```
+
+ <h2 align ='center'> Acessando um restaurante específico </h2>
+
+`GET /restaurants/:ID - FORMATO DA RESPOSTA - STATUS 200`
+
+ <h2 align ='center'> Listar restaurantes </h2>
+
+`GET /restaurants - FORMATO DA RESPOSTA - STATUS 200`
+
+ <h2 align ='center'> Acessando um restaurante específico </h2>
+
+`GET /restaurants/:ID - FORMATO DA RESPOSTA - STATUS 200`
