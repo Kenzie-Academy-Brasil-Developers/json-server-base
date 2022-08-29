@@ -16,7 +16,7 @@ O cadastro será de dois tipos: do cliente e do restaurante. Como a API é fake
 pode ser enviado como requsição qualquer chave, porém manteremos um padrão.
 //add algumas
 
-`POST /users - FORMATO DA RESPOSTA - STATUS 201`
+`POST /register - FORMATO DA RESPOSTA - STATUS 201`
 
 Exemplo de requisição:
 
@@ -70,7 +70,7 @@ Exemplo de requisição:
 
 `GET /users/ID - FORMATO DA RESPOSTA - STATUS 201`
 
-````json
+```json
 {
 	"name": "Vale do bem",
 	"url-img": "http://img",
@@ -93,7 +93,7 @@ Exemplo de requisição:
 	"rate": 4,
 	"id": 1
 }
-
+```
  <h2 align ='center'> Listar restaurantes </h2>
 
 Listagem de todos os restaurantes
