@@ -8,5 +8,34 @@
 			"id": 1
 		}
 	],
-	"restaurants": []
+	"restaurants": [
+		{
+			"name": "Restaurante da mamãe",
+			"logo-image": "http://img",
+			"menu": {
+				"food": [
+					{
+						"item": "Burger de feijao",
+						"price": 21.99,
+						"promo": 18,
+						"photo_url": "",
+						"category": ["vegan", "zero-lactose", "vegetarian"],
+						"description": "Burger de feijão com pts coberto com mozarela ou queijo vegano de castanha e cebola grelhada, acompanhado de arroz branco, feijão, farofa e salada de cenoura, beterraba e tomate.  "
+					},
+					{
+						"item": "Pao de queijo vegano",
+						"price": 5,
+						"promo-price": 3,
+						"photo_url": "",
+						"category": ["vegan", "zero-lactose", "vegetarian"],
+						"description": "Hamburguer de soja com alface, tomate...  "
+					}
+				],
+				"drinks": [],
+				"deserts": []
+			},
+			"rate": 4,
+			"id": 1
+		}
+	]
 }

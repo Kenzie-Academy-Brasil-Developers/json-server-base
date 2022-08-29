@@ -12,7 +12,9 @@ e dos moderadores da plataforma.
 
  <h2 align ='center'> Cadastro </h2>
 
-O cadastro será de dois tipos: do cliente e do restaurante.
+O cadastro será de dois tipos: do cliente e do restaurante. Como a API é fake
+pode ser enviado como requsição qualquer chave, porém manteremos um padrão.
+//add algumas
 
 `POST /users - FORMATO DA RESPOSTA - STATUS 201`
 
