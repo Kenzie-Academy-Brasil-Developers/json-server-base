@@ -11,7 +11,7 @@
 	"restaurants": [
 		{
 			"name": "Restaurante da mamãe",
-			"logo-image": "http://img",
+			"logo-image": "https://i.imgur.com/dP4OMFV.jpg",
 			"menu": {
 				"food": [
 					{
@@ -105,7 +105,7 @@
 		},
 		{
 			"name": "Cantinho Vegetariano",
-			"logo-image": "http://img",
+			"logo-image": "https://i.imgur.com/OJ50kOn.jpg",
 			"menu": {
 				"food": [
 					{
@@ -182,7 +182,7 @@
 		},
 		{
 			"name": "Pizzaria Habitué",
-			"logo-image": "http://img",
+			"logo-image": "https://i.imgur.com/i5n1w5Z.jpg",
 			"menu": {
 				"food": [
 					{
@@ -274,7 +274,7 @@
 		},
 		{
 			"name": "Restaurante Campo Novo",
-			"logo-image": "http://img",
+			"logo-image": "https://i.imgur.com/0cP2KkN.png",
 			"menu": {
 				"food": [
 					{
@@ -381,8 +381,8 @@
 			"id": 4
 		},
 		{
-			"name": "Cantinho da Vóvó",
-			"logo-image": "http://img",
+			"name": "Vóvó Vegana",
+			"logo-image": "https://i.imgur.com/tGgb9Pe.jpg",
 			"menu": {
 				"food": [
 					{
