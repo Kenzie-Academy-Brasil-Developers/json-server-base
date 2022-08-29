@@ -1,11 +1,440 @@
 {
-  "users": [
-    {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
-      "id": 1
-    }
-  ]
+	"users": [
+		{
+			"email": "kenzinho@mail.com",
+			"password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+			"name": "Kenzinho",
+			"age": 38,
+			"id": 1
+		}
+	],
+	"restaurants": [
+		{
+			"name": "Restaurante da mamãe",
+			"logo-image": "https://i.imgur.com/dP4OMFV.jpg",
+			"menu": {
+				"food": [
+					{
+						"item": "Burger de feijao",
+						"price": 21.99,
+						"promo": 18,
+						"photo_url": "https://i.imgur.com/3un4MyR.jpg",
+						"category": ["vegan", "zero-lactose", "vegetarian"],
+						"description": "Burger de feijão com pts coberto com mozarela ou queijo vegano de castanha e cebola grelhada..."
+					},
+					{
+						"item": "Pao de queijo vegano",
+						"price": 5,
+						"promo-price": 3,
+						"photo_url": "https://i.imgur.com/dg4TYa4.jpg",
+						"category": ["vegan", "zero-lactose", "vegetarian"],
+						"description": "Pao de queijo tradicional sem adicao de....  "
+					},
+					{
+						"item": "Suflê de legumes sem glúten",
+						"price": 15,
+						"promo-price": 12,
+						"photo_url": "https://i.imgur.com/9BUDtFw.jpg",
+						"category": ["zero-gluten", "vegetarian"],
+						"description": "A receita tradicional de suflê sem glúten... "
+
+					},
+					{
+						"item": "Coxinha de palmito vegana",
+						"price": 7,
+						"promo-price": 5,
+						"photo_url": "https://i.imgur.com/bDwSgt5.jpg",
+						"category": ["vegan", "zero-gluten"],
+						"description": "Essa é uma coxinha completamente alternativa... "
+
+					},
+					{
+						"item": "Nhoque integral de batata",
+						"price": 20,
+						"promo-price": 17,
+						"photo_url": "https://i.imgur.com/gy5FzxS.jpg",
+						"category": ["vegan", "zero-lactose"],
+						"description": "Nhoque delicioso a base de batatas com..."
+					}
+				],
+				"drinks": [
+					{
+						"item": "Agua Mineral",
+						"price": 5,
+						"promo-price": 2,
+						"photo_url": "https://i.imgur.com/f9Qmr34.jpg",
+						"description": "Agua Mineral completamente gelada... "	
+					},
+					{
+						"item": "Vinho tinto",
+						"price": 50,
+						"promo-price": 40,
+						"photo_url": "https://i.imgur.com/VRuIIC0.jpg",
+						"description": "Vinho da safra de 95 com..."	
+					},
+					{
+						"item": "Coca Cola",
+						"price": 8,
+						"promo-price": 5,
+						"photo_url": "https://i.imgur.com/yYkRTLm.jpg",
+						"description": "Vinho da safra de 95 com..."	
+					}
+				],
+				"deserts": [
+					{
+						"item": "Muffin de coco e mirtilos",
+						"price": 25,
+						"promo-price": 20,
+						"photo_url": "https://i.imgur.com/bG6Q86B.jpg",
+						"category": ["zero-lactose"],
+						"description": "Um pequeno bolo com mirtilo levemente..."
+					},
+					{
+						"item": "Cookies red velvet⁣",
+						"price": 15,
+						"promo-price": 10,
+						"photo_url": "https://i.imgur.com/z5sEE5C.jpg",
+						"category": ["zero-lactose"],
+						"description": "Biscoitos assados com..."
+					}
+
+				]
+			},
+			"rate": 4,
+			"id": 1
+		},
+		{
+			"name": "Cantinho Vegetariano",
+			"logo-image": "https://i.imgur.com/OJ50kOn.jpg",
+			"menu": {
+				"food": [
+					{
+						"item": "Strogonoff Vegetariano",
+						"price": 18.99,
+						"promo": 15,
+						"photo_url": "https://i.imgur.com/wDot3PY.jpg",
+						"category": ["zero-lactose", "vegetarian"],
+						"description": "Strogonoff Vegetariano delicioso feito com palmito, cogumelo"
+					},
+					{
+						"item": " Bruschetta de figos e gorgonzola",
+						"price": 15,
+						"promo-price": 10,
+						"photo_url": "https://i.imgur.com/EhXkvEk.jpg",
+						"category": ["zero-lactose", "vegetarian"],
+						"description": "Combinação tradicional de queijo, tomate e manjericão....  "
+					},
+					{
+						"item": "Moqueca de banana",
+						"price": 28,
+						"promo-price": 22.50,
+						"photo_url": "https://i.imgur.com/Z0ELRYN.jpg",
+						"category": ["vegetarian"],
+						"description": "Que tal uma moqueca de banana para uma refeição"
+
+					},
+					{
+						"item": "Tabule caprese",
+						"price": 15,
+						"promo-price": 11.25,
+						"photo_url": "https://i.imgur.com/2w0ZFxc.jpg",
+						"category": ["vegan"],
+						"description": "Quer uma salada charmosa, colorida e cheia de nutrientes?.."
+
+					}
+				],
+				"drinks": [
+					{
+						"item": "Vinho Branco",
+						"price": 35,
+						"promo-price": 32,
+						"photo_url": "https://i.imgur.com/6PGUfXH.jpg",
+						"description": "vinho Branco de terras longiquas da... "	
+					},
+					{
+						"item": "Suco de Laranja",
+						"price": 13,
+						"promo-price": 10,
+						"photo_url": "https://i.imgur.com/WbrEn4U.jpg",
+						"description": "Suco de laranja colhido de pés..."	
+					},
+					{
+						"item": "Coca Cola",
+						"price": 8,
+						"promo-price": 5,
+						"photo_url": "",
+						"description": "Qualquer refeição pede uma coca..."	
+					}
+				],
+				"deserts": [
+					{
+						"item": "Alfajor Vegano",
+						"price": 12,
+						"promo-price": 10,
+						"photo_url": "https://i.imgur.com/AQZfbbe.jpg",
+						"category": ["zero-lactose"],
+						"description": "Alfajor é o tipo de doce-unanimidade. "
+					}
+				]
+			},
+			"rate": 4.5,
+			"id": 2
+		},
+		{
+			"name": "Pizzaria Habitué",
+			"logo-image": "https://i.imgur.com/i5n1w5Z.jpg",
+			"menu": {
+				"food": [
+					{
+						"item": "Pizza de Berinjela",
+						"price": 35,
+						"promo": 30,
+						"photo_url": "https://i.imgur.com/gun4ltn.jpg",
+						"category": ["vegan", "vegetarian"],
+						"description": "Seja para incluir a berinjela de uma forma diferente..."
+					},
+					{
+						"item": "Pizza de Couve-flor",
+						"price": 32,
+						"promo-price": 28,
+						"photo_url": "https://i.imgur.com/dRmfCpX.jpg",
+						"category": ["zero-lactose", "vegan"],
+						"description": "Uma massa com couve-flor pode ser uma ótima aposta para quem quer uma refeição mais saudável..."
+					},
+					{
+						"item": "Pizza de matzá",
+						"price": 39,
+						"promo-price": 35,
+						"photo_url": "https://i.imgur.com/PHtz1YS.jpg",
+						"category": ["vegan"],
+						"description": "já ouviu falar do matzá? Ele é um pão muito consumido pelos judeus..."
+
+					},
+					{
+						"item": "Pizza de batata",
+						"price": 29,
+						"promo-price": 25,
+						"photo_url": "https://i.imgur.com/dAwm848.jpg",
+						"category": ["vegan"],
+						"description": " Uma pizza em que o resultado é crocante e muito delicioso..."
+
+					}
+				],
+				"drinks": [
+					{
+						"item": "Suco de Tangerina",
+						"price": 18,
+						"promo-price": 12,
+						"photo_url": "https://i.imgur.com/uNUPWkN.jpg",
+						"description": "Suco de tangerina... "	
+					},
+					{
+						"item": "Suco de Uva",
+						"price": 18,
+						"promo-price": 12,
+						"photo_url": "https://i.imgur.com/qn2JiFQ.jpg",
+						"description": "Suco de uva colhido..."	
+					},
+					{
+						"item": "Guaraná",
+						"price": 7,
+						"promo-price": 5,
+						"photo_url": "https://i.imgur.com/FvwIEWo.jpg",
+						"description": "Toda refeicao pede um guaraná..."	
+					},
+					{
+						"item": "Suco de Melancia",
+						"price": 10,
+						"promo-price": 9,
+						"photo_url": "https://i.imgur.com/cqYuVBm.jpg",
+						"description": "Toda refeicao pede um suco de melancia..."
+					}
+				],
+				"deserts": [
+					{
+						"item": "Tapioca doce",
+						"price": 17,
+						"promo-price": 14,
+						"photo_url": "https://i.imgur.com/9ReFpQF.jpg",
+						"category": ["vegetarian"],
+						"description": "Uma tapioca muito bem feita..."
+					},
+					{
+						"item": "Torta de maçã sem glúten",
+						"price": 30,
+						"promo-price": 28,
+						"photo_url": "https://i.imgur.com/gFcED5F.jpg",
+						"category": ["zero-gluten","vegetarian"],
+						"description": "Uma torta de..."
+					}
+				]
+			},
+			"rate": 3.8,
+			"id": 3
+		},
+		{
+			"name": "Restaurante Campo Novo",
+			"logo-image": "https://i.imgur.com/0cP2KkN.png",
+			"menu": {
+				"food": [
+					{
+						"item": "Strogonoff de berinjela vegano",
+						"price": 25,
+						"promo": 19,
+						"photo_url": "https://i.imgur.com/KW491bc.jpg",
+						"category": ["vegan", "zero-lactose"],
+						"description": "O prato utiliza leite de aveia e fica bem nutritivo e saboroso..."
+					},
+					{
+						"item": "Macarrão de abobrinha simples",
+						"price": 20,
+						"promo-price": 12,
+						"photo_url": "https://i.imgur.com/xfnG4xT.jpg",
+						"category": ["zero-lactose", "vegan"],
+						"description": "A massa desse espaguete é feita com legumes ralados..."
+					},
+					{
+						"item": "Bobó vegano",
+						"price": 23,
+						"promo-price": 17,
+						"photo_url": "https://i.imgur.com/TnWGynq.jpg",
+						"category": ["vegan"],
+						"description": " Dois ingredientes importantes para o preparo do prato são: purê de mandioca e.."
+
+					},
+					{
+						"item": "Lasanha de abobrinha vegana",
+						"price": 32,
+						"promo-price": 28,
+						"photo_url": "https://i.imgur.com/ZGfKNeB.jpg",
+						"category": ["vegan"],
+						"description": "a massa de lasanha é substituída por abobrinha cortada em fatias. Os outros ingredientes para montar as camadas são...."
+					},
+					{
+						"item": "Ratatouille de forno simples",
+						"price": 20,
+						"promo-price": 12,
+						"photo_url": "https://i.imgur.com/SvT1IQE.jpg",
+						"category": ["vegan"],
+						"description": "A berinjela e o tomate são os dois ingredientes que se pode escolher para..."
+					},
+					{
+						"item": "Panqueca coreana",
+						"price": 15,
+						"promo-price": 14,
+						"photo_url": "https://i.imgur.com/gUziXnW.jpg",
+						"category": ["vegan"],
+						"description": "O recheio é feito com abobrinha, pimentão e cebolinha..."
+					}
+				],
+				"drinks": [
+					{
+						"item": "Detox de Clorofila",
+						"price": 10,
+						"promo-price": 8,
+						"photo_url": "https://i.imgur.com/Gz8EXid.jpg",
+						"description": "Suco detox que ajuda na... "	
+					},
+					{
+						"item": "Detox de Maçã",
+						"price": 12,
+						"promo-price": 10,
+						"photo_url": "https://i.imgur.com/iVyiEzU.jpg",
+						"description": "Suco detox de maçã que é usado..."	
+					},
+					{
+						"item": "Detox de Abacaxi com erva-doce",
+						"price": 15,
+						"promo-price": 12,
+						"photo_url": "https://i.imgur.com/w9v8Aib.jpg",
+						"description": "3 fatias de abacaxi +  um punhado de folhas de hortelã + 300 ml de chá de erva doce gelado..."
+					},
+					{
+						"item": "Detox de beterraba",
+						"price": 14,
+						"promo-price": 12,
+						"photo_url": "https://i.imgur.com/7eWgb0F.jpg",
+						"description": "Esse suco Detox..."
+					}
+				],
+				"deserts": [
+					{
+						"item": "Brigadeiro fit de pasta de amendoim",
+						"price": 12,
+						"promo-price": 7,
+						"photo_url": "https://i.imgur.com/E5xgN25.jpg",
+						"category": ["vegetarian","zero-lactose"],
+						"description": "esses brigadeiros possuem.."
+					},
+					{
+						"item": "Pudim de limão sem lactose",
+						"price": 11,
+						"promo-price": 10,
+						"photo_url": "https://i.imgur.com/Zs0yPAM.jpg",
+						"category": ["zero-gluten","vegetarian", "zero-lactose"],
+						"description": "Esse prato vai leite de coco, raspas de limão, baunilha, fécula de batata, limão e ovos. Além disso..."
+					}
+
+				]
+			},
+			"rate": 4,
+			"id": 4
+		},
+		{
+			"name": "Vóvó Vegana",
+			"logo-image": "https://i.imgur.com/tGgb9Pe.jpg",
+			"menu": {
+				"food": [
+					{
+						"item": "Molho Bolonhesa",
+						"price": 20,
+						"promo": 17,
+						"photo_url": "https://i.imgur.com/mk2FC0b.jpg",
+						"category": ["vegan", "zero-lactose"],
+						"description": "O molho Bolonhesa é excelente..."
+					},
+					{
+						"item": "Panqueca de Legumes",
+						"price": 14,
+						"promo-price": 11,
+						"photo_url": "https://i.imgur.com/OTEDzLi.jpg",
+						"category": ["zero-lactose", "vegan"],
+						"description": "A massa dessa panqueca é feita de..."
+					},
+					{
+						"item": "Tortilha de Legumes",
+						"price": 25,
+						"promo-price": 21,
+						"photo_url": "https://i.imgur.com/bq6GlRj.jpg",
+						"category": ["vegan"],
+						"description": "Essa tortilha de legumes é uma excelente pedida..."
+
+					}
+					
+				],
+				"drinks": [],
+				"deserts": [
+					{
+						"item": "Churros fit",
+						"price": 12,
+						"promo-price": 7,
+						"photo_url": "https://i.imgur.com/E5xgN25.jpg",
+						"category": ["vegetarian","zero-lactose", "zero-gluten"],
+						"description": "esses churros deliciosos.."
+					},
+					{
+						"item": "Chocotone fit",
+						"price": 30,
+						"promo-price": 24,
+						"photo_url": "https://i.imgur.com/3X8HSfF.jpg",
+						"category": ["zero-gluten","vegetarian", "zero-lactose"],
+						"description": "Se você quiser comer um delicioso Chocotone..."
+					}
+				]
+			},
+			"rate": 5,
+			"id": 5
+		}
+		
+	]
 }
