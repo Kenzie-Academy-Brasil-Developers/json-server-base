@@ -6,6 +6,30 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "brunoteste1@kenzie.com.br",
+      "password": "$2a$10$le99qcj.lwqM458FgFx/6.9xxfIl9brS7nGF4t4gqGeEQS7FlPTwC",
+      "name": "Slack",
+      "city": "Fortaleza",
+      "state": "Ceará",
+      "category": "Comunicação",
+      "urlLogo": "https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "userId": 2,
+      "products": [
+        {
+          "urlProduct": "https://images.pexels.com/photos/2417857/pexels-photo-2417857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "name": "Canecas Personalizadas",
+          "price": 10,
+          "description": "Canecas personalizadas de acordo com a imagem que o cliente desejar estampar no produto."
+        }
+      ],
+      "id": 1
     }
   ]
 }
