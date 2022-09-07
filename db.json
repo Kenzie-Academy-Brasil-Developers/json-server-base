@@ -83,6 +83,42 @@
       "bio": "Nike, Inc. é uma empresa estadunidense de calçados, roupas, e acessórios fundada em 1972 por Bill Bowerman e Philip Knight.",
       "district": "Paulista",
       "id": 7
+    },
+    {
+      "email": "vivo@mail.com",
+      "password": "$2a$10$nlRrdg2Mldrm8Ru6fsjS6uFk/bMsAHoNoA0dEF5V2rDrH61HvKRuK",
+      "name": "Vivo",
+      "city": "São Paulo",
+      "contact": "5511222222",
+      "district": "Moca",
+      "urllogo": "https://files.tecnoblog.net/wp-content/uploads/2021/09/logotipo_da_empresa_vivo.png",
+      "category": "Comunicacao",
+      "bio": "Vivo, é uma marca da Telefônica Brasil , uma subsidiária da Telefónica e a maior empresa de telecomunicações do Brasil. Venha para nossa família! ",
+      "id": 8
+    },
+    {
+      "email": "tim@mail.com",
+      "password": "$2a$10$wEMTgkyBZxFPiFaKIell4.aoIawqvA4w6W0P6iHIQ.vW0IP9If6Cu",
+      "name": "Tim",
+      "city": "São Paulo",
+      "contact": "551189898989",
+      "district": "Perdizes",
+      "urllogo": "https://media-exp1.licdn.com/dms/image/C4D0BAQHYtr29LsoVXg/company-logo_200_200/0/1656680521489?e=2147483647&v=beta&t=CedcTvoV3oU7ePoIwp6Fkz775eLgK4Ej5JQB0gxISgA",
+      "category": "Comunicacao",
+      "bio": "Nossa assinatura convida a enxergar um mundo de possibilidades capaz de transformar a tecnologia em sinônimo de liberdade.  ",
+      "id": 9
+    },
+    {
+      "email": "apple@mail.com",
+      "password": "$2a$10$6ZEf12V62.px9e4FxCn0jecekpzrBwCAKKQEPJRQWH98TpCOqVugC",
+      "name": "Apple",
+      "city": "Rio de Janeiro",
+      "contact": "552136363636",
+      "district": "Copacabana",
+      "urllogo": "https://s3-symbol-logo.tradingview.com/apple--600.png",
+      "category": "Tecnologia",
+      "bio": "Nós construímos produtos para potencializar todo mundo. Todo aparelho, software e serviço é criado pensando em você.",
+      "id": 10
     }
   ]
 }
