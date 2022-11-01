@@ -1,234 +1,243 @@
 {
-  "users": [
-    {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "id": 1,
-      "score": 0,
-      "favoritesPosts": [
-        {
-          "id": 1,
-          "planetName": "Terra",
-          "description": " Planeta terra...."
-        }
-      ]
-    },
-    {
-      "email": "vivy@mail.com",
-      "password": "$2a$10$y3THzZFt4DEPsThbj9y31uwN06ER/vUEPqL9aMbQtdaoXWMz7HRRS",
-      "name": "Vivy",
-      "id": 2,
-      "score": 0,
-      "favoritesPosts": [
-        {
-          "id": 1,
-          "planetName": "Terra",
-          "description": " Planeta terra...."
-        }
-      ]
-    }
-  ],
-  "planets": [
-    {
-      "id": 1,
-      "name": "Terra"
-    },
-    {
-      "id": 2,
-      "name": "Marte"
-    }
-  ],
-  "posts": [
-    {
-      "id": 1,
-      "category": "planetas",
-      "planetName": "Terra",
-      "planetID": 1,
-      "description": " Planeta terra...."
-    },
-    {
-      "id": 2,
-      "category": "planetas",
-      "planetName": "Terra",
-      "description": " Planeta terra 2...."
-    },
-    {
-      "id": 3,
-      "category": "planetas",
-      "planetName": "Marte",
-      "description": " Planeta marte...."
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "category": "planetas",
-      "questions": [
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ],
-          "corretAnswer": {
-            "value": "right answer",
-            "point": 2
-          }
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "category": "estrelas",
-      "questions": [
-        {
-          "answer": "response",
-          "point": 2
-        },
-        {
-          "answer": "response",
-          "point": 0
-        },
-        {
-          "answer": "response",
-          "point": 0
-        },
-        {
-          "answer": "response",
-          "point": 0
-        }
-      ]
-    }
-  ],
-  "extras": [
-    {
-      "id": 1,
-      "image": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/2022-05_geocolor_20220505180018_logos.png",
-      "type": "Artigo",
-      "author": "Nasa USA",
-      "title": "Planeta Terra",
-      "description": "Como tornar a terra mais saúdavel",
-      "link": "nasa.gov"
-    }
-  ]
+	"users": [
+		{
+			"email": "kenzinho@mail.com",
+			"password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+			"name": "Kenzinho",
+			"id": 1,
+			"score": 0,
+			"favoritePosts": [
+				{
+					"id": 1,
+					"planetName": "Terra",
+					"description": " Planeta terra...."
+				}
+			]
+		},
+		{
+			"email": "test4@mail.com",
+			"password": "$2a$10$perUIOx4j/cTO8K1o2Qq/uvjACLRdGmuLsGo9Ycljg3sUtt5Mm5Q.",
+			"name": "test4",
+			"id": 4,
+			"favoritePosts": [
+				{
+					"id": 1,
+					"planetName": "Neturno",
+					"description": " Planeta neturno...."
+				}
+			]
+		},
+		{
+			"email": "komi@mail.com",
+			"password": "$2a$10$woSQCt6/cdl.LbBcorfhvewk4FBp5EOO7vOntRefhrxWYHb9wmLfm",
+			"name": "komi",
+			"id": 5,
+			"score": 0,
+			"favoritesPosts": []
+		}
+	],
+	"planets": [
+		{
+			"id": 1,
+			"name": "Terra"
+		},
+		{
+			"id": 2,
+			"name": "Marte"
+		}
+	],
+	"posts": [
+		{
+			"id": 1,
+			"category": "planetas",
+			"planetName": "Terra",
+			"planetId": 1,
+			"description": " Planeta terra...."
+		},
+		{
+			"id": 2,
+			"category": "planetas",
+			"planetId": 1,
+			"planetName": "Terra",
+			"description": " Planeta terra 2...."
+		},
+		{
+			"id": 3,
+			"category": "planetas",
+			"planetId": 2,
+			"planetName": "Marte",
+			"description": " Planeta marte...."
+		}
+	],
+	"quiz": [
+		{
+			"id": 1,
+			"category": "planetas",
+			"questions": [
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						{
+							"answer": "response",
+							"point": 2
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						{
+							"answer": "response",
+							"point": 2
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						{
+							"answer": "response",
+							"point": 2
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						{
+							"answer": "response",
+							"point": 2
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						{
+							"answer": "response",
+							"point": 2
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						}
+					],
+					"corretAnswer": {
+						"value": "right answer",
+						"point": 2
+					}
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						{
+							"answer": "response",
+							"point": 2
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"category": "estrelas",
+			"questions": [
+				{
+					"answer": "response",
+					"point": 2
+				},
+				{
+					"answer": "response",
+					"point": 0
+				},
+				{
+					"answer": "response",
+					"point": 0
+				},
+				{
+					"answer": "response",
+					"point": 0
+				}
+			]
+		}
+	],
+	"extras": [
+		{
+			"id": 1,
+			"image": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/2022-05_geocolor_20220505180018_logos.png",
+			"type": "Artigo",
+			"author": "Nasa USA",
+			"title": "Planeta Terra",
+			"description": "Como tornar a terra mais saúdavel",
+			"link": "nasa.gov"
+		}
+	]
 }
