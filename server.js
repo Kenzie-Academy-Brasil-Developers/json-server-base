@@ -10,8 +10,7 @@ app.db = router.db;
 
 const rules = auth.rewriter({
 	users: 600,
-	profile: 660,
-	"/profile/:userId": "/profile?userId=:userId",
+	quiz: 440,
 	planets: 444,
 	posts: 444,
 	"/posts/?category=:category": "/posts?category=:category",
