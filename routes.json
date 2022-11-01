@@ -1,3 +1,7 @@
 {
-  "users": 600
+	"users": 600,
+	"profile": 640,
+	"planets": 444,
+	"posts": 444,
+	"extras": 444
 }
