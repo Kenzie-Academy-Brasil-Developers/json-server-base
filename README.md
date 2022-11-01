@@ -1,4 +1,5 @@
-# json-server-base
+![license](https://img.shields.io/badge/json--server-api-white.svg?logo=json&labelColor=orange&color=white)
+# json-server-base 
 
 Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
 
