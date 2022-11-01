@@ -68,15 +68,115 @@
 			"questions": [
 				{
 					"title": "Pergunta sobre a terra?",
-					"answers": [
+					"options": [
 						"somethein wrong",
 						"something wrong",
 						"something almost right",
 						"right answer"
-					]
+					],
+					"corretAnswer": {
+						"value": "right answer",
+						"point": 2
+					}
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						"somethein wrong",
+						"something wrong",
+						"something almost right",
+						"right answer"
+					],
+					"corretAnswer": {
+						"value": "right answer",
+						"point": 2
+					}
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						"somethein wrong",
+						"something wrong",
+						"something almost right",
+						"right answer"
+					],
+					"corretAnswer": {
+						"value": "right answer",
+						"point": 2
+					}
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						"somethein wrong",
+						"something wrong",
+						"something almost right",
+						"right answer"
+					],
+					"corretAnswer": {
+						"value": "right answer",
+						"point": 2
+					}
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						"somethein wrong",
+						"something wrong",
+						"something almost right",
+						"right answer"
+					],
+					"corretAnswer": {
+						"value": "right answer",
+						"point": 2
+					}
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						"somethein wrong",
+						"something wrong",
+						"something almost right",
+						"right answer"
+					],
+					"corretAnswer": {
+						"value": "right answer",
+						"point": 2
+					}
 				}
 			],
-			"corretAnswer": "right answer"
+			"userAnswers": [
+				{
+					"id": 1,
+					"useID": 1,
+					"answers": [
+						{
+							"question": "some question 1",
+							"answer": "selected answer"
+						},
+						{
+							"question": "some question 1",
+							"answer": "selected answer"
+						},
+						{
+							"question": "some question 1",
+							"answer": "selected answer"
+						},
+						{
+							"question": "some question 1",
+							"answer": "selected answer"
+						},
+						{
+							"question": "some question 1",
+							"answer": "selected answer"
+						},
+						{
+							"question": "some question 1",
+							"answer": "selected answer"
+						}
+					]
+				}
+			]
 		},
 		{
 			"id": 2,
