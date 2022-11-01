@@ -214,7 +214,7 @@
 	"extras": [
 		{
 			"id": 1,
-			"img": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/2022-05_geocolor_20220505180018_logos.png",
+			"image": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/2022-05_geocolor_20220505180018_logos.png",
 			"type": "Artigo",
 			"author": "Nasa USA",
 			"title": "Planeta Terra",
