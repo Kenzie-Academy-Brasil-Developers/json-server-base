@@ -12,8 +12,8 @@ const rules = auth.rewriter({
 	users: 600,
 	quiz: 440,
 	planets: 444,
+	stars: 444,
 	posts: 444,
-	"/posts/?category=:category": "/posts?category=:category",
 	extras: 444
 });
 
@@ -26,4 +26,3 @@ app.listen(port);
 console.log("Server is running on port:", port);
 
 /* A senha do Kenzinho é 123456 */
-/* A senha do Vivy é 987654 */

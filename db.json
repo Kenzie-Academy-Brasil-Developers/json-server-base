@@ -1,234 +1,379 @@
 {
-  "users": [
-    {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "id": 1,
-      "score": 0,
-      "favoritesPosts": [
-        {
-          "id": 1,
-          "planetName": "Terra",
-          "description": " Planeta terra...."
-        }
-      ]
-    },
-    {
-      "email": "vivy@mail.com",
-      "password": "$2a$10$y3THzZFt4DEPsThbj9y31uwN06ER/vUEPqL9aMbQtdaoXWMz7HRRS",
-      "name": "Vivy",
-      "id": 2,
-      "score": 0,
-      "favoritesPosts": [
-        {
-          "id": 1,
-          "planetName": "Terra",
-          "description": " Planeta terra...."
-        }
-      ]
-    }
-  ],
-  "planets": [
-    {
-      "id": 1,
-      "name": "Terra"
-    },
-    {
-      "id": 2,
-      "name": "Marte"
-    }
-  ],
-  "posts": [
-    {
-      "id": 1,
-      "category": "planetas",
-      "planetName": "Terra",
-      "planetID": 1,
-      "description": " Planeta terra...."
-    },
-    {
-      "id": 2,
-      "category": "planetas",
-      "planetName": "Terra",
-      "description": " Planeta terra 2...."
-    },
-    {
-      "id": 3,
-      "category": "planetas",
-      "planetName": "Marte",
-      "description": " Planeta marte...."
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "category": "planetas",
-      "questions": [
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ],
-          "corretAnswer": {
-            "value": "right answer",
-            "point": 2
-          }
-        },
-        {
-          "title": "Pergunta sobre a terra?",
-          "options": [
-            {
-              "answer": "response",
-              "point": 2
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            },
-            {
-              "answer": "response",
-              "point": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "category": "estrelas",
-      "questions": [
-        {
-          "answer": "response",
-          "point": 2
-        },
-        {
-          "answer": "response",
-          "point": 0
-        },
-        {
-          "answer": "response",
-          "point": 0
-        },
-        {
-          "answer": "response",
-          "point": 0
-        }
-      ]
-    }
-  ],
-  "extras": [
-    {
-      "id": 1,
-      "image": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/2022-05_geocolor_20220505180018_logos.png",
-      "type": "Artigo",
-      "author": "Nasa USA",
-      "title": "Planeta Terra",
-      "description": "Como tornar a terra mais saúdavel",
-      "link": "nasa.gov"
-    }
-  ]
+	"users": [
+		{
+			"email": "kenzinho@mail.com",
+			"password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+			"name": "Kenzinho",
+			"id": 1,
+			"score": 0,
+			"favoritePosts": [
+				{
+					"id": 1,
+					"planetName": "Terra",
+					"description": " Planeta terra...."
+				}
+			]
+		},
+		{
+			"email": "test4@mail.com",
+			"password": "$2a$10$perUIOx4j/cTO8K1o2Qq/uvjACLRdGmuLsGo9Ycljg3sUtt5Mm5Q.",
+			"name": "test4",
+			"id": 4,
+			"favoritePosts": [
+				{
+					"id": 1,
+					"planetName": "Neturno",
+					"description": " Planeta neturno...."
+				}
+			]
+		},
+		{
+			"email": "komi@mail.com",
+			"password": "$2a$10$woSQCt6/cdl.LbBcorfhvewk4FBp5EOO7vOntRefhrxWYHb9wmLfm",
+			"name": "komi",
+			"id": 5,
+			"score": 0,
+			"favoritesPosts": []
+		}
+	],
+	"planets": [
+		{
+			"id": 1,
+			"name": "Mercúrio"
+		},
+		{
+			"id": 2,
+			"name": "Vênus"
+		},
+		{
+			"id": 3,
+			"name": "Terra"
+		},
+		{
+			"id": 4,
+			"name": "Marte"
+		},
+		{
+			"id": 5,
+			"name": "Júpiter"
+		},
+		{
+			"id": 6,
+			"name": "Saturno"
+		},
+		{
+			"id": 7,
+			"name": "Urano"
+		},
+		{
+			"id": 8,
+			"name": "Netuno"
+		}
+	],
+	"stars": [
+		{
+			"id": 1,
+			"name": "Sol"
+		}
+	],
+	"posts": [
+		{
+			"id": 1,
+			"category": "planetas",
+			"planetName": "Urano",
+			"planetId": 7,
+			"description": "Urano é o sétimo planeta a partir do Sol e é o terceiro maior no sistema solar. Foi descoberto por William Herschel em 1781. Os anéis de Urano foram identificados em 1977. Na época, significou uma grande novidade para a astronomia, uma vez que, até então, acreditava-se que apenas Saturno possuía anéis. Na atualidade, sabe-se que todos os planetas gasosos (Júpiter, Saturno, Urano e Netuno) possuem anéis."
+		},
+		{
+			"id": 2,
+			"category": "planetas",
+			"planetName": "Urano",
+			"planetId": 7,
+			"description": "Urano possui um conjunto de satélites naturais, também chamados de luas. Na atualidade, são conhecidas 27 luas em Urano. As luas de Urano foram nomeadas em homenagem às personagens clássicas da literatura mundial, presentes em obras dos escritores William Shakespeare e Alexander Pope.Suas maiores luas são: Miranda, Ariel, Umbriel, Titânia, Oberon, Sycorax, Puck e Desdémoda."
+		},
+		{
+			"id": 3,
+			"category": "planetas",
+			"planetName": "Urano",
+			"planetId": 7,
+			"description": "O Ano de Urano tem cerca de 84 anos terrestres, já um dia tem duração de 17 horas terrestres, ou seja, ele leva 17 horas para girar em torno de si mesmo. A idade de Urano é de cerca de 4,6 bilhões de anos. Sua temperatura média é de -197° C, tornando ele conhecido como Gigante de Gelo. A sua atmosfera (a camada de ar envolta do planeta) é composta por hidrogênio, hélio e metano, sendo o metano responsável pela cor verde-azulado vista através de telescópios."
+		},
+		{
+			"id": 4,
+			"category": "planetas",
+			"planetName": "Urano",
+			"planetId": 7,
+			"description": "Urano tem uma inclinação de 82,5° graus em relação à sua órbita (a trajetória de um planeta ao redor de uma estrela ou um satélite). Essa inclinação e os movimentos do planeta fazem com que, durante 42 anos, parte do planeta permaneça iluminada pelo Sol. Enquanto isso, a outra parte fica em completa escuridão. Mesmo a velocidade dos ventos em Urano podendo chegar na incrível marca de 900 km/h, o tempo total para que o Urano complete uma volta ao redor do Sol, é cerca de 84 anos."
+		},
+		{
+			"id": 5,
+			"category": "planetas",
+			"planetName": "Urano",
+			"planetId": 7,
+			"description": "O planeta Urano tem a magnitude de 5.3 na escala de brilho ótico, isso significa que a quantidade de luz emitida por ele está dentro da escala de brilho que o olho humano consegue perceber. Entretanto, é preciso estar em um local escuro, longe de grandes cidades, para conseguir observar esse planeta tão distante da Terra."
+		},
+		{
+			"id": 6,
+			"category": "planetas",
+			"planetName": "Marte",
+			"planetId": 2,
+			"description": " Planeta marte...."
+		}
+	],
+	"quiz": [
+		{
+			"id": 1,
+			"category": "planetas",
+			"questions": [
+				{
+					"title": "Podemos afirmar que Urano",
+					"options": [
+						{
+							"answer": "Possui um dia que dura 17h e 14 minutos",
+							"point": 0
+						},
+						{
+							"answer": "É o planeta mais frio do sistema solar",
+							"point": 2
+						},
+						{
+							"answer": "Possui 2 anéis em sua volta",
+							"point": 0
+						},
+						{
+							"answer": "É o planeta com mais massa do sistema solar",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Quantos satélites naturais Urano possui?",
+					"options": [
+						{
+							"answer": "33",
+							"point": 0
+						},
+						{
+							"answer": "82",
+							"point": 0
+						},
+						{
+							"answer": "30",
+							"point": 0
+						},
+						{
+							"answer": "27",
+							"point": 2
+						}
+					]
+				},
+				{
+					"title": "Quais desses satélites não pertencem a Urano",
+					"options": [
+						{
+							"answer": "Desdémoda",
+							"point": 0
+						},
+						{
+							"answer": "Titânia",
+							"point": 0
+						},
+						{
+							"answer": "Puck",
+							"point": 0
+						},
+						{
+							"answer": "Jápeto",
+							"point": 2
+						}
+					]
+				},
+				{
+					"title": "Em relação aos aneís de Urano",
+					"options": [
+						{
+							"answer": "Ele não possui anéis",
+							"point": 0
+						},
+						{
+							"answer": "Suas 27 luas são seus aneis",
+							"point": 0
+						},
+						{
+							"answer": "Possui 13 anéis ao seu redor",
+							"point": 2
+						},
+						{
+							"answer": "Ele é o único planeta gasoso que os possui",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Quais dos elementos compõe a atmosfera do planeta Urano?",
+					"options": [
+						{
+							"answer": "Metano, Água e Amônia",
+							"point": 0
+						},
+						{
+							"answer": "Hélio, Metano e Hidrogênio",
+							"point": 2
+						},
+						{
+							"answer": "Carbono, Hidrogênio e Água",
+							"point": 0
+						},
+						{
+							"answer": "Água, Hélio e Metano",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Pergunta sobre a terra?",
+					"options": [
+						{
+							"answer": "response",
+							"point": 2
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						},
+						{
+							"answer": "response",
+							"point": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"category": "estrelas",
+			"questions": [
+				{
+					"title": "question",
+					"options": [
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 2
+						},
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "question",
+					"options": [
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 2
+						},
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "question",
+					"options": [
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 2
+						},
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "question",
+					"options": [
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 2
+						},
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "question",
+					"options": [
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 2
+						},
+						{
+							"answer": "text",
+							"point": 0
+						},
+						{
+							"answer": "text",
+							"point": 0
+						}
+					]
+				}
+			]
+		}
+	],
+	"extras": [
+		{
+			"id": 1,
+			"image": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/2022-05_geocolor_20220505180018_logos.png",
+			"type": "Artigo",
+			"author": "Nasa USA",
+			"title": "Planeta Terra",
+			"description": "Como tornar a terra mais saúdavel",
+			"link": "nasa.gov"
+		}
+	]
 }
