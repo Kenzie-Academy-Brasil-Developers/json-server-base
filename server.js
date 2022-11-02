@@ -12,6 +12,7 @@ const rules = auth.rewriter({
 	users: 600,
 	quiz: 440,
 	planets: 444,
+	stars: 444,
 	posts: 444,
 	extras: 444
 });
