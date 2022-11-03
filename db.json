@@ -115,9 +115,149 @@
 		{
 			"id": 6,
 			"category": "planetas",
+			"planetName": "Júpiter",
+			"planetId": 5,
+			"description": "Júpiter é o quinto planeta a partir do Sol, situado entre Marte e Saturno, ele é o maior planeta do sistema solar, podendo caber mais de mil Terras no seu interior. O dia em Júpiter dura cerca de 10 horas, que é o tempo em que ele completar uma volta em torno de si mesmo, e é mais rápido dos planetas do Sistema Solar. Já um ano é cerca de 12 anos terrestres."
+		},
+		{
+			"id": 7,
+			"category": "planetas",
+			"planetName": "Júpiter",
+			"planetId": 5,
+			"description": "O sistema de anéis de Júpiter foi o terceiro sistema de anéis descoberto no sistema solar, ele foi visto pela primeira vez na visita da sonda Voyager I ao planeta em 1979. Eles não podem ser visto a olho nu, pois são formados pelas poeira cósmica causada por colisões de meteoros nos satélites naturais do planeta, em especial nas Luas Galileanas, seu maior satélite. "
+		},
+		{
+			"id": 8,
+			"category": "planetas",
+			"planetName": "Júpiter",
+			"planetId": 5,
+			"description": "Júpiter é conhecido pelas suas nuvens coloridas que pairam na superfície, sua coloração é devido a presença de hidrogênio e hélio predominantes na sua atmosfera, a nuvem mais famosa foi apelidada de Mancha Vermelha, tão grande que é capaz de cobrir toda a Terra. Outra causa também, são as fortes tempestades com ventos de até 600 km/hora, que ocorre frequetemente devido ele ser um planeta gasoso, algumas podem duram horas ou até séculos, sendo fatais para os seres humanos."
+		},
+		{
+			"id": 9,
+			"category": "planetas",
+			"planetName": "Júpiter",
+			"planetId": 5,
+			"description": "Júpiter possui um total de 79 luas, até a última descorberta feita pelos astrônomos em 2018, sendo o segundo planeta com mais luas, esse alto número é por conta do seu campo magnético que é muito mais forte que o da Terra, e que mantém essas luas na sua órbita. As principais luas de Júpiter são: as Luas Galileanas, Ganymede, Callisto, Io e Europa."
+		},
+		{
+			"id": 10,
+			"category": "planetas",
+			"planetName": "Júpiter",
+			"planetId": 5,
+			"description": "Ele recebe sempre a mesma quantidade de luz dos dois hemisférios, por possuir eixos verticais, graças a isso não há variações de temperaturas ou seja, não tem estações, sua temperatura média fica em torno de -110 °C. E também por isso, é possivel que Júpiter seja visto a olho nu, sendo considerado o quarto objeto mais brilhante do céu, atrás apenas do Sol, da Lua e de Vênus."
+		},
+		{
+			"id": 11,
+			"category": "planetas",
+			"planetName": "Mercúrio",
+			"planetId": 1,
+			"description": "Por ser o planeta mais próximo do Sol, habitar o planeta é consideravelmente impossível: o lado em contato direto com a estrela pode passar de 420°C; ademais, por ter uma atmosfera rarefeita e fina, o planeta não consegue reter o calor, fazendo com que a energia do Sol seja perdida e, durante a noite, a temperatura seja modificada drasticamente, com a possibilidade de estar abaixo de -173°C."
+		},
+		{
+			"id": 12,
+			"category": "planetas",
+			"planetName": "Mercúrio",
+			"planetId": 1,
+			"description": "Mercúrio é considerado como um dos planetas rochosos, também conhecidos como terrestres graças a composição rochosa e sólida. Foi considerado, de forma superficial, similar à Lua por causa do pequeno tamanho — sendo apenas um pouco maior que o satélite citado anteriormente — e da quantidade de crateras, porém são bem diferentes: Mercúrio possui uma densidade substancialmente maior que a da Lua."
+		},
+		{
+			"id": 13,
+			"category": "planetas",
+			"planetName": "Mercúrio",
+			"planetId": 1,
+			"description": "Você sabia que Mercúrio não possui estações do ano? Isso ocorre porque a inclinação do seu eixo é praticamente nula. Em planetas como a Terra, em que a inclinação é cerca de 23,5 graus, algumas partes recebem mais luz direta do Sol do que outras, assim resultado nas estações. A falta de inclinação do planeta Cinza faz com que isso não ocorra."
+		},
+		{
+			"id": 14,
+			"category": "planetas",
+			"planetName": "Mercúrio",
+			"planetId": 1,
+			"description": "Devido a sua proximidade com o Sol, Mercúrio sofre com diversos ventos solares que impossibilitam a existência de quaisquer anéis, satélites naturais e até mesmo sua atmosfera, que acaba por ser rarefeita. Portanto, o planeta acaba sujeito a meteoros, o que explica seu aspecto com uma quantidade grande de crateras e buracos."
+		},
+		{
+			"id": 15,
+			"category": "planetas",
+			"planetName": "Mercúrio",
+			"planetId": 1,
+			"description": "Mercúrio é o planeta mais rápido em todo o sistema solar, viajando em uma velocidade de 47km/s, possuindo assim a menor duração de ano em relação aos outros, sendo apenas 88 dias. Sua rápida velocidade pode ser explicada por causa da proximidade do Sol, pois quanto mais perto dele, mais rápido será seu tempo de rotação ao redor do Sol."
+		},
+		{
+			"id": 16,
+			"category": "estrelas",
+			"planetName": "Sol",
+			"startId": 1,
+			"description": "O Sol, por mais que possa parecer gigante e incrivelmente quente para os seres humanos, é considerado como uma estrela anã. Devido ao seu tamanho, composição química e calor, a estrela é classificada como G2, uma estrela considerada como fria."
+		},
+		{
+			"id": 17,
+			"category": "estrelas",
+			"planetName": "Sol",
+			"startId": 1,
+			"description": "O Sol é uma esfera quase perfeita. Existe apenas uma diferença de dez quilômetros em seu diâmetro polar em comparação com seu diâmetro equatorial. Considerando a vasta extensão do Sol, isso significa que ele é o mais próximo de uma esfera perfeita que tem sido observada na natureza."
+		},
+		{
+			"id": 18,
+			"category": "estrelas",
+			"planetName": "Sol",
+			"startId": 1,
+			"description": "O Sol é muito quente e parece sempre estar em chamas. Porém, é um engano e uma visão do senso comum. Temos essa impressão porque a atmosfera solar é formada por gases que causam explosões e geram luz e calor. Ou seja, o Sol NÃO está em chamas!"
+		},
+		{
+			"id": 19,
+			"category": "estrelas",
+			"planetName": "Sol",
+			"startId": 1,
+			"description": "Partículas de material solar lançadas no espaço causam o vento solar, um fenômeno que forma arcos luminosos nos polos da Terra, conhecido como aurora boreal (região norte) ou aurora austral (região sul)."
+		},
+		{
+			"id": 20,
+			"category": "estrelas",
+			"planetName": "Sol",
+			"startId": 1,
+			"description": "O Sol possui 99,86% de toda a massa do Sistema Solar, e sua luz demora cerca de 8 minutos para chegar na Terra. Isso significa que se o Sol explodisse agora, só perceberíamos daqui a 8 minutos."
+		},
+		{
+			"id": 21,
+			"category": "planetas",
 			"planetName": "Marte",
 			"planetId": 4,
-			"description": " Planeta marte...."
+			"description": "Um dia em Marte, ou dia marciano, designa-se por sol , e dura 23 horas e 39 minutos. Já um ano marciano, que dura 669,6 sols, é quase o dobro de um ano terrestre! Para Marte completar uma volta em torno do Sol passam 687 dias terrestres, ou seja, um ano, dez meses e 17 dias."
+		},
+		{
+			"id": 22,
+			"category": "planetas",
+			"planetName": "Marte",
+			"planetId": "4",
+			"description": "A atmosfera de Marte não permite a vida humana, já que é composta por dióxido de carbono, árgon e azoto. A temperatura média em Marte é de -60° graus, mas pode chegar aos 30°C no “Verão” e aos -143°C no “Inverno”. Há também violentas e enormes tempestades de areia que acontecem todos os anos e duram várias semanas, e ainda tempestades que envolvem todo o planeta a cada 3 anos marcianos, ou 5 anos terrestres. "
+		},
+		{
+			"id": 23,
+			"category": "planetas",
+			"planetName": "Marte",
+			"planetId": "4",
+			"description": "Marte é o quarto planeta a partir do Sol. Ele foi batizado com esse nome em homenagem ao deus romano da guerra, e muitas vezes é conhecido como o 'Planeta Vermelho', isso se dá por conta do óxido de ferro predominante em sua superfície, que lhe dá uma aparência de cor avermelhada."
+		},
+		{
+			"id": 24,
+			"category": "planetas",
+			"planetName": "Marte",
+			"planetId": "4",
+			"description": "A Nasa contabiliza 22 missões ao Planeta Vermelho, com descobertas importantes. A sonda espacial 2001 Mars Odyssey é até hoje a que permaneceu por mais tempo no planeta, e sua contagem temporal não cessou. Ela foi lançada em 7 de abril de 2001 e pousou no planeta em 24 de outubro daquele mesmo ano. Sua missão principal foi o mapeamento dos minerais e demais elementos químicos que compõem as rochas da superfície marciana, a qual concluiu com êxito em 2004."
+		},
+		{
+			"id": 25,
+			"category": "planetas",
+			"planetName": "Marte",
+			"planetId": "4",
+			"description": "Os dois satélites naturais que orbitam Marte são muito menores que a nossa Lua. Fobos tem cerca de 22 quilómetros de diâmetro; Deimos, apenas 12. E sabe o porquê das Luas de Marte terem estes nomes? Fobos (medo) e Deimos (pânico) são os dois cavalos que puxam a carruagem de Ares, o equivalente Grego de Marte."
+		},
+		{
+			"id": 26,
+			"category": "planetas",
+			"planetName": "",
+			"planetId": "",
+			"description": ""
 		}
 	],
 	"quiz": [
@@ -231,23 +371,338 @@
 					]
 				},
 				{
-					"title": "Pergunta sobre a terra?",
+					"title": "Qual dessas luas não pertence a Jupiter?",
 					"options": [
 						{
-							"answer": "response",
+							"answer": "Ele não possui luas, apenas anéis.",
+							"point": 0
+						},
+						{
+							"answer": "Dione",
 							"point": 2
 						},
 						{
-							"answer": "response",
+							"answer": "Io",
 							"point": 0
 						},
 						{
-							"answer": "response",
+							"answer": "Europa",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Quais são os maiores satélites de Jupiter?",
+					"options": [
+						{
+							"answer": "Galileanos",
+							"point": 2
+						},
+						{
+							"answer": "Grande Mancha Vermelha",
 							"point": 0
 						},
 						{
-							"answer": "response",
+							"answer": "Miranda e Titânia",
 							"point": 0
+						},
+						{
+							"answer": "Tesaryon e Caraxes",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Quais são as estações de Jupiter?",
+					"options": [
+						{
+							"answer": "Não há variações de estações.",
+							"point": 2
+						},
+						{
+							"answer": "Jupiter possui as 4 estações definidas.",
+							"point": 0
+						},
+						{
+							"answer": "Como todo planeta gasoso, ele é frio.",
+							"point": 0
+						},
+						{
+							"answer": "Os ventos de 600km/h fazem com que ele seja frio.",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Devido a atmosfera e superficie gasosa de Jupiter, qual das alternativas está errada?",
+					"options": [
+						{
+							"answer": "Causam tempestades que duram séculos.",
+							"point": 0
+						},
+						{
+							"answer": "Colisões de meteoros, ocorrem graças ao campo magnético.",
+							"point": 0
+						},
+						{
+							"answer": "Tem núvens maiores do que a terra.",
+							"point": 0
+						},
+						{
+							"answer": "Seu núcleo é feito de gelo.",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Como são formados os anéis de Jupiter?",
+					"options": [
+						{
+							"answer": "Eles são formados por hidrogênio e àgua.",
+							"point": 0
+						},
+						{
+							"answer": "São compostos por meteoros presos na sua orbita.",
+							"point": 0
+						},
+						{
+							"answer": "Eles são formados por hélio, metano e àgua.",
+							"point": 0
+						},
+						{
+							"answer": "São formados pelas poeiras das colisões de meteoros nos satélites naturais do planeta.",
+							"point": 2
+						}
+					]
+				},
+				{
+					"title": "Mercúrio possui quais estações do ano?",
+					"options": [
+						{
+							"answer": "Apenas verão, graças a proximidade do Sol",
+							"point": 0
+						},
+						{
+							"answer": "Duas estações, o verão e inverno",
+							"point": 0
+						},
+						{
+							"answer": "Ele não têm nenhuma das estações",
+							"point": 2
+						},
+						{
+							"answer": "Todas as quatro estações do ano",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Quantos satélites naturais Mercúrio tem?",
+					"options": [
+						{
+							"answer": "0",
+							"point": 2
+						},
+						{
+							"answer": "4",
+							"point": 0
+						},
+						{
+							"answer": "3",
+							"point": 0
+						},
+						{
+							"answer": "6",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "De que cor é Mercúrio?",
+					"options": [
+						{
+							"answer": "Amarelo",
+							"point": 0
+						},
+						{
+							"answer": "Cinza",
+							"point": 2
+						},
+						{
+							"answer": "Marrom",
+							"point": 0
+						},
+						{
+							"answer": "Azul",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Marque a incorreta sobre Mercúrio:",
+					"options": [
+						{
+							"answer": "É o menor planeta do sistema solar",
+							"point": 0
+						},
+						{
+							"answer": "Possui nenhum satélite natural",
+							"point": 0
+						},
+						{
+							"answer": "Possui nenhum anel planetário",
+							"point": 0
+						},
+						{
+							"answer": "É o planeta mais lento do sistema Solar",
+							"point": 2
+						}
+					]
+				},
+				{
+					"title": "Por que a temperatura de Mercúrio é tão desequilibrada?",
+					"options": [
+						{
+							"answer": "Por conta da atmosfera grossa",
+							"point": 0
+						},
+						{
+							"answer": "Por conta da atmosfera fina",
+							"point": 2
+						},
+						{
+							"answer": "Pela presença de satélites naturais",
+							"point": 0
+						},
+						{
+							"answer": "Pela ausência de satélites naturais",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Qual o nome das duas luas de Marte?",
+					"options": [
+						{
+							"answer": "Fobos e Deimos",
+							"point": 2
+						},
+						{
+							"answer": "Damos e Fobias",
+							"point": 0
+						},
+						{
+							"answer": "Canos e Fobia",
+							"point": 0
+						},
+						{
+							"answer": "Thomas e Edson",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Como se chama a sonda que ficou mais tempo em Marte?",
+					"options": [
+						{
+							"answer": "Mariner 3",
+							"point": 0
+						},
+						{
+							"answer": "Mariner 4",
+							"point": 0
+						},
+						{
+							"answer": "Rover Perseverance",
+							"point": 0
+						},
+						{
+							"answer": "Mars Odyssey",
+							"point": 2
+						}
+					]
+				},
+				{
+					"title": "Por Qual o Motivo Marte é chamado de planeta vermelho?",
+					"options": [
+						{
+							"answer": "Porque Dioxido de Ferro predomina na sua superfice",
+							"point": 2
+						},
+						{
+							"answer": "Porque Hidroxido de ferro predomina sua superfice ",
+							"point": 0
+						},
+						{
+							"answer": "Porque 98% da sua atmosfera é composto por Dioxido de carbono",
+							"point": 0
+						},
+						{
+							"answer": "Porque não existe agua no estado liquido",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Qual a temperatura média de Marte?",
+					"options": [
+						{
+							"answer": "30°",
+							"point": 0
+						},
+						{
+							"answer": "-30°",
+							"point": 0
+						},
+						{
+							"answer": "-60°",
+							"point": 2
+						},
+						{
+							"answer": "-143°",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "Quantos dias um ano marciano dura?",
+					"options": [
+						{
+							"answer": "686",
+							"point": 0
+						},
+						{
+							"answer": "687",
+							"point": 2
+						},
+						{
+							"answer": "678",
+							"point": 0
+						},
+						{
+							"answer": "666",
+							"point": 0
+						}
+					]
+				},
+				{
+					"title": "",
+					"options": [
+						{
+							"answer": "",
+							"point": 0
+						},
+						{
+							"answer": "",
+							"point": 0
+						},
+						{
+							"answer": "",
+							"point": 0
+						},
+						{
+							"answer": "",
+							"point": 2
 						}
 					]
 				}
@@ -258,85 +713,85 @@
 			"category": "estrelas",
 			"questions": [
 				{
-					"title": "question",
+					"title": "Qual o nome do fenômeno causado pelos ventos solares?",
 					"options": [
 						{
-							"answer": "text",
+							"answer": "Aquecimento global",
 							"point": 0
 						},
 						{
-							"answer": "text",
+							"answer": "Aurora Boreal/Austral",
 							"point": 2
 						},
 						{
-							"answer": "text",
+							"answer": "Arco-íris",
 							"point": 0
 						},
 						{
-							"answer": "text",
+							"answer": "Solstício",
 							"point": 0
 						}
 					]
 				},
 				{
-					"title": "question",
+					"title": "Qual dessas afirmações a respeito do Sol é verdadeira?",
 					"options": [
 						{
-							"answer": "text",
+							"answer": "O Sol possui metade de toda a massa do sistema solar",
 							"point": 0
 						},
 						{
-							"answer": "text",
+							"answer": "O Sol está em chamas",
+							"point": 0
+						},
+						{
+							"answer": "O Sol é considerado uma estrela fria",
 							"point": 2
 						},
 						{
-							"answer": "text",
-							"point": 0
-						},
-						{
-							"answer": "text",
+							"answer": "O Sol é uma das maiores estrelas da galáxia",
 							"point": 0
 						}
 					]
 				},
 				{
-					"title": "question",
+					"title": "Se o Sol explodisse agora, quanto tempo demoraríamos para nós percebermos aqui da Terra?",
 					"options": [
 						{
-							"answer": "text",
-							"point": 0
-						},
-						{
-							"answer": "text",
+							"answer": "Cerca de 8 minutos",
 							"point": 2
 						},
 						{
-							"answer": "text",
+							"answer": "Cerca de 8 horas",
 							"point": 0
 						},
 						{
-							"answer": "text",
+							"answer": "Cerca de 8 segundos",
+							"point": 0
+						},
+						{
+							"answer": "Perceberíamos no mesmo momento da explosão",
 							"point": 0
 						}
 					]
 				},
 				{
-					"title": "question",
+					"title": "O Sol é classificado como uma estrela:",
 					"options": [
 						{
-							"answer": "text",
+							"answer": "Na G1",
 							"point": 0
 						},
 						{
-							"answer": "text",
+							"answer": "Na G2",
 							"point": 2
 						},
 						{
-							"answer": "text",
+							"answer": "Na G3",
 							"point": 0
 						},
 						{
-							"answer": "text",
+							"answer": "Na G4",
 							"point": 0
 						}
 					]
