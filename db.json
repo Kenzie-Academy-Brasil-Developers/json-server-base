@@ -1,834 +1,1541 @@
 {
-	"users": [
-		{
-			"email": "kenzinho@mail.com",
-			"password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-			"name": "Kenzinho",
-			"id": 1,
-			"score": 0,
-			"favoritePosts": [
-				{
-					"id": 1,
-					"planetName": "Terra",
-					"description": " Planeta terra...."
-				}
-			]
-		},
-		{
-			"email": "test4@mail.com",
-			"password": "$2a$10$perUIOx4j/cTO8K1o2Qq/uvjACLRdGmuLsGo9Ycljg3sUtt5Mm5Q.",
-			"name": "test4",
-			"id": 4,
-			"favoritePosts": [
-				{
-					"id": 1,
-					"planetName": "Neturno",
-					"description": " Planeta neturno...."
-				}
-			]
-		},
-		{
-			"email": "komi@mail.com",
-			"password": "$2a$10$woSQCt6/cdl.LbBcorfhvewk4FBp5EOO7vOntRefhrxWYHb9wmLfm",
-			"name": "komi",
-			"id": 5,
-			"score": 0,
-			"favoritesPosts": []
-		}
-	],
-	"planets": [
-		{
-			"id": 1,
-			"name": "Mercúrio"
-		},
-		{
-			"id": 2,
-			"name": "Vênus"
-		},
-		{
-			"id": 3,
-			"name": "Terra"
-		},
-		{
-			"id": 4,
-			"name": "Marte"
-		},
-		{
-			"id": 5,
-			"name": "Júpiter"
-		},
-		{
-			"id": 6,
-			"name": "Saturno"
-		},
-		{
-			"id": 7,
-			"name": "Urano"
-		},
-		{
-			"id": 8,
-			"name": "Netuno"
-		}
-	],
-	"stars": [
-		{
-			"id": 1,
-			"name": "Sol"
-		}
-	],
-	"posts": [
-		{
-			"id": 1,
-			"category": "planetas",
-			"planetName": "Urano",
-			"planetId": 7,
-			"description": "Urano é o sétimo planeta a partir do Sol e é o terceiro maior no sistema solar. Foi descoberto por William Herschel em 1781. Os anéis de Urano foram identificados em 1977. Na época, significou uma grande novidade para a astronomia, uma vez que, até então, acreditava-se que apenas Saturno possuía anéis. Na atualidade, sabe-se que todos os planetas gasosos (Júpiter, Saturno, Urano e Netuno) possuem anéis."
-		},
-		{
-			"id": 2,
-			"category": "planetas",
-			"planetName": "Urano",
-			"planetId": 7,
-			"description": "Urano possui um conjunto de satélites naturais, também chamados de luas. Na atualidade, são conhecidas 27 luas em Urano. As luas de Urano foram nomeadas em homenagem às personagens clássicas da literatura mundial, presentes em obras dos escritores William Shakespeare e Alexander Pope.Suas maiores luas são: Miranda, Ariel, Umbriel, Titânia, Oberon, Sycorax, Puck e Desdémoda."
-		},
-		{
-			"id": 3,
-			"category": "planetas",
-			"planetName": "Urano",
-			"planetId": 7,
-			"description": "O Ano de Urano tem cerca de 84 anos terrestres, já um dia tem duração de 17 horas terrestres, ou seja, ele leva 17 horas para girar em torno de si mesmo. A idade de Urano é de cerca de 4,6 bilhões de anos. Sua temperatura média é de -197° C, tornando ele conhecido como Gigante de Gelo. A sua atmosfera (a camada de ar envolta do planeta) é composta por hidrogênio, hélio e metano, sendo o metano responsável pela cor verde-azulado vista através de telescópios."
-		},
-		{
-			"id": 4,
-			"category": "planetas",
-			"planetName": "Urano",
-			"planetId": 7,
-			"description": "Urano tem uma inclinação de 82,5° graus em relação à sua órbita (a trajetória de um planeta ao redor de uma estrela ou um satélite). Essa inclinação e os movimentos do planeta fazem com que, durante 42 anos, parte do planeta permaneça iluminada pelo Sol. Enquanto isso, a outra parte fica em completa escuridão. Mesmo a velocidade dos ventos em Urano podendo chegar na incrível marca de 900 km/h, o tempo total para que o Urano complete uma volta ao redor do Sol, é cerca de 84 anos."
-		},
-		{
-			"id": 5,
-			"category": "planetas",
-			"planetName": "Urano",
-			"planetId": 7,
-			"description": "O planeta Urano tem a magnitude de 5.3 na escala de brilho ótico, isso significa que a quantidade de luz emitida por ele está dentro da escala de brilho que o olho humano consegue perceber. Entretanto, é preciso estar em um local escuro, longe de grandes cidades, para conseguir observar esse planeta tão distante da Terra."
-		},
-		{
-			"id": 6,
-			"category": "planetas",
-			"planetName": "Júpiter",
-			"planetId": 5,
-			"description": "Júpiter é o quinto planeta a partir do Sol, situado entre Marte e Saturno, ele é o maior planeta do sistema solar, podendo caber mais de mil Terras no seu interior. O dia em Júpiter dura cerca de 10 horas, que é o tempo em que ele completar uma volta em torno de si mesmo, e é mais rápido dos planetas do Sistema Solar. Já um ano é cerca de 12 anos terrestres."
-		},
-		{
-			"id": 7,
-			"category": "planetas",
-			"planetName": "Júpiter",
-			"planetId": 5,
-			"description": "O sistema de anéis de Júpiter foi o terceiro sistema de anéis descoberto no sistema solar, ele foi visto pela primeira vez na visita da sonda Voyager I ao planeta em 1979. Eles não podem ser visto a olho nu, pois são formados pelas poeira cósmica causada por colisões de meteoros nos satélites naturais do planeta, em especial nas Luas Galileanas, seu maior satélite. "
-		},
-		{
-			"id": 8,
-			"category": "planetas",
-			"planetName": "Júpiter",
-			"planetId": 5,
-			"description": "Júpiter é conhecido pelas suas nuvens coloridas que pairam na superfície, sua coloração é devido a presença de hidrogênio e hélio predominantes na sua atmosfera, a nuvem mais famosa foi apelidada de Mancha Vermelha, tão grande que é capaz de cobrir toda a Terra. Outra causa também, são as fortes tempestades com ventos de até 600 km/hora, que ocorre frequetemente devido ele ser um planeta gasoso, algumas podem duram horas ou até séculos, sendo fatais para os seres humanos."
-		},
-		{
-			"id": 9,
-			"category": "planetas",
-			"planetName": "Júpiter",
-			"planetId": 5,
-			"description": "Júpiter possui um total de 79 luas, até a última descorberta feita pelos astrônomos em 2018, sendo o segundo planeta com mais luas, esse alto número é por conta do seu campo magnético que é muito mais forte que o da Terra, e que mantém essas luas na sua órbita. As principais luas de Júpiter são: as Luas Galileanas, Ganymede, Callisto, Io e Europa."
-		},
-		{
-			"id": 10,
-			"category": "planetas",
-			"planetName": "Júpiter",
-			"planetId": 5,
-			"description": "Ele recebe sempre a mesma quantidade de luz dos dois hemisférios, por possuir eixos verticais, graças a isso não há variações de temperaturas ou seja, não tem estações, sua temperatura média fica em torno de -110 °C. E também por isso, é possivel que Júpiter seja visto a olho nu, sendo considerado o quarto objeto mais brilhante do céu, atrás apenas do Sol, da Lua e de Vênus."
-		},
-		{
-			"id": 11,
-			"category": "planetas",
-			"planetName": "Mercúrio",
-			"planetId": 1,
-			"description": "Por ser o planeta mais próximo do Sol, habitar o planeta é consideravelmente impossível: o lado em contato direto com a estrela pode passar de 420°C; ademais, por ter uma atmosfera rarefeita e fina, o planeta não consegue reter o calor, fazendo com que a energia do Sol seja perdida e, durante a noite, a temperatura seja modificada drasticamente, com a possibilidade de estar abaixo de -173°C."
-		},
-		{
-			"id": 12,
-			"category": "planetas",
-			"planetName": "Mercúrio",
-			"planetId": 1,
-			"description": "Mercúrio é considerado como um dos planetas rochosos, também conhecidos como terrestres graças a composição rochosa e sólida. Foi considerado, de forma superficial, similar à Lua por causa do pequeno tamanho — sendo apenas um pouco maior que o satélite citado anteriormente — e da quantidade de crateras, porém são bem diferentes: Mercúrio possui uma densidade substancialmente maior que a da Lua."
-		},
-		{
-			"id": 13,
-			"category": "planetas",
-			"planetName": "Mercúrio",
-			"planetId": 1,
-			"description": "Você sabia que Mercúrio não possui estações do ano? Isso ocorre porque a inclinação do seu eixo é praticamente nula. Em planetas como a Terra, em que a inclinação é cerca de 23,5 graus, algumas partes recebem mais luz direta do Sol do que outras, assim resultado nas estações. A falta de inclinação do planeta Cinza faz com que isso não ocorra."
-		},
-		{
-			"id": 14,
-			"category": "planetas",
-			"planetName": "Mercúrio",
-			"planetId": 1,
-			"description": "Devido a sua proximidade com o Sol, Mercúrio sofre com diversos ventos solares que impossibilitam a existência de quaisquer anéis, satélites naturais e até mesmo sua atmosfera, que acaba por ser rarefeita. Portanto, o planeta acaba sujeito a meteoros, o que explica seu aspecto com uma quantidade grande de crateras e buracos."
-		},
-		{
-			"id": 15,
-			"category": "planetas",
-			"planetName": "Mercúrio",
-			"planetId": 1,
-			"description": "Mercúrio é o planeta mais rápido em todo o sistema solar, viajando em uma velocidade de 47km/s, possuindo assim a menor duração de ano em relação aos outros, sendo apenas 88 dias. Sua rápida velocidade pode ser explicada por causa da proximidade do Sol, pois quanto mais perto dele, mais rápido será seu tempo de rotação ao redor do Sol."
-		},
-		{
-			"id": 16,
-			"category": "estrelas",
-			"planetName": "Sol",
-			"startId": 1,
-			"description": "O Sol, por mais que possa parecer gigante e incrivelmente quente para os seres humanos, é considerado como uma estrela anã. Devido ao seu tamanho, composição química e calor, a estrela é classificada como G2, uma estrela considerada como fria."
-		},
-		{
-			"id": 17,
-			"category": "estrelas",
-			"planetName": "Sol",
-			"startId": 1,
-			"description": "O Sol é uma esfera quase perfeita. Existe apenas uma diferença de dez quilômetros em seu diâmetro polar em comparação com seu diâmetro equatorial. Considerando a vasta extensão do Sol, isso significa que ele é o mais próximo de uma esfera perfeita que tem sido observada na natureza."
-		},
-		{
-			"id": 18,
-			"category": "estrelas",
-			"planetName": "Sol",
-			"startId": 1,
-			"description": "O Sol é muito quente e parece sempre estar em chamas. Porém, é um engano e uma visão do senso comum. Temos essa impressão porque a atmosfera solar é formada por gases que causam explosões e geram luz e calor. Ou seja, o Sol NÃO está em chamas!"
-		},
-		{
-			"id": 19,
-			"category": "estrelas",
-			"planetName": "Sol",
-			"startId": 1,
-			"description": "Partículas de material solar lançadas no espaço causam o vento solar, um fenômeno que forma arcos luminosos nos polos da Terra, conhecido como aurora boreal (região norte) ou aurora austral (região sul)."
-		},
-		{
-			"id": 20,
-			"category": "estrelas",
-			"planetName": "Sol",
-			"startId": 1,
-			"description": "O Sol possui 99,86% de toda a massa do Sistema Solar, e sua luz demora cerca de 8 minutos para chegar na Terra. Isso significa que se o Sol explodisse agora, só perceberíamos daqui a 8 minutos."
-		},
-		{
-			"id": 21,
-			"category": "planetas",
-			"planetName": "Marte",
-			"planetId": 4,
-			"description": "Um dia em Marte, ou dia marciano, designa-se por sol , e dura 23 horas e 39 minutos. Já um ano marciano, que dura 669,6 sols, é quase o dobro de um ano terrestre! Para Marte completar uma volta em torno do Sol passam 687 dias terrestres, ou seja, um ano, dez meses e 17 dias."
-		},
-		{
-			"id": 22,
-			"category": "planetas",
-			"planetName": "Marte",
-			"planetId": "4",
-			"description": "A atmosfera de Marte não permite a vida humana, já que é composta por dióxido de carbono, árgon e azoto. A temperatura média em Marte é de -60° graus, mas pode chegar aos 30°C no “Verão” e aos -143°C no “Inverno”. Há também violentas e enormes tempestades de areia que acontecem todos os anos e duram várias semanas, e ainda tempestades que envolvem todo o planeta a cada 3 anos marcianos, ou 5 anos terrestres. "
-		},
-		{
-			"id": 23,
-			"category": "planetas",
-			"planetName": "Marte",
-			"planetId": "4",
-			"description": "Marte é o quarto planeta a partir do Sol. Ele foi batizado com esse nome em homenagem ao deus romano da guerra, e muitas vezes é conhecido como o 'Planeta Vermelho', isso se dá por conta do óxido de ferro predominante em sua superfície, que lhe dá uma aparência de cor avermelhada."
-		},
-		{
-			"id": 24,
-			"category": "planetas",
-			"planetName": "Marte",
-			"planetId": "4",
-			"description": "A Nasa contabiliza 22 missões ao Planeta Vermelho, com descobertas importantes. A sonda espacial 2001 Mars Odyssey é até hoje a que permaneceu por mais tempo no planeta, e sua contagem temporal não cessou. Ela foi lançada em 7 de abril de 2001 e pousou no planeta em 24 de outubro daquele mesmo ano. Sua missão principal foi o mapeamento dos minerais e demais elementos químicos que compõem as rochas da superfície marciana, a qual concluiu com êxito em 2004."
-		},
-		{
-			"id": 25,
-			"category": "planetas",
-			"planetName": "Marte",
-			"planetId": "4",
-			"description": "Os dois satélites naturais que orbitam Marte são muito menores que a nossa Lua. Fobos tem cerca de 22 quilómetros de diâmetro; Deimos, apenas 12. E sabe o porquê das Luas de Marte terem estes nomes? Fobos (medo) e Deimos (pânico) são os dois cavalos que puxam a carruagem de Ares, o equivalente Grego de Marte."
-		},
-		{
-			"id": 26,
-			"category": "planetas",
-			"planetName": "",
-			"planetId": "",
-			"description": ""
-		}
-	],
-	"quiz": [
-		{
-			"id": 1,
-			"category": "planetas",
-			"questions": [
-				{
-					"title": "Podemos afirmar que Urano",
-					"options": [
-						{
-							"answer": "Possui um dia que dura 17h e 14 minutos",
-							"point": 0
-						},
-						{
-							"answer": "É o planeta mais frio do sistema solar",
-							"point": 2
-						},
-						{
-							"answer": "Possui 2 anéis em sua volta",
-							"point": 0
-						},
-						{
-							"answer": "É o planeta com mais massa do sistema solar",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Quantos satélites naturais Urano possui?",
-					"options": [
-						{
-							"answer": "33",
-							"point": 0
-						},
-						{
-							"answer": "82",
-							"point": 0
-						},
-						{
-							"answer": "30",
-							"point": 0
-						},
-						{
-							"answer": "27",
-							"point": 2
-						}
-					]
-				},
-				{
-					"title": "Quais desses satélites não pertencem a Urano",
-					"options": [
-						{
-							"answer": "Desdémoda",
-							"point": 0
-						},
-						{
-							"answer": "Titânia",
-							"point": 0
-						},
-						{
-							"answer": "Puck",
-							"point": 0
-						},
-						{
-							"answer": "Jápeto",
-							"point": 2
-						}
-					]
-				},
-				{
-					"title": "Em relação aos aneís de Urano",
-					"options": [
-						{
-							"answer": "Ele não possui anéis",
-							"point": 0
-						},
-						{
-							"answer": "Suas 27 luas são seus aneis",
-							"point": 0
-						},
-						{
-							"answer": "Possui 13 anéis ao seu redor",
-							"point": 2
-						},
-						{
-							"answer": "Ele é o único planeta gasoso que os possui",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Quais dos elementos compõe a atmosfera do planeta Urano?",
-					"options": [
-						{
-							"answer": "Metano, Água e Amônia",
-							"point": 0
-						},
-						{
-							"answer": "Hélio, Metano e Hidrogênio",
-							"point": 2
-						},
-						{
-							"answer": "Carbono, Hidrogênio e Água",
-							"point": 0
-						},
-						{
-							"answer": "Água, Hélio e Metano",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Qual dessas luas não pertence a Jupiter?",
-					"options": [
-						{
-							"answer": "Ele não possui luas, apenas anéis.",
-							"point": 0
-						},
-						{
-							"answer": "Dione",
-							"point": 2
-						},
-						{
-							"answer": "Io",
-							"point": 0
-						},
-						{
-							"answer": "Europa",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Quais são os maiores satélites de Jupiter?",
-					"options": [
-						{
-							"answer": "Galileanos",
-							"point": 2
-						},
-						{
-							"answer": "Grande Mancha Vermelha",
-							"point": 0
-						},
-						{
-							"answer": "Miranda e Titânia",
-							"point": 0
-						},
-						{
-							"answer": "Tesaryon e Caraxes",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Quais são as estações de Jupiter?",
-					"options": [
-						{
-							"answer": "Não há variações de estações.",
-							"point": 2
-						},
-						{
-							"answer": "Jupiter possui as 4 estações definidas.",
-							"point": 0
-						},
-						{
-							"answer": "Como todo planeta gasoso, ele é frio.",
-							"point": 0
-						},
-						{
-							"answer": "Os ventos de 600km/h fazem com que ele seja frio.",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Devido a atmosfera e superficie gasosa de Jupiter, qual das alternativas está errada?",
-					"options": [
-						{
-							"answer": "Causam tempestades que duram séculos.",
-							"point": 0
-						},
-						{
-							"answer": "Colisões de meteoros, ocorrem graças ao campo magnético.",
-							"point": 0
-						},
-						{
-							"answer": "Tem núvens maiores do que a terra.",
-							"point": 0
-						},
-						{
-							"answer": "Seu núcleo é feito de gelo.",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Como são formados os anéis de Jupiter?",
-					"options": [
-						{
-							"answer": "Eles são formados por hidrogênio e àgua.",
-							"point": 0
-						},
-						{
-							"answer": "São compostos por meteoros presos na sua orbita.",
-							"point": 0
-						},
-						{
-							"answer": "Eles são formados por hélio, metano e àgua.",
-							"point": 0
-						},
-						{
-							"answer": "São formados pelas poeiras das colisões de meteoros nos satélites naturais do planeta.",
-							"point": 2
-						}
-					]
-				},
-				{
-					"title": "Mercúrio possui quais estações do ano?",
-					"options": [
-						{
-							"answer": "Apenas verão, graças a proximidade do Sol",
-							"point": 0
-						},
-						{
-							"answer": "Duas estações, o verão e inverno",
-							"point": 0
-						},
-						{
-							"answer": "Ele não têm nenhuma das estações",
-							"point": 2
-						},
-						{
-							"answer": "Todas as quatro estações do ano",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Quantos satélites naturais Mercúrio tem?",
-					"options": [
-						{
-							"answer": "0",
-							"point": 2
-						},
-						{
-							"answer": "4",
-							"point": 0
-						},
-						{
-							"answer": "3",
-							"point": 0
-						},
-						{
-							"answer": "6",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "De que cor é Mercúrio?",
-					"options": [
-						{
-							"answer": "Amarelo",
-							"point": 0
-						},
-						{
-							"answer": "Cinza",
-							"point": 2
-						},
-						{
-							"answer": "Marrom",
-							"point": 0
-						},
-						{
-							"answer": "Azul",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Marque a incorreta sobre Mercúrio:",
-					"options": [
-						{
-							"answer": "É o menor planeta do sistema solar",
-							"point": 0
-						},
-						{
-							"answer": "Possui nenhum satélite natural",
-							"point": 0
-						},
-						{
-							"answer": "Possui nenhum anel planetário",
-							"point": 0
-						},
-						{
-							"answer": "É o planeta mais lento do sistema Solar",
-							"point": 2
-						}
-					]
-				},
-				{
-					"title": "Por que a temperatura de Mercúrio é tão desequilibrada?",
-					"options": [
-						{
-							"answer": "Por conta da atmosfera grossa",
-							"point": 0
-						},
-						{
-							"answer": "Por conta da atmosfera fina",
-							"point": 2
-						},
-						{
-							"answer": "Pela presença de satélites naturais",
-							"point": 0
-						},
-						{
-							"answer": "Pela ausência de satélites naturais",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Qual o nome das duas luas de Marte?",
-					"options": [
-						{
-							"answer": "Fobos e Deimos",
-							"point": 2
-						},
-						{
-							"answer": "Damos e Fobias",
-							"point": 0
-						},
-						{
-							"answer": "Canos e Fobia",
-							"point": 0
-						},
-						{
-							"answer": "Thomas e Edson",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Como se chama a sonda que ficou mais tempo em Marte?",
-					"options": [
-						{
-							"answer": "Mariner 3",
-							"point": 0
-						},
-						{
-							"answer": "Mariner 4",
-							"point": 0
-						},
-						{
-							"answer": "Rover Perseverance",
-							"point": 0
-						},
-						{
-							"answer": "Mars Odyssey",
-							"point": 2
-						}
-					]
-				},
-				{
-					"title": "Por Qual o Motivo Marte é chamado de planeta vermelho?",
-					"options": [
-						{
-							"answer": "Porque Dioxido de Ferro predomina na sua superfice",
-							"point": 2
-						},
-						{
-							"answer": "Porque Hidroxido de ferro predomina sua superfice ",
-							"point": 0
-						},
-						{
-							"answer": "Porque 98% da sua atmosfera é composto por Dioxido de carbono",
-							"point": 0
-						},
-						{
-							"answer": "Porque não existe agua no estado liquido",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Qual a temperatura média de Marte?",
-					"options": [
-						{
-							"answer": "30°",
-							"point": 0
-						},
-						{
-							"answer": "-30°",
-							"point": 0
-						},
-						{
-							"answer": "-60°",
-							"point": 2
-						},
-						{
-							"answer": "-143°",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Quantos dias um ano marciano dura?",
-					"options": [
-						{
-							"answer": "686",
-							"point": 0
-						},
-						{
-							"answer": "687",
-							"point": 2
-						},
-						{
-							"answer": "678",
-							"point": 0
-						},
-						{
-							"answer": "666",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "",
-					"options": [
-						{
-							"answer": "",
-							"point": 0
-						},
-						{
-							"answer": "",
-							"point": 0
-						},
-						{
-							"answer": "",
-							"point": 0
-						},
-						{
-							"answer": "",
-							"point": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"category": "estrelas",
-			"questions": [
-				{
-					"title": "Qual o nome do fenômeno causado pelos ventos solares?",
-					"options": [
-						{
-							"answer": "Aquecimento global",
-							"point": 0
-						},
-						{
-							"answer": "Aurora Boreal/Austral",
-							"point": 2
-						},
-						{
-							"answer": "Arco-íris",
-							"point": 0
-						},
-						{
-							"answer": "Solstício",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Qual dessas afirmações a respeito do Sol é verdadeira?",
-					"options": [
-						{
-							"answer": "O Sol possui metade de toda a massa do sistema solar",
-							"point": 0
-						},
-						{
-							"answer": "O Sol está em chamas",
-							"point": 0
-						},
-						{
-							"answer": "O Sol é considerado uma estrela fria",
-							"point": 2
-						},
-						{
-							"answer": "O Sol é uma das maiores estrelas da galáxia",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "Se o Sol explodisse agora, quanto tempo demoraríamos para nós percebermos aqui da Terra?",
-					"options": [
-						{
-							"answer": "Cerca de 8 minutos",
-							"point": 2
-						},
-						{
-							"answer": "Cerca de 8 horas",
-							"point": 0
-						},
-						{
-							"answer": "Cerca de 8 segundos",
-							"point": 0
-						},
-						{
-							"answer": "Perceberíamos no mesmo momento da explosão",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "O Sol é classificado como uma estrela:",
-					"options": [
-						{
-							"answer": "Na G1",
-							"point": 0
-						},
-						{
-							"answer": "Na G2",
-							"point": 2
-						},
-						{
-							"answer": "Na G3",
-							"point": 0
-						},
-						{
-							"answer": "Na G4",
-							"point": 0
-						}
-					]
-				},
-				{
-					"title": "question",
-					"options": [
-						{
-							"answer": "text",
-							"point": 0
-						},
-						{
-							"answer": "text",
-							"point": 2
-						},
-						{
-							"answer": "text",
-							"point": 0
-						},
-						{
-							"answer": "text",
-							"point": 0
-						}
-					]
-				}
-			]
-		}
-	],
-	"extras": [
-		{
-			"id": 1,
-			"image": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/2022-05_geocolor_20220505180018_logos.png",
-			"type": "Artigo",
-			"author": "Nasa USA",
-			"title": "Planeta Terra",
-			"description": "Como tornar a terra mais saúdavel",
-			"link": "nasa.gov"
-		}
-	]
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "id": 1,
+      "score": 0,
+      "favoritePosts": [
+        {
+          "id": 1,
+          "planetName": "Terra",
+          "description": " Planeta terra...."
+        }
+      ]
+    },
+    {
+      "email": "test1@mail.com",
+      "password": "$2a$10$x1GLL.mipQrVVBspUbq2VOz8lIXz3IQRMTZ8y2puNZA4Ww3nfZFrC",
+      "name": "test1",
+      "score": 0,
+      "favoritePosts": [
+        {
+          "id": 19,
+          "category": "estrelas",
+          "starName": "Sol",
+          "startId": 1,
+          "description": "Partículas de material solar lançadas no espaço causam o vento solar, um fenômeno que forma arcos luminosos nos polos da Terra, conhecido como aurora boreal (região norte) ou aurora austral (região sul)."
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "planets": [
+    {
+      "id": 1,
+      "name": "Mercúrio"
+    },
+    {
+      "id": 2,
+      "name": "Vênus"
+    },
+    {
+      "id": 3,
+      "name": "Terra"
+    },
+    {
+      "id": 4,
+      "name": "Marte"
+    },
+    {
+      "id": 5,
+      "name": "Júpiter"
+    },
+    {
+      "id": 6,
+      "name": "Saturno"
+    },
+    {
+      "id": 7,
+      "name": "Urano"
+    },
+    {
+      "id": 8,
+      "name": "Netuno"
+    }
+  ],
+  "stars": [
+    {
+      "id": 1,
+      "name": "Sol"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "category": "planetas",
+      "planetName": "Urano",
+      "planetId": 7,
+      "description": "Urano é o sétimo planeta a partir do Sol e é o terceiro maior no sistema solar. Foi descoberto por William Herschel em 1781. Os anéis de Urano foram identificados em 1977. Na época, significou uma grande novidade para a astronomia, uma vez que, até então, acreditava-se que apenas Saturno possuía anéis. Na atualidade, sabe-se que todos os planetas gasosos (Júpiter, Saturno, Urano e Netuno) possuem anéis."
+    },
+    {
+      "id": 2,
+      "category": "planetas",
+      "planetName": "Urano",
+      "planetId": 7,
+      "description": "Urano possui um conjunto de satélites naturais, também chamados de luas. Na atualidade, são conhecidas 27 luas em Urano. As luas de Urano foram nomeadas em homenagem às personagens clássicas da literatura mundial, presentes em obras dos escritores William Shakespeare e Alexander Pope.Suas maiores luas são: Miranda, Ariel, Umbriel, Titânia, Oberon, Sycorax, Puck e Desdémoda."
+    },
+    {
+      "id": 3,
+      "category": "planetas",
+      "planetName": "Urano",
+      "planetId": 7,
+      "description": "O Ano de Urano tem cerca de 84 anos terrestres, já um dia tem duração de 17 horas terrestres, ou seja, ele leva 17 horas para girar em torno de si mesmo. A idade de Urano é de cerca de 4,6 bilhões de anos. Sua temperatura média é de -197° C, tornando ele conhecido como Gigante de Gelo. A sua atmosfera (a camada de ar envolta do planeta) é composta por hidrogênio, hélio e metano, sendo o metano responsável pela cor verde-azulado vista através de telescópios."
+    },
+    {
+      "id": 4,
+      "category": "planetas",
+      "planetName": "Urano",
+      "planetId": 7,
+      "description": "Urano tem uma inclinação de 82,5° graus em relação à sua órbita (a trajetória de um planeta ao redor de uma estrela ou um satélite). Essa inclinação e os movimentos do planeta fazem com que, durante 42 anos, parte do planeta permaneça iluminada pelo Sol. Enquanto isso, a outra parte fica em completa escuridão. Mesmo a velocidade dos ventos em Urano podendo chegar na incrível marca de 900 km/h, o tempo total para que o Urano complete uma volta ao redor do Sol, é cerca de 84 anos."
+    },
+    {
+      "id": 5,
+      "category": "planetas",
+      "planetName": "Urano",
+      "planetId": 7,
+      "description": "O planeta Urano tem a magnitude de 5.3 na escala de brilho ótico, isso significa que a quantidade de luz emitida por ele está dentro da escala de brilho que o olho humano consegue perceber. Entretanto, é preciso estar em um local escuro, longe de grandes cidades, para conseguir observar esse planeta tão distante da Terra."
+    },
+    {
+      "id": 6,
+      "category": "planetas",
+      "planetName": "Júpiter",
+      "planetId": 5,
+      "description": "Júpiter é o quinto planeta a partir do Sol, situado entre Marte e Saturno, ele é o maior planeta do sistema solar, podendo caber mais de mil Terras no seu interior. O dia em Júpiter dura cerca de 10 horas, que é o tempo em que ele completar uma volta em torno de si mesmo, e é mais rápido dos planetas do Sistema Solar. Já um ano é cerca de 12 anos terrestres."
+    },
+    {
+      "id": 7,
+      "category": "planetas",
+      "planetName": "Júpiter",
+      "planetId": 5,
+      "description": "O sistema de anéis de Júpiter foi o terceiro sistema de anéis descoberto no sistema solar, ele foi visto pela primeira vez na visita da sonda Voyager I ao planeta em 1979. Eles não podem ser visto a olho nu, pois são formados pelas poeira cósmica causada por colisões de meteoros nos satélites naturais do planeta, em especial nas Luas Galileanas, seu maior satélite. "
+    },
+    {
+      "id": 8,
+      "category": "planetas",
+      "planetName": "Júpiter",
+      "planetId": 5,
+      "description": "Júpiter é conhecido pelas suas nuvens coloridas que pairam na superfície, sua coloração é devido a presença de hidrogênio e hélio predominantes na sua atmosfera, a nuvem mais famosa foi apelidada de Mancha Vermelha, tão grande que é capaz de cobrir toda a Terra. Outra causa também, são as fortes tempestades com ventos de até 600 km/hora, que ocorre frequetemente devido ele ser um planeta gasoso, algumas podem duram horas ou até séculos, sendo fatais para os seres humanos."
+    },
+    {
+      "id": 9,
+      "category": "planetas",
+      "planetName": "Júpiter",
+      "planetId": 5,
+      "description": "Júpiter possui um total de 79 luas, até a última descorberta feita pelos astrônomos em 2018, sendo o segundo planeta com mais luas, esse alto número é por conta do seu campo magnético que é muito mais forte que o da Terra, e que mantém essas luas na sua órbita. As principais luas de Júpiter são: as Luas Galileanas, Ganymede, Callisto, Io e Europa."
+    },
+    {
+      "id": 10,
+      "category": "planetas",
+      "planetName": "Júpiter",
+      "planetId": 5,
+      "description": "Ele recebe sempre a mesma quantidade de luz dos dois hemisférios, por possuir eixos verticais, graças a isso não há variações de temperaturas ou seja, não tem estações, sua temperatura média fica em torno de -110 °C. E também por isso, é possivel que Júpiter seja visto a olho nu, sendo considerado o quarto objeto mais brilhante do céu, atrás apenas do Sol, da Lua e de Vênus."
+    },
+    {
+      "id": 11,
+      "category": "planetas",
+      "planetName": "Mercúrio",
+      "planetId": 1,
+      "description": "Por ser o planeta mais próximo do Sol, habitar o planeta é consideravelmente impossível: o lado em contato direto com a estrela pode passar de 420°C; ademais, por ter uma atmosfera rarefeita e fina, o planeta não consegue reter o calor, fazendo com que a energia do Sol seja perdida e, durante a noite, a temperatura seja modificada drasticamente, com a possibilidade de estar abaixo de -173°C."
+    },
+    {
+      "id": 12,
+      "category": "planetas",
+      "planetName": "Mercúrio",
+      "planetId": 1,
+      "description": "Mercúrio é considerado como um dos planetas rochosos, também conhecidos como terrestres graças a composição rochosa e sólida. Foi considerado, de forma superficial, similar à Lua por causa do pequeno tamanho — sendo apenas um pouco maior que o satélite citado anteriormente — e da quantidade de crateras, porém são bem diferentes: Mercúrio possui uma densidade substancialmente maior que a da Lua."
+    },
+    {
+      "id": 13,
+      "category": "planetas",
+      "planetName": "Mercúrio",
+      "planetId": 1,
+      "description": "Você sabia que Mercúrio não possui estações do ano? Isso ocorre porque a inclinação do seu eixo é praticamente nula. Em planetas como a Terra, em que a inclinação é cerca de 23,5 graus, algumas partes recebem mais luz direta do Sol do que outras, assim resultado nas estações. A falta de inclinação do planeta Cinza faz com que isso não ocorra."
+    },
+    {
+      "id": 14,
+      "category": "planetas",
+      "planetName": "Mercúrio",
+      "planetId": 1,
+      "description": "Devido a sua proximidade com o Sol, Mercúrio sofre com diversos ventos solares que impossibilitam a existência de quaisquer anéis, satélites naturais e até mesmo sua atmosfera, que acaba por ser rarefeita. Portanto, o planeta acaba sujeito a meteoros, o que explica seu aspecto com uma quantidade grande de crateras e buracos."
+    },
+    {
+      "id": 15,
+      "category": "planetas",
+      "planetName": "Mercúrio",
+      "planetId": 1,
+      "description": "Mercúrio é o planeta mais rápido em todo o sistema solar, viajando em uma velocidade de 47km/s, possuindo assim a menor duração de ano em relação aos outros, sendo apenas 88 dias. Sua rápida velocidade pode ser explicada por causa da proximidade do Sol, pois quanto mais perto dele, mais rápido será seu tempo de rotação ao redor do Sol."
+    },
+    {
+      "id": 16,
+      "category": "estrelas",
+      "starName": "Sol",
+      "startId": 1,
+      "description": "O Sol, por mais que possa parecer gigante e incrivelmente quente para os seres humanos, é considerado como uma estrela anã. Devido ao seu tamanho, composição química e calor, a estrela é classificada como G2, uma estrela considerada como fria."
+    },
+    {
+      "id": 17,
+      "category": "estrelas",
+      "starName": "Sol",
+      "startId": 1,
+      "description": "O Sol é uma esfera quase perfeita. Existe apenas uma diferença de dez quilômetros em seu diâmetro polar em comparação com seu diâmetro equatorial. Considerando a vasta extensão do Sol, isso significa que ele é o mais próximo de uma esfera perfeita que tem sido observada na natureza."
+    },
+    {
+      "id": 18,
+      "category": "estrelas",
+      "starName": "Sol",
+      "startId": 1,
+      "description": "O Sol é muito quente e parece sempre estar em chamas. Temos essa impressão porque a atmosfera solar é formada por gases como hélio, carbono, hidrogênio e oxigênio que causam explosões e geram luz e calor. Ou seja, o Sol NÃO está em chamas!"
+    },
+    {
+      "id": 19,
+      "category": "estrelas",
+      "starName": "Sol",
+      "startId": 1,
+      "description": "Partículas de material solar lançadas no espaço causam o vento solar, um fenômeno que forma arcos luminosos nos polos da Terra, conhecido como aurora boreal (região norte) ou aurora austral (região sul)."
+    },
+    {
+      "id": 20,
+      "category": "estrelas",
+      "starName": "Sol",
+      "startId": 1,
+      "description": "O Sol possui 99,86% de toda a massa do Sistema Solar, e sua luz demora cerca de 8 minutos para chegar na Terra. Isso significa que se o Sol explodisse agora, só perceberíamos daqui a 8 minutos."
+    },
+    {
+      "id": 21,
+      "category": "planetas",
+      "planetName": "Marte",
+      "planetId": 4,
+      "description": "Um dia em Marte, ou dia marciano, designa-se por sol , e dura 23 horas e 39 minutos. Já um ano marciano, que dura 669,6 sols, é quase o dobro de um ano terrestre! Para Marte completar uma volta em torno do Sol passam 687 dias terrestres, ou seja, um ano, dez meses e 17 dias."
+    },
+    {
+      "id": 22,
+      "category": "planetas",
+      "planetName": "Marte",
+      "planetId": "4",
+      "description": "A atmosfera de Marte não permite a vida humana, já que é composta por dióxido de carbono, árgon e azoto. A temperatura média em Marte é de -60° graus, mas pode chegar aos 30°C no “Verão” e aos -143°C no “Inverno”. Há também violentas e enormes tempestades de areia que acontecem todos os anos e duram várias semanas, e ainda tempestades que envolvem todo o planeta a cada 3 anos marcianos, ou 5 anos terrestres. "
+    },
+    {
+      "id": 23,
+      "category": "planetas",
+      "planetName": "Marte",
+      "planetId": "4",
+      "description": "Marte é o quarto planeta a partir do Sol. Ele foi batizado com esse nome em homenagem ao deus romano da guerra, e muitas vezes é conhecido como o 'Planeta Vermelho', isso se dá por conta do óxido de ferro predominante em sua superfície, que lhe dá uma aparência de cor avermelhada."
+    },
+    {
+      "id": 24,
+      "category": "planetas",
+      "planetName": "Marte",
+      "planetId": "4",
+      "description": "A Nasa contabiliza 22 missões ao Planeta Vermelho, com descobertas importantes. A sonda espacial 2001 Mars Odyssey é até hoje a que permaneceu por mais tempo no planeta, e sua contagem temporal não cessou. Ela foi lançada em 7 de abril de 2001 e pousou no planeta em 24 de outubro daquele mesmo ano. Sua missão principal foi o mapeamento dos minerais e demais elementos químicos que compõem as rochas da superfície marciana, a qual concluiu com êxito em 2004."
+    },
+    {
+      "id": 25,
+      "category": "planetas",
+      "planetName": "Marte",
+      "planetId": "4",
+      "description": "Os dois satélites naturais que orbitam Marte são muito menores que a nossa Lua. Fobos tem cerca de 22 quilómetros de diâmetro; Deimos, apenas 12. E sabe o porquê das Luas de Marte terem estes nomes? Fobos (medo) e Deimos (pânico) são os dois cavalos que puxam a carruagem de Ares, o equivalente Grego de Marte."
+    },
+    {
+      "id": 26,
+      "category": "planetas",
+      "planetName": "Netuno",
+      "planetId": "8",
+      "description": "Netuno é o planeta mais distante em relação ao Sol, estabelecendo assim temperaturas baixas e vale ressaltar seu longo período para dar uma volta completa ao redor dessa estrela: cerca de 165 anos terrestres."
+    },
+    {
+      "id": 27,
+      "category": "planetas",
+      "planetName": "Netuno",
+      "planetId": "8",
+      "description": "Assim como o planeta Terra, Netuno contém quatro estações. Entretanto, o tempo de duração delas é consideravelmente longo: ao invés de meses, cerca de 40 anos são necessários para o próximo período."
+    },
+    {
+      "id": 28,
+      "category": "planetas",
+      "planetName": "Netuno",
+      "planetId": "8",
+      "description": "Netuno faz parte dos gigantes gasosos, assim sendo formado consideravelmente por gases:  não retém uma superfície sólida; além de sua atmosfera majoritariamente formada por hidrogênio e hélio com vestígios de metano — que faz com que sua cor seja azulada."
+    },
+    {
+      "id": 29,
+      "category": "planetas",
+      "planetName": "Netuno",
+      "planetId": "8",
+      "description": "Netuno possui 14 satélites naturais conhecidos, porém Tritão é o que mais se destaca, isso porque ele órbita o planeta-mãe em sentido contrário a de todos os satélites do sistema solar."
+    },
+    {
+      "id": 30,
+      "category": "planetas",
+      "planetName": "Netuno",
+      "planetId": "8",
+      "description": "Você sabia que Saturno não é o único planeta gasoso que possui um sistema de anéis? Netuno — e outros gigantes gasosos — também o possuem. O planeta azul conta com cinco conjuntos de anéis e quatro arcos finos."
+    },
+    {
+      "id": 31,
+      "category": "planetas",
+      "planetName": "Saturno",
+      "planetId": "6",
+      "description": "Saturno é o sexto planeta a partir do Sol e o segundo maior do sistema solar,sendo seu nome uma tradução em romano para o deus Cronos(o senhor dos titãs) da mitologia grega."
+    },
+    {
+      "id": 32,
+      "category": "planetas",
+      "planetName": "Saturno",
+      "planetId": "6",
+      "description": "A primeira pessoa a observar os anéis de Saturno foi Galileu Galilei em 1610, embora a imagem que ele viu através de seu telescópio tenha sido parecida com uma esfera com um par de alças laterais. "
+    },
+    {
+      "id": 33,
+      "category": "planetas",
+      "planetName": "Saturno",
+      "planetId": "6",
+      "description": "Por ser um planeta gasoso, Saturno não tem superfície sólida, sendo composto principalmente por hélio e nitrogênio, possuindo uma densidade menor que a da água(se fosse possível colocar Saturno numa piscina gigante ele flutuaria)."
+    },
+    {
+      "id": 34,
+      "category": "planetas",
+      "planetName": "Saturno",
+      "planetId": "6",
+      "description": "Um dia em Saturno dura em torno de 10 horas, sendo ele o que possui o dia mais curto dentro todos os planetas do Sistema Solar, porém um ano em Saturno é cerca de à 30 anos terrestres."
+    },
+    {
+      "id": 35,
+      "category": "planetas",
+      "planetName": "Saturno",
+      "planetId": "6",
+      "description": "Saturno apresenta um sistema de anéis compostos por bilhões de pedacinhos de rocha e gelo que os cientistas acreditam ser fragmentos de asteroides, cometas e luas. Essas partículas variam desde o tamanho de um grão de areia até o de casas inteiras, e o maior dos anéis tem um diâmetro 200 vezes superior ao do próprio planeta."
+    },
+    {
+      "id": 36,
+      "category": "planetas",
+      "planetName": "Vênus",
+      "planetId": "2",
+      "description": "Vênus é o segundo planeta a partir do Sol, sendo um dos mais brilhantes entre eles, seu nome foi em homenagem à deusa Afrodite(deusa do amor e da beleza) da mitologia grega, também chamado de estrela Dalva, estrela da manhã, estrela da tarde e joia do céu. Ele foi descoberto por Galileu Galileu em 1610."
+    },
+    {
+      "id": 37,
+      "category": "planetas",
+      "planetName": "Vênus",
+      "planetId": "2",
+      "description": "Apesar de não ser o mais próximo do Sol, Vênus é o planeta mais quente do sistema solar sendo apelidado de Mundo Infernal, com temperaturas que chegam a 460°C, tendo sua atmosfera composta principalmente por dióxido de carbono."
+    },
+    {
+      "id": 38,
+      "category": "planetas",
+      "planetName": "Vênus",
+      "planetId": "2",
+      "description": "Vênus é o planeta mais próximo da Terra, por isso considerado um planeta irmão da Terra. Um dia em Vênus dura 243 dias terretres, e é mais longo que seu ano, que tem cerca de 225 dias terrestres, isso por conta da sua rotação ocorrer de leste para oeste."
+    },
+    {
+      "id": 39,
+      "category": "planetas",
+      "planetName": "Vênus",
+      "planetId": "2",
+      "description": "Vênus foi o primeiro planeta extra-terrestre a receber uma sonda terrestre em 1961, alguns anos depois, em 1982 a sonda sovíetica Venera 7, foi a primeira sonda a conseguir pousar em Vênus, porém devido às altas temperaturas ela ficou fora de operação em menos de uma hora após o pouso."
+    },
+    {
+      "id": 40,
+      "category": "planetas",
+      "planetName": "Vênus",
+      "planetId": "2",
+      "description": "Vênus não tem satélites naturais, ou seja, luas. E suas nuvens são compostas de gotículas de ácido sulfúrico. A pressão atmosférica na superfície desse planeta chega até ser 92 vezes maior que a da Terra, ao nível do mar."
+    },
+    {
+      "id": 41,
+      "category": "planetas",
+      "planetName": "Terra",
+      "planetId": "3",
+      "description": "A temperatura média da Terra fica em torno de 15° Celsius graças aos gases da atmosfera, que retêm parte do calor do Sol. Se não fossem esses gases, nosso planeta seria um lugar gelado."
+    },
+    {
+      "id": 42,
+      "category": "planetas",
+      "planetName": "Terra",
+      "planetId": "3",
+      "description": "A Terra é conhecida por “Planeta Azul”, já que cerca de 70% da superfície terrestre é formada por oceanos e mares. A existência da água em seu estado líquido, juntamente à presença do oxigênio oferece à Terra características únicas em comparação a outros planetas."
+    },
+    {
+      "id": 43,
+      "category": "planetas",
+      "planetName": "Terra",
+      "planetId": "3",
+      "description": "A Terra interage com outros objetos no espaço, principalmente com o Sol e a Lua. Desse modo, a principal forma de entender essa relação é por meio do movimento de rotação e translação. Apesar disso, a Lua é a único satélite natural conhecido da Terra."
+    },
+    {
+      "id": 44,
+      "category": "planetas",
+      "planetName": "Terra",
+      "planetId": "3",
+      "description": "Os eclipses solares totais acontecem aqui no nosso planeta por pura coincidência: como o Sol tem um diâmetro cerca de 400 vezes maior do que o da Lua e se encontra 400 vezes mais distante da Terra do que o nosso satélite, isso faz com que os dois astros tenham tamanhos angulares semelhantes e, portanto, pareçam ter o mesmo tamanho quando os vemos no céu."
+    },
+    {
+      "id": 45,
+      "category": "planetas",
+      "planetName": "Terra",
+      "planetId": "3",
+      "description": "A Terra é um dos oito planetas que compõem o sistema solar, localizado na Via Láctea. É considerado o maior em diâmetro e densidade dentre os planetas rochosos incluindo os planetas Mercúrio, Vênus e Marte."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "category": "planetas",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Podemos afirmar que Urano:",
+          "options": [
+            {
+              "answer": "Possui um dia que dura 17h e 14 minutos",
+              "point": 0
+            },
+            {
+              "answer": "É o planeta mais frio do sistema solar",
+              "point": 2
+            },
+            {
+              "answer": "Possui 2 anéis em sua volta",
+              "point": 0
+            },
+            {
+              "answer": "É o planeta com mais massa do sistema solar",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Quantos satélites naturais Urano possui?",
+          "options": [
+            {
+              "answer": "33",
+              "point": 0
+            },
+            {
+              "answer": "82",
+              "point": 0
+            },
+            {
+              "answer": "30",
+              "point": 0
+            },
+            {
+              "answer": "27",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Quais desses satélites não pertencem a Urano?",
+          "options": [
+            {
+              "answer": "Desdémoda",
+              "point": 0
+            },
+            {
+              "answer": "Titânia",
+              "point": 0
+            },
+            {
+              "answer": "Puck",
+              "point": 0
+            },
+            {
+              "answer": "Jápeto",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Em relação aos aneís de Urano:",
+          "options": [
+            {
+              "answer": "Ele não possui anéis",
+              "point": 0
+            },
+            {
+              "answer": "Suas 27 luas são seus aneis",
+              "point": 0
+            },
+            {
+              "answer": "Possui 13 anéis ao seu redor",
+              "point": 2
+            },
+            {
+              "answer": "Ele é o único planeta gasoso que os possui",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Quais dos elementos compõe a atmosfera do planeta Urano?",
+          "options": [
+            {
+              "answer": "Metano, Água e Amônia",
+              "point": 0
+            },
+            {
+              "answer": "Hélio, Metano e Hidrogênio",
+              "point": 2
+            },
+            {
+              "answer": "Carbono, Hidrogênio e Água",
+              "point": 0
+            },
+            {
+              "answer": "Água, Hélio e Metano",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Qual dessas luas não pertence a Jupiter?",
+          "options": [
+            {
+              "answer": "Ele não possui luas, apenas anéis.",
+              "point": 0
+            },
+            {
+              "answer": "Dione",
+              "point": 2
+            },
+            {
+              "answer": "Io",
+              "point": 0
+            },
+            {
+              "answer": "Europa",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Quais são os maiores satélites de Jupiter?",
+          "options": [
+            {
+              "answer": "Galileanos",
+              "point": 2
+            },
+            {
+              "answer": "Grande Mancha Vermelha",
+              "point": 0
+            },
+            {
+              "answer": "Miranda e Titânia",
+              "point": 0
+            },
+            {
+              "answer": "Tesaryon e Caraxes",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Quais são as estações de Jupiter?",
+          "options": [
+            {
+              "answer": "Não há variações de estações.",
+              "point": 2
+            },
+            {
+              "answer": "Jupiter possui as 4 estações definidas.",
+              "point": 0
+            },
+            {
+              "answer": "Como todo planeta gasoso, ele é frio.",
+              "point": 0
+            },
+            {
+              "answer": "Os ventos de 600km/h fazem com que ele seja frio.",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Devido a atmosfera e superficie gasosa de Jupiter, qual das alternativas está errada?",
+          "options": [
+            {
+              "answer": "Causam tempestades que duram séculos.",
+              "point": 0
+            },
+            {
+              "answer": "Colisões de meteoros, ocorrem graças ao campo magnético.",
+              "point": 0
+            },
+            {
+              "answer": "Tem núvens maiores do que a terra.",
+              "point": 0
+            },
+            {
+              "answer": "Seu núcleo é feito de gelo.",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Como são formados os anéis de Jupiter?",
+          "options": [
+            {
+              "answer": "Eles são formados por hidrogênio e àgua.",
+              "point": 0
+            },
+            {
+              "answer": "São compostos por meteoros presos na sua orbita.",
+              "point": 0
+            },
+            {
+              "answer": "Eles são formados por hélio, metano e àgua.",
+              "point": 0
+            },
+            {
+              "answer": "São formados pelas poeiras das colisões de meteoros nos satélites naturais do planeta.",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Mercúrio possui quais estações do ano?",
+          "options": [
+            {
+              "answer": "Apenas verão, graças a proximidade do Sol",
+              "point": 0
+            },
+            {
+              "answer": "Duas estações, o verão e inverno",
+              "point": 0
+            },
+            {
+              "answer": "Ele não têm nenhuma das estações",
+              "point": 2
+            },
+            {
+              "answer": "Todas as quatro estações do ano",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Quantos satélites naturais Mercúrio tem?",
+          "options": [
+            {
+              "answer": "0",
+              "point": 2
+            },
+            {
+              "answer": "4",
+              "point": 0
+            },
+            {
+              "answer": "3",
+              "point": 0
+            },
+            {
+              "answer": "6",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "De que cor é Mercúrio?",
+          "options": [
+            {
+              "answer": "Amarelo",
+              "point": 0
+            },
+            {
+              "answer": "Cinza",
+              "point": 2
+            },
+            {
+              "answer": "Marrom",
+              "point": 0
+            },
+            {
+              "answer": "Azul",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Marque a incorreta sobre Mercúrio:",
+          "options": [
+            {
+              "answer": "É o menor planeta do sistema solar",
+              "point": 0
+            },
+            {
+              "answer": "Possui nenhum satélite natural",
+              "point": 0
+            },
+            {
+              "answer": "Possui nenhum anel planetário",
+              "point": 0
+            },
+            {
+              "answer": "É o planeta mais lento do sistema Solar",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Por que a temperatura de Mercúrio é tão desequilibrada?",
+          "options": [
+            {
+              "answer": "Por conta da atmosfera grossa",
+              "point": 0
+            },
+            {
+              "answer": "Por conta da atmosfera fina",
+              "point": 2
+            },
+            {
+              "answer": "Pela presença de satélites naturais",
+              "point": 0
+            },
+            {
+              "answer": "Pela ausência de satélites naturais",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Qual o nome das duas luas de Marte?",
+          "options": [
+            {
+              "answer": "Fobos e Deimos",
+              "point": 2
+            },
+            {
+              "answer": "Damos e Fobias",
+              "point": 0
+            },
+            {
+              "answer": "Canos e Fobia",
+              "point": 0
+            },
+            {
+              "answer": "Thomas e Edson",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Como se chama a sonda que ficou mais tempo em Marte?",
+          "options": [
+            {
+              "answer": "Mariner 3",
+              "point": 0
+            },
+            {
+              "answer": "Mariner 4",
+              "point": 0
+            },
+            {
+              "answer": "Rover Perseverance",
+              "point": 0
+            },
+            {
+              "answer": "Mars Odyssey",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Por Qual o Motivo Marte é chamado de planeta vermelho?",
+          "options": [
+            {
+              "answer": "Porque Dioxido de Ferro predomina na sua superfice",
+              "point": 2
+            },
+            {
+              "answer": "Porque Hidroxido de ferro predomina sua superfice ",
+              "point": 0
+            },
+            {
+              "answer": "Porque 98% da sua atmosfera é composto por Dioxido de carbono",
+              "point": 0
+            },
+            {
+              "answer": "Porque não existe agua no estado liquido",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Qual a temperatura média de Marte?",
+          "options": [
+            {
+              "answer": "30°",
+              "point": 0
+            },
+            {
+              "answer": "-30°",
+              "point": 0
+            },
+            {
+              "answer": "-60°",
+              "point": 2
+            },
+            {
+              "answer": "-143°",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Quantos dias um ano marciano dura?",
+          "options": [
+            {
+              "answer": "686",
+              "point": 0
+            },
+            {
+              "answer": "687",
+              "point": 2
+            },
+            {
+              "answer": "678",
+              "point": 0
+            },
+            {
+              "answer": "666",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": " Qual gás faz com que Netuno tenha um aspecto azulado:",
+          "options": [
+            {
+              "answer": "Hidrogênio",
+              "point": 0
+            },
+            {
+              "answer": "Hélio",
+              "point": 0
+            },
+            {
+              "answer": "Metano",
+              "point": 2
+            },
+            {
+              "answer": "Neônio",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Netuno possui 14 luas conhecidas atualmente, qual é a maior?",
+          "options": [
+            {
+              "answer": "Tritão",
+              "point": 2
+            },
+            {
+              "answer": "Talassa",
+              "point": 0
+            },
+            {
+              "answer": "Hipocampo",
+              "point": 0
+            },
+            {
+              "answer": "Galateia",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Quanto tempo demora para que Netuno de uma volta ao redor do Sol?",
+          "options": [
+            {
+              "answer": "173 anos",
+              "point": 0
+            },
+            {
+              "answer": " 27 anos",
+              "point": 0
+            },
+            {
+              "answer": "165 anos",
+              "point": 2
+            },
+            {
+              "answer": "97 anos",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Qual a posição de Netuno a partir do Sol?",
+          "options": [
+            {
+              "answer": "Primeira",
+              "point": 0
+            },
+            {
+              "answer": "Terceira",
+              "point": 0
+            },
+            {
+              "answer": "Sétima",
+              "point": 0
+            },
+            {
+              "answer": "Oitava",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Qual desses satélites naturais não pertence a Netuno?",
+          "options": [
+            {
+              "answer": "Galateia",
+              "point": 0
+            },
+            {
+              "answer": "Hipocampo",
+              "point": 0
+            },
+            {
+              "answer": "Tritão",
+              "point": 0
+            },
+            {
+              "answer": "Himalia",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Qual a posição de Saturno no sistema solar?",
+          "options": [
+            {
+              "answer": "7",
+              "point": 0
+            },
+            {
+              "answer": "5",
+              "point": 0
+            },
+            {
+              "answer": "6",
+              "point": 2
+            },
+            {
+              "answer": "3",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Quanto tempo dura um dia em Saturno?",
+          "options": [
+            {
+              "answer": "24 horas",
+              "point": 0
+            },
+            {
+              "answer": "17 horas",
+              "point": 0
+            },
+            {
+              "answer": "48 horas",
+              "point": 0
+            },
+            {
+              "answer": "10 horas",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Quanto tempo terrestre dura um ano em Saturno?",
+          "options": [
+            {
+              "answer": "5 meses terrestres",
+              "point": 0
+            },
+            {
+              "answer": "30 anos terrestres",
+              "point": 2
+            },
+            {
+              "answer": "5 anos terrestres",
+              "point": 0
+            },
+            {
+              "answer": "1 ano terrestre",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Quais são os principais gases que compõem Saturno?",
+          "options": [
+            {
+              "answer": "Hélio e Nitrogênio",
+              "point": 2
+            },
+            {
+              "answer": "Oxigênio e Gás Carbônico",
+              "point": 0
+            },
+            {
+              "answer": "Nitrogênio e Oxigênio",
+              "point": 0
+            },
+            {
+              "answer": "Hélio e Oxigênio",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Quem foi a pessoa que descobriu Saturno?",
+          "options": [
+            {
+              "answer": "Albert Einstein",
+              "point": 0
+            },
+            {
+              "answer": "Galileu Galilei",
+              "point": 2
+            },
+            {
+              "answer": "Nikolas Tesla",
+              "point": 0
+            },
+            {
+              "answer": "Thomas Edison",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Qual a posição de Vênus no sistema solar?",
+          "options": [
+            {
+              "answer": "1",
+              "point": 0
+            },
+            {
+              "answer": "2",
+              "point": 2
+            },
+            {
+              "answer": "6",
+              "point": 0
+            },
+            {
+              "answer": "3",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Quanto tempo terrestre dura um dia em Vênus?",
+          "options": [
+            {
+              "answer": "117 horas",
+              "point": 0
+            },
+            {
+              "answer": "255 dias",
+              "point": 0
+            },
+            {
+              "answer": "48 horas",
+              "point": 0
+            },
+            {
+              "answer": "243 dias",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Quantas luas Vênus possui?",
+          "options": [
+            {
+              "answer": "15 luas",
+              "point": 0
+            },
+            {
+              "answer": "2 luas",
+              "point": 0
+            },
+            {
+              "answer": "8 luas",
+              "point": 0
+            },
+            {
+              "answer": "Ele não possui luas, apenas anéis",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Qual a deusa grega foi a inspiração para nomear Vênus?",
+          "options": [
+            {
+              "answer": "Athena",
+              "point": 0
+            },
+            {
+              "answer": "Gaia",
+              "point": 0
+            },
+            {
+              "answer": "Afrodite",
+              "point": 2
+            },
+            {
+              "answer": "Perséfone",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Qual foi o apelido que Vênus recebeu por conta da sua alta temperatura?",
+          "options": [
+            {
+              "answer": "Inferno de Dante",
+              "point": 0
+            },
+            {
+              "answer": "Mundo Magna",
+              "point": 0
+            },
+            {
+              "answer": "Poço de Larva",
+              "point": 0
+            },
+            {
+              "answer": " Mundo Infernal",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Qual é o maior planeta dentre os planetas rochosos?",
+          "options": [
+            {
+              "answer": "Mercúrio",
+              "point": 0
+            },
+            {
+              "answer": "Vênus",
+              "point": 0
+            },
+            {
+              "answer": "Marte",
+              "point": 0
+            },
+            {
+              "answer": "Terra",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "title": "Quantas vezes o Sol é maior que a terra?",
+          "options": [
+            {
+              "answer": "400 vezes",
+              "point": 2
+            },
+            {
+              "answer": "200 vezes",
+              "point": 0
+            },
+            {
+              "answer": "500 vezes",
+              "point": 0
+            },
+            {
+              "answer": "300 vezes",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "title": "Qual é o único satélite natural da Terra?",
+          "options": [
+            {
+              "answer": "Sol",
+              "point": 0
+            },
+            {
+              "answer": "Lua",
+              "point": 2
+            },
+            {
+              "answer": "Ariel",
+              "point": 0
+            },
+            {
+              "answer": "Callisto",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "title": "Por que a terra é chamada de Planeta Azul?",
+          "options": [
+            {
+              "answer": "Porque 70% é composto por terra",
+              "point": 0
+            },
+            {
+              "answer": "Porque 70% é composto por gases",
+              "point": 0
+            },
+            {
+              "answer": "Porque 70% é composto por oceanos e mares",
+              "point": 2
+            },
+            {
+              "answer": "Porque 70% é composto por fauna e flora",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "Qual a temperatura média da Terra?",
+          "options": [
+            {
+              "answer": "15°C",
+              "point": 2
+            },
+            {
+              "answer": "20°C",
+              "point": 0
+            },
+            {
+              "answer": "17°",
+              "point": 0
+            },
+            {
+              "answer": "16°",
+              "point": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "estrelas",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Qual o nome do fenômeno causado pelos ventos solares?",
+          "options": [
+            {
+              "answer": "Aquecimento global",
+              "point": 0
+            },
+            {
+              "answer": "Aurora Boreal/Austral",
+              "point": 2
+            },
+            {
+              "answer": "Arco-íris",
+              "point": 0
+            },
+            {
+              "answer": "Solstício",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Qual dessas afirmações a respeito do Sol é verdadeira?",
+          "options": [
+            {
+              "answer": "O Sol possui metade de toda a massa do sistema solar",
+              "point": 0
+            },
+            {
+              "answer": "O Sol está em chamas",
+              "point": 0
+            },
+            {
+              "answer": "O Sol é considerado uma estrela fria",
+              "point": 2
+            },
+            {
+              "answer": "O Sol é uma das maiores estrelas da galáxia",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Se o Sol explodisse agora, quanto tempo demoraríamos para nós percebermos aqui da Terra?",
+          "options": [
+            {
+              "answer": "Cerca de 8 minutos",
+              "point": 2
+            },
+            {
+              "answer": "Cerca de 8 horas",
+              "point": 0
+            },
+            {
+              "answer": "Cerca de 8 segundos",
+              "point": 0
+            },
+            {
+              "answer": "Perceberíamos no mesmo momento da explosão",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "O Sol é classificado como uma estrela:",
+          "options": [
+            {
+              "answer": "Na G1",
+              "point": 0
+            },
+            {
+              "answer": "Na G2",
+              "point": 2
+            },
+            {
+              "answer": "Na G3",
+              "point": 0
+            },
+            {
+              "answer": "Na G4",
+              "point": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Quais dos elementos compôe a maior parte da atmosfera solar?",
+          "options": [
+            {
+              "answer": "Amônia e Metano",
+              "point": 0
+            },
+            {
+              "answer": "Lava e Oxigênio",
+              "point": 0
+            },
+            {
+              "answer": "Enxofre e Mercúrio",
+              "point": 0
+            },
+            {
+              "answer": "Hélio e Hidrogênio",
+              "point": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": 1,
+      "image": "https://m.media-amazon.com/images/I/51-xYkNM+gS._SX349_BO1,204,203,200_.jpg",
+      "type": "Livro",
+      "author": "Stephen P. Maran",
+      "title": "Astronomia Para Leigos",
+      "description": "De asteroides a buracos negros, esse guia de fácil compreensão te leva em uma grande viagem ao universo",
+      "link": "https://altabooks.com.br/produto/astronomia-para-leigos/"
+    },
+    {
+      "id": 2,
+      "image": "https://m.media-amazon.com/images/I/51u4z2L5ACL._SX336_BO1,204,203,200_.jpg",
+      "type": "Livro",
+      "author": "Kepler De Souza Oliveira Filho & Maria de Fátima Oliveira Saraiva",
+      "title": "Astronomia & Astrofísica",
+      "description": "Por que estudar Astronomia? Nosso objetivo é utilizar o Universo como laboratório, deduzindo de sua observação as leis físicas que poderão ser utilizadas em coisas muito práticas.",
+      "link": "https://www.amazon.com.br/Astronomia-Astrof%C3%ADsica-Kepler-Souza-Oliveira/dp/8578614852/ref=asc_df_8578614852/?tag=googleshopp00-20&linkCode=df0&hvadid=379707226078&hvpos=&hvnetw=g&hvrand=5151701659794228558&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001533&hvtargid=pla-427051862569&psc=1"
+    },
+    {
+      "id": 3,
+      "image": "https://m.media-amazon.com/images/I/51eS-YPrCyL._SX332_BO1,204,203,200_.jpg",
+      "type": "Livro",
+      "author": "Colin Stuart",
+      "title": "A História do Universo para quem tem pressa: Do Big Bang às mais recentes descobertas da astronomia!",
+      "description": "Neste livro de fácil compreensão embarcamos numa viagem incrível através de todas as descobertas astronômicas fundamentais.",
+      "link": "https://www.amazon.com.br/Hist%C3%B3ria-Universo-Para-Quem-Pressa/dp/8558890765/ref=asc_df_8558890765/?tag=googleshopp00-20&linkCode=df0&hvadid=379773640493&hvpos=&hvnetw=g&hvrand=10630484911051287429&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001533&hvtargid=pla-810058725494&psc=1"
+    },
+    {
+      "id": 4,
+      "image": "https://img.mybest-brazil.com.br/press_component/item_part_images/471b75067dfe31663b6e9e64048458cb.jpg?ixlib=rails-4.2.0&q=70&lossless=0&w=640&h=640&fit=clip&s=bce40e976937fa3dd56d812c9bcf3f4b",
+      "type": "Livro",
+      "author": "Carl Sagan",
+      "title": "Cosmos",
+      "description": "Neste livro de fácil compreensão embarcamos numa viagem incrível através de todas as descobertas astronômicas fundamentais.",
+      "link": "https://www.amazon.com.br/Cosmos-Carl-Sagan/dp/8535929886/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1GZNZ9X31VMWF&keywords=cosmos&qid=1638969364&s=books&sprefix=cosmos%2Caps%2C294&sr=1-3"
+    },
+    {
+      "id": 5,
+      "image": "https://img.mybest-brazil.com.br/press_component/item_part_images/0060d8f547b3fd8e8e3d022fb4fcaa43.jpg?ixlib=rails-4.2.0&q=70&lossless=0&w=640&h=640&fit=clip&s=8df074bed23adf5a0c8f15b75d286500",
+      "type": "Livro",
+      "author": "Neil deGrasse Tyson",
+      "title": "Origens",
+      "description": "O livro aborda a teoria da origem do universo, dos planetas, das estrelas e da vida.",
+      "link": "https://www.amazon.com.br/Origens-Neil-Degrasse-Tyson/dp/8542205448/ref=pd_sbs_5/135-9797186-4231857?pd_rd_w=mVxAD&pf_rd_p=9175a6cb-27e9-4c8e-b27e-0da5a40be6eb&pf_rd_r=MN4NPFQV1KAS5PCXY9ST&pd_rd_r=2d786845-d541-4c3c-9924-d02057e080d6&pd_rd_wg=tNnan&pd_rd_i=8542205448&psc=1"
+    },
+    {
+      "id": 6,
+      "image": "https://img.mybest-brazil.com.br/press_component/item_part_images/fa9f4e461c446a7b0bdeac069821a1e3.jpg?ixlib=rails-4.2.0&q=70&lossless=0&w=640&h=640&fit=clip&s=5372fd8135143bac48404b3e7430fa01",
+      "type": "Livro",
+      "author": "Neil deGrasse Tyson",
+      "title": "Astrofísica para Apressados",
+      "description": "Neste livro de fácil compreensão embarcamos numa viagem incrível através de todas as descobertas astronômicas fundamentais.",
+      "link": "https://www.amazon.com.br/Astrof%C3%ADsica-para-apressados-deGrasse-Tyson/dp/6555351284/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Astrof%C3%ADsica+para+apressados&qid=1638975314&s=books&sr=1-3"
+    },
+    {
+      "id": 7,
+      "image": "https://img.mybest-brazil.com.br/press_component/item_part_images/7025db776324788a50e9ef85f2379ec3.jpg?ixlib=rails-4.2.0&q=70&lossless=0&w=640&h=640&fit=clip&s=c0996de4e9a37d04cfd73acaa028f202",
+      "type": "Livro",
+      "author": "Marcelo Gleiser",
+      "title": "A Dança do Universo",
+      "description": "Em linguagem simples e acessível, ele cria paralelos entre as teorias científicas e religiosas para esse momento misterioso.",
+      "link": "https://www.amazon.com.br/dan%C3%A7a-do-universo-Marcelo-Gleiser/dp/853590848X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=A+Dan%C3%A7a+do+Universo&qid=1638977108&s=books&sr=1-1"
+    },
+    {
+      "id": 8,
+      "image": "https://img.ibxk.com.br/2022/04/06/06094825979043.jpg?ims=704x",
+      "type": "Filme",
+      "author": "Jonathan Nolan",
+      "title": "Interestelar",
+      "description": "Com as reservas naturais da Terra se esgotando, um pequeno grupo especializado de astronautas recebe a missão de buscar possíveis planetas que pudessem ser a nova casa da população humana.",
+      "link": "https://www.primevideo.com/detail/0GURDFFNEFFK5UUUGQ3JT3HN1T/ref=atv_dp?language=pt_BR"
+    },
+    {
+      "id": 9,
+      "image": "https://img.ibxk.com.br/2022/04/06/06094806885042.jpg?ims=704x",
+      "type": "Filme",
+      "author": "Alfonso Cuarón",
+      "title": "Gravidade",
+      "description": "O astronauta Matt Kowalski (George Clooney) está em uma missão no espaço junto da doutora Ryan Stone (Sandra Bullock). O objetivo era consertar o telescópio Hubble, mas a dupla é surpreendida por uma chuva de destroços espaciais que os lança para o espaço.",
+      "link": "https://www.hbomax.com/br/pt/feature/urn:hbo:feature:GYGbnVgFkgrfCwwEAAAAG?countryRedirect=1"
+    },
+    {
+      "id": 10,
+      "image": "https://img.ibxk.com.br/2022/04/06/06094728212041.jpg?ims=704x",
+      "type": "Filme",
+      "author": "James Gray",
+      "title": "Ad Astra - Rumo às Estrelas",
+      "description": "Roy McBride (Brad Pitt) é um engenheiro espacial que decide viajar ao espaço e cruzar a galáxia para tentar descobrir o que aconteceu com seu pai.",
+      "link": "https://www.starplus.com/movies/ad-astra-rumo-as-estrelas/zjqFJisVky4u"
+    },
+    {
+      "id": 11,
+      "image": "https://img.ibxk.com.br/2022/04/06/06094709181040.jpg?ims=704x",
+      "type": "Filme",
+      "author": "Stanley Kubrick",
+      "title": "2001: Uma Odisseia no Espaço",
+      "description": "Uma equipe de astronautas liderada por David Bowman (Keir Dullea) e Frank Poole (Gary Lockwood) é enviada ao planeta Júpiter para realizar a investigação sobre um misterioso monolito negro.",
+      "link": "https://www.primevideo.com/dp/amzn1.dv.gti.b0b56962-e15f-14ff-a3b3-2d47fbb0b05f?autoplay=0&ref_=atv_cf_strg_wb"
+    },
+    {
+      "id": 12,
+      "image": "https://img.ibxk.com.br/2022/04/06/06094520477036.jpg?ims=704x",
+      "type": "Série",
+      "author": "Andrew Hinderaker",
+      "title": "Marte",
+      "description": "É uma das séries no espaço que conta a história de uma época futura, no ano de 2033, em que seis astronautas partem da Flórida em busca de serem os primeiros humanos a pisarem em.",
+      "link": "https://www.netflix.com/br/title/80214512"
+    },
+    {
+      "id": 13,
+      "image": "https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2019/09/hubble.jpg",
+      "type": "Documentário",
+      "author": "Toni Myers",
+      "title": "Hubble 3D",
+      "description": "",
+      "link": "https://www.hbomax.com/br/pt/feature/urn:hbo:feature:GYJ2VgAI2VKzDWwEAAAGJ"
+    },
+    {
+      "id": 14,
+      "image": "https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2019/09/1cfca186a12e82c36a2e9ab3a82a6d62.jpg",
+      "type": "Documentário",
+      "author": "National Geographic",
+      "title": "Além do Cosmos: o espaço",
+      "description": "O que é o espaço? Para muitos, é um simples vazio! Mas, ele carrega os maiores mistérios da humanidade.",
+      "link": "https://www.youtube.com/watch?v=tkXJy_eA-lI"
+    },
+    {
+      "id": 15,
+      "image": "https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2019/09/376019523754_06260406_ManOnMarsMissionToTheRedPlanet_1280x720_large.jpg",
+      "type": "Documentário",
+      "author": "BBC Horizon",
+      "title": "Man on Mars: Mission to the Red Planet",
+      "description": "A BBC Horizon conta como anda a missão de levar o ser humano a Marte.",
+      "link": "https://www.youtube.com/watch?v=ObxvOpAYlEY"
+    },
+    {
+      "id": 16,
+      "image": "https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2019/09/AAAABWP7CRj6AUurAXm9KHCN-BzEkNXAqmA6J4rTYw-ZyHUwtDun_5KxytoRM152OEwkdv_69f5lxY04n2XeOGDyrow37eQH7lRFRCsYbQXDDtToZVf5CdEf.jpg",
+      "type": "Documentário",
+      "author": "Netflix",
+      "title": "Geração Marte",
+      "description": "O documentário acompanha adolescentes que desejam contribuir para a expedição a Marte, além de.",
+      "link": "https://www.netflix.com/br/title/80117263"
+    }
+  ]
 }
