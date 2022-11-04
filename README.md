@@ -10,7 +10,7 @@ A API tem um total de 6 endpoints, sendo em volta principalmente do usuário - p
 
 O JSON para utilizar no Insomnia é este aqui -> [AstroVerso Requests](https://mega.nz/file/mZFW1BRZ#i5WIpc3RQnQJYVbh_6UmhpDVhBzzW7UtM6dtE--A6YI).
 
-Para importar o JSON no Insomnia é só clicar o link acima, baixar o arquivo, ir em no app do Insomia, na dashboard do app terá um botão "Import From". Nesse dropdown é só clicar em "Import / Export > From **File**" e inserir o arquivo baixado. 😉
+Para importar o JSON no Insomnia é só clicar o link acima, baixar o arquivo, ir em no app do Insomnia, na dashboard do app terá um botão "Import From". Nesse dropdown é só clicar em "**File**" e inserir o arquivo baixado. 😉
 
 #### 🧑‍💻 Siga passo a passo abaixo
 
