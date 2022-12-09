@@ -1503,7 +1503,7 @@
 		},
 		{
 			"id": 12,
-			"image": "https://img.ibxk.com.br/2022/04/06/06094520477036.jpg?ims=704x",
+			"image": "https://img.ibxk.com.br/2022/04/06/06094403477033.jpg?ims=704x",
 			"type": "Série",
 			"author": "Andrew Hinderaker",
 			"title": "Marte",
@@ -1543,8 +1543,17 @@
 			"type": "Documentário",
 			"author": "Netflix",
 			"title": "Geração Marte",
-			"description": "O documentário acompanha adolescentes que desejam contribuir para a expedição a Marte, além de.",
+			"description": "O documentário acompanha adolescentes que desejam contribuir para a expedição a Marte, além de...",
 			"link": "https://www.netflix.com/br/title/80117263"
+		},
+		{
+			"id": 12,
+			"image": "https://img.ibxk.com.br/2022/04/06/06094520477036.jpg?ims=704x",
+			"type": "Série",
+			"author": "James S. A. Corey",
+			"title": "The Expanse",
+			"description": "É uma das séries no espaço que conta a história de 200 anos no futuro, em que a raça humana conseguiu colonizar o sistema solar...",
+			"link": "https://www.primevideo.com/detail/0MG6W3WOYDN8F6EEDFPI33Y9CS/ref=atv_sr_def_c_unkc_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B09J1Q3X7B&qid=1670599109998"
 		}
 	]
 }
