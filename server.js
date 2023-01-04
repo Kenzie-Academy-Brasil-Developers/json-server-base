@@ -10,6 +10,7 @@ app.db = router.db;
 
 const rules = auth.rewriter({
   users: 600,
+  donation: 640
 });
 
 app.use(cors());
@@ -20,4 +21,4 @@ app.listen(port);
 
 console.log("Server is running on port:", port);
 
-/* A senha do Kenzinho é 123456 */
+/* A senha do teste é 12345678 */
