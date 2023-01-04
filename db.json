@@ -38,17 +38,6 @@
     },
     {
       "userId": 1,
-      "img": "Frutas",
-      "title": "limão",
-      "category": "Fruits",
-      "validation": "10/02/23",
-      "descripition": "Docao de uma remeça de limão quase vencisdas",
-      "amounts": "51",
-      "address": "rua x",
-      "id": 2
-    },
-    {
-      "userId": 1,
       "img": "CestaBasica",
       "title": "Cesta Basica",
       "category": "Fruits",
