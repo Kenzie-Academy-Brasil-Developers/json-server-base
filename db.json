@@ -35,194 +35,184 @@
   ],
   "products": [
     {
-      "romance": [
-        {
-          "id": "63b56cf35df6b",
-          "category": "romance",
-          "name": "A pequena padaria do Brooklyn",
-          "author": "Julie Caplin",
-          "description": "A vida da jovem Sophie Bennings parece bem encaminhada. Ainda que falte um pouco de paixão, ela tem um emprego fixo como editora de gastronomia em Londres e aguarda pacientemente um pedido de casamento do namorado.",
-          "img": "https://m.media-amazon.com/images/I/51V6RqbFBtL._SX346_BO1,204,203,200_.jpg",
-          "price": 54.86
-        },
-        {
-          "id": "63b5712130c0d",
-          "category": "romance",
-          "name": "Estupidamente apaixonados",
-          "author": "Lyssa Kay Adams",
-          "description": "Alexis Carlisle se tornou conhecida depois de denunciar seu antigo patrão, um chef renomado, por assédio sexual. Com a fama, seu café se transformou em um espaço de apoio e acolhimento para vítimas de violência e assédio.",
-          "img": "https://m.media-amazon.com/images/I/51uSs9Ee8-L._SX346_BO1,204,203,200_.jpg",
-          "price": 43.9
-        },
-        {
-          "id": "63b5712131c0d",
-          "category": "romance",
-          "name": "Se nada der certo até os 30, você se casa comigo?",
-          "author": "Karina Halle",
-          "description": "Era para ser só uma promessa de dedinho... Linden McGregor é alto, robusto e incrivelmente bonito, um piloto de helicóptero com sotaque escocês e charme de sobra. Stephanie Robson é bonita, engraçada e uma mulher de negócios ambiciosa – e irresistível. Os dois são melhores amigos desde sempre, mas alguns relacionamentos não podem ser classificados ou domados depois que surge a primeira faísca de desejo",
-          "img": "https://m.media-amazon.com/images/I/515n3zkTaGL._SX348_BO1,204,203,200_.jpg",
-          "price": 32.45
-        },
-        {
-          "id": "63b5712136c0d",
-          "category": "romance",
-          "name": "Mais que amigos",
-          "author": "Lauren Layne",
-          "description": "Será que vale a pena arriscar uma grande amizade em troca de um amor inesquecível? Aos vinte e dois anos, a jovem Parker Blanton leva a vida que sempre sonhou.",
-          "img": "https://m.media-amazon.com/images/I/51eN34F4sJL._SX346_BO1,204,203,200_.jpg",
-          "price": 15.9
-        },
-        {
-          "id": "63b57112136c0d",
-          "category": "romance",
-          "name": "Mais que amigos",
-          "author": "Lauren Layne",
-          "description": "Será que vale a pena arriscar uma grande amizade em troca de um amor inesquecível? Aos vinte e dois anos, a jovem Parker Blanton leva a vida que sempre sonhou.",
-          "img": "https://m.media-amazon.com/images/I/51eN34F4sJL._SX346_BO1,204,203,200_.jpg",
-          "price": 15.9
-        }
-      ],
-      "biology": [
-        {
-          "id": "63b572d6cd7ad",
-          "category": "biology",
-          "name": "A Decodificadora: Jennifer Doudna",
-          "author": "Walter Isaacson",
-          "description": "Quando Jennifer Doudna ainda cursava a sexta série, encontrou em sua cama um exemplar de A dupla hélice, de James Watson, deixado por seu pai. Avançando pelas páginas, Doudna ficou fascinada com os bastidores da competição científica pela descoberta dos tijolinhos que constroem a vida.",
-          "img": "https://m.media-amazon.com/images/I/81tfQ5W0MKL.jpg",
-          "price": 44.99
-        },
-        {
-          "id": "63b57385334b6",
-          "category": "biology",
-          "name": "Mundo Animal: Animais Brasileiros",
-          "author": "Camelot Editora",
-          "description": "O livro Mundo Animal.Animais Brasileiros é um guia de referência e consulta sobre a fauna do Brasil. Fique por dentro de tudo o que acontece na natureza! Descubra a grande variedade de peixes tropicais; mergulhe no incrível mundo dos anfíbios; conheça os répteis, animais dominantes durante milhões de anos; confira as nossas aves majestosas e saiba mais sobre os mamíferos e o sucesso evolutivo que eles representam entre a grande variedade de espécies.",
-          "img": "https://m.media-amazon.com/images/I/51YhcBJ9SRL._SX336_BO1,204,203,200_.jpg",
-          "price": 22.49
-        },
-        {
-          "id": "63b57427288a4",
-          "category": "biology",
-          "name": "A biologia da crença",
-          "author": "Bruce H. Lipton",
-          "description": "Este livro vai mudar sua vida: novas e surpreendentes descobertas científicas demonstram que as células do corpo são influenciadas pelo nosso pensamento e ajudam a comprovar a reencarnação.",
-          "img": "https://m.media-amazon.com/images/I/41GF7O92pIL._SX346_BO1,204,203,200_.jpg",
-          "price": 40.7
-        },
-        {
-          "id": "63b5748022e7b",
-          "category": "biology",
-          "name": "A Origem das Espécies",
-          "author": "Charles Darwin",
-          "description": "Esta nova tradução de A origem das espécies destaca-se por ter sido elaborada com base na primeira edição do texto, de 1859, que depois passaria por alterações do próprio autor em consequência das inúmeras pressões da imprensa e da comunidade científica do século XIX.",
-          "img": "https://m.media-amazon.com/images/I/51JMj5S+4qL._SX344_BO1,204,203,200_.jpg",
-          "price": 73
-        },
-        {
-          "id": "63b574ec0d09a",
-          "category": "biology",
-          "name": "O Grande Livro do Corpo Humano",
-          "author": "Editora Nova Leitura",
-          "description": "Quer conhecer muitas curiosidades que acontecem dentro de você? Então, embarque nesta viagem incrível e conheça mais detalhes sobre os diversos sistemas que constituem a máquina humana, tais como Respiratório, Linfático, Reprodutor, Digestivo, Endócrino, Esquelético e Circulatório.",
-          "img": "https://m.media-amazon.com/images/I/5178NOzSP0S._SX338_BO1,204,203,200_.jpg",
-          "price": 25.9
-        }
-      ],
-      "childish": [
-        {
-          "id": "63b575b172c24",
-          "category": "childish",
-          "name": "Meu primeiro livro de contos de fadas",
-          "author": "Mary Hoffman",
-          "description": "Mary Hoffman reconta catorze contos de fadas clássicos. Ao lado de histórias populares da tradição européia, como 'Cinderela' e 'A Bela Adormecida', a autora selecionou outras menos conhecidas, como 'A mulher do pescador' ou 'Diamantes e sapos'.",
-          "img": "https://m.media-amazon.com/images/I/51UenOzPl6L._SX381_BO1,204,203,200_.jpg",
-          "price": 31.41
-        },
-        {
-          "id": "63b57612e5f9b",
-          "category": "childish",
-          "name": "Perigoso!",
-          "author": "Tim Warnes",
-          "description": "Bob, a toupeira macho, adora etiquetar as coisas. Então, um dia, ele encontra uma coisa muito estranha. Uma coisa escamosa. Uma coisa escamosa com dentes pontudos. Ahhh! CUIDADO, Bob",
-          "img": "https://m.media-amazon.com/images/I/517ZzYgUcaL._SX434_BO1,204,203,200_.jpg",
-          "price": 18
-        },
-        {
-          "id": "63b577c30b3e8",
-          "category": "childish",
-          "name": "Gildo",
-          "author": "Silvana Rando",
-          "description": "Gildo é muito corajoso. Ele gosta de montanha-russa, de avião, de filme de terror e de cantar em público. Mas como quase todo mundo, existe uma coisa que o deixa apavorado... Sempre na noite anterior a alguma festinha de aniversário de um amigo, ele não consegue pregar os olhos, por que será?",
-          "img": "https://m.media-amazon.com/images/I/51tRSQ8pBLL._SY498_BO1,204,203,200_.jpg",
-          "price": 28.99
-        },
-        {
-          "id": "63b5773ba6db0",
-          "category": "childish",
-          "name": "Fisher-Price - Como é bom dormir",
-          "author": "Ciranda Cultural",
-          "description": "Depois de um dia cheio de diversão, nada melhor do que uma boa noite de sono, não é mesmo? Ainda mais quando você pode compartilhar esse momento tão relaxante ao lado da família ou dos amigos. ",
-          "img": "https://m.media-amazon.com/images/I/51Q+yg2TsWL._SX428_BO1,204,203,200_.jpg",
-          "price": 9.95
-        },
-        {
-          "id": "63b577b29a520",
-          "category": "childish",
-          "name": "Fisher-Price - Como é bom dormir",
-          "author": "Ciranda Cultural",
-          "description": "Depois de um dia cheio de diversão, nada melhor do que uma boa noite de sono, não é mesmo? Ainda mais quando você pode compartilhar esse momento tão relaxante ao lado da família ou dos amigos. ",
-          "img": "https://m.media-amazon.com/images/I/51Q+yg2TsWL._SX428_BO1,204,203,200_.jpg",
-          "price": 9.95
-        }
-      ],
-      "Web development": [
-        {
-          "id": "63b579884fdfc",
-          "category": "Web development",
-          "name": "Pro Express.Js: Master Express.Js",
-          "author": "Ciranda Cultural",
-          "description": "Este conjunto de dois livros combina os títulos HTML & CSS: Designing and Building Web Sites e JavaScript & jQuery: Interactive Front-End Development . Juntos, esses dois livros formam uma plataforma ideal para quem deseja dominar HTML e CSS antes de avançar para JavaScript e jQuery.",
-          "img": "https://m.media-amazon.com/images/I/41lN34XZ28L._SX404_BO1,204,203,200_.jpg",
-          "price": 375.35
-        },
-        {
-          "id": "63b57aebb5f81",
-          "category": "Web development",
-          "name": "Pro Html5 Programming: Powerful APIs for Richer Internet Application Development",
-          "author": "Peter Lubbers",
-          "description": "O HTML5 está aqui e, com ele, os aplicativos da Web adquirem poder, facilidade, escalabilidade e capacidade de resposta como nunca antes.",
-          "img": "https://m.media-amazon.com/images/I/51eBBlehcLL._SX404_BO1,204,203,200_.jpg",
-          "price": 416.32
-        },
-        {
-          "id": "63b57ae3bbe2e",
-          "category": "Web development",
-          "name": "Python Django For Web Development",
-          "author": "Emenwa Global",
-          "description": "O Django é empolgante se você estiver interessado em construir sites. Django é um framework para fazer websites. Isso economiza muito tempo e torna a criação de sites mais fácil e divertida. O Django facilita a construção e manutenção de aplicações web de alta qualidade.",
-          "img": "https://m.media-amazon.com/images/I/41l66zmG3fL.jpg",
-          "price": 321.32
-        },
-        {
-          "id": "63b57adc9f552",
-          "category": "Web development",
-          "name": "Construindo uma Aplicação web Completa com PHP e MySQL",
-          "author": "William Pereira Alves ",
-          "description": "Este livro oferece ao leitor o conhecimento necessário para desenvolver aplicações para a internet utilizando o servidor web Apache, o servidor de banco de dados MySQL e a linguagem PHP.",
-          "img": "https://m.media-amazon.com/images/I/51hF-oAE2ZL._SX357_BO1,204,203,200_.jpg",
-          "price": 106.99
-        },
-        {
-          "id": "63b57adc9f552",
-          "category": "Web development",
-          "name": "Web Development for beginners",
-          "author": "White Belt Mastery",
-          "description": "The book you were waiting for to learn how to develop a website !",
-          "img": "https://m.media-amazon.com/images/I/41+Bik0tUlL.jpg",
-          "price": 141.58
-        }
-      ]
+      "id": "63b56cf35df6b",
+      "category": "romance",
+      "name": "A pequena padaria do Brooklyn",
+      "author": "Julie Caplin",
+      "description": "A vida da jovem Sophie Bennings parece bem encaminhada. Ainda que falte um pouco de paixão, ela tem um emprego fixo como editora de gastronomia em Londres e aguarda pacientemente um pedido de casamento do namorado.",
+      "img": "https://m.media-amazon.com/images/I/51V6RqbFBtL._SX346_BO1,204,203,200_.jpg",
+      "price": 54.86
+    },
+    {
+      "id": "63b5712130c0d",
+      "category": "romance",
+      "name": "Estupidamente apaixonados",
+      "author": "Lyssa Kay Adams",
+      "description": "Alexis Carlisle se tornou conhecida depois de denunciar seu antigo patrão, um chef renomado, por assédio sexual. Com a fama, seu café se transformou em um espaço de apoio e acolhimento para vítimas de violência e assédio.",
+      "img": "https://m.media-amazon.com/images/I/51uSs9Ee8-L._SX346_BO1,204,203,200_.jpg",
+      "price": 43.9
+    },
+    {
+      "id": "63b5712131c0d",
+      "category": "romance",
+      "name": "Se nada der certo até os 30, você se casa comigo?",
+      "author": "Karina Halle",
+      "description": "Era para ser só uma promessa de dedinho... Linden McGregor é alto, robusto e incrivelmente bonito, um piloto de helicóptero com sotaque escocês e charme de sobra. Stephanie Robson é bonita, engraçada e uma mulher de negócios ambiciosa – e irresistível. Os dois são melhores amigos desde sempre, mas alguns relacionamentos não podem ser classificados ou domados depois que surge a primeira faísca de desejo",
+      "img": "https://m.media-amazon.com/images/I/515n3zkTaGL._SX348_BO1,204,203,200_.jpg",
+      "price": 32.45
+    },
+    {
+      "id": "63b5712136c0d",
+      "category": "romance",
+      "name": "Mais que amigos",
+      "author": "Lauren Layne",
+      "description": "Será que vale a pena arriscar uma grande amizade em troca de um amor inesquecível? Aos vinte e dois anos, a jovem Parker Blanton leva a vida que sempre sonhou.",
+      "img": "https://m.media-amazon.com/images/I/51eN34F4sJL._SX346_BO1,204,203,200_.jpg",
+      "price": 15.9
+    },
+    {
+      "id": "63b57112136c0d",
+      "category": "romance",
+      "name": "Mais que amigos",
+      "author": "Lauren Layne",
+      "description": "Será que vale a pena arriscar uma grande amizade em troca de um amor inesquecível? Aos vinte e dois anos, a jovem Parker Blanton leva a vida que sempre sonhou.",
+      "img": "https://m.media-amazon.com/images/I/51eN34F4sJL._SX346_BO1,204,203,200_.jpg",
+      "price": 15.9
+    },
+    {
+      "id": "63b572d6cd7ad",
+      "category": "biology",
+      "name": "A Decodificadora: Jennifer Doudna",
+      "author": "Walter Isaacson",
+      "description": "Quando Jennifer Doudna ainda cursava a sexta série, encontrou em sua cama um exemplar de A dupla hélice, de James Watson, deixado por seu pai. Avançando pelas páginas, Doudna ficou fascinada com os bastidores da competição científica pela descoberta dos tijolinhos que constroem a vida.",
+      "img": "https://m.media-amazon.com/images/I/81tfQ5W0MKL.jpg",
+      "price": 44.99
+    },
+    {
+      "id": "63b57385334b6",
+      "category": "biology",
+      "name": "Mundo Animal: Animais Brasileiros",
+      "author": "Camelot Editora",
+      "description": "O livro Mundo Animal.Animais Brasileiros é um guia de referência e consulta sobre a fauna do Brasil. Fique por dentro de tudo o que acontece na natureza! Descubra a grande variedade de peixes tropicais; mergulhe no incrível mundo dos anfíbios; conheça os répteis, animais dominantes durante milhões de anos; confira as nossas aves majestosas e saiba mais sobre os mamíferos e o sucesso evolutivo que eles representam entre a grande variedade de espécies.",
+      "img": "https://m.media-amazon.com/images/I/51YhcBJ9SRL._SX336_BO1,204,203,200_.jpg",
+      "price": 22.49
+    },
+    {
+      "id": "63b57427288a4",
+      "category": "biology",
+      "name": "A biologia da crença",
+      "author": "Bruce H. Lipton",
+      "description": "Este livro vai mudar sua vida: novas e surpreendentes descobertas científicas demonstram que as células do corpo são influenciadas pelo nosso pensamento e ajudam a comprovar a reencarnação.",
+      "img": "https://m.media-amazon.com/images/I/41GF7O92pIL._SX346_BO1,204,203,200_.jpg",
+      "price": 40.7
+    },
+    {
+      "id": "63b5748022e7b",
+      "category": "biology",
+      "name": "A Origem das Espécies",
+      "author": "Charles Darwin",
+      "description": "Esta nova tradução de A origem das espécies destaca-se por ter sido elaborada com base na primeira edição do texto, de 1859, que depois passaria por alterações do próprio autor em consequência das inúmeras pressões da imprensa e da comunidade científica do século XIX.",
+      "img": "https://m.media-amazon.com/images/I/51JMj5S+4qL._SX344_BO1,204,203,200_.jpg",
+      "price": 73
+    },
+    {
+      "id": "63b574ec0d09a",
+      "category": "biology",
+      "name": "O Grande Livro do Corpo Humano",
+      "author": "Editora Nova Leitura",
+      "description": "Quer conhecer muitas curiosidades que acontecem dentro de você? Então, embarque nesta viagem incrível e conheça mais detalhes sobre os diversos sistemas que constituem a máquina humana, tais como Respiratório, Linfático, Reprodutor, Digestivo, Endócrino, Esquelético e Circulatório.",
+      "img": "https://m.media-amazon.com/images/I/5178NOzSP0S._SX338_BO1,204,203,200_.jpg",
+      "price": 25.9
+    },
+    {
+      "id": "63b575b172c24",
+      "category": "childish",
+      "name": "Meu primeiro livro de contos de fadas",
+      "author": "Mary Hoffman",
+      "description": "Mary Hoffman reconta catorze contos de fadas clássicos. Ao lado de histórias populares da tradição européia, como 'Cinderela' e 'A Bela Adormecida', a autora selecionou outras menos conhecidas, como 'A mulher do pescador' ou 'Diamantes e sapos'.",
+      "img": "https://m.media-amazon.com/images/I/51UenOzPl6L._SX381_BO1,204,203,200_.jpg",
+      "price": 31.41
+    },
+    {
+      "id": "63b57612e5f9b",
+      "category": "childish",
+      "name": "Perigoso!",
+      "author": "Tim Warnes",
+      "description": "Bob, a toupeira macho, adora etiquetar as coisas. Então, um dia, ele encontra uma coisa muito estranha. Uma coisa escamosa. Uma coisa escamosa com dentes pontudos. Ahhh! CUIDADO, Bob",
+      "img": "https://m.media-amazon.com/images/I/517ZzYgUcaL._SX434_BO1,204,203,200_.jpg",
+      "price": 18
+    },
+    {
+      "id": "63b577c30b3e8",
+      "category": "childish",
+      "name": "Gildo",
+      "author": "Silvana Rando",
+      "description": "Gildo é muito corajoso. Ele gosta de montanha-russa, de avião, de filme de terror e de cantar em público. Mas como quase todo mundo, existe uma coisa que o deixa apavorado... Sempre na noite anterior a alguma festinha de aniversário de um amigo, ele não consegue pregar os olhos, por que será?",
+      "img": "https://m.media-amazon.com/images/I/51tRSQ8pBLL._SY498_BO1,204,203,200_.jpg",
+      "price": 28.99
+    },
+    {
+      "id": "63b5773ba6db0",
+      "category": "childish",
+      "name": "Fisher-Price - Como é bom dormir",
+      "author": "Ciranda Cultural",
+      "description": "Depois de um dia cheio de diversão, nada melhor do que uma boa noite de sono, não é mesmo? Ainda mais quando você pode compartilhar esse momento tão relaxante ao lado da família ou dos amigos. ",
+      "img": "https://m.media-amazon.com/images/I/51Q+yg2TsWL._SX428_BO1,204,203,200_.jpg",
+      "price": 9.95
+    },
+    {
+      "id": "63b577b29a520",
+      "category": "childish",
+      "name": "Fisher-Price - Como é bom dormir",
+      "author": "Ciranda Cultural",
+      "description": "Depois de um dia cheio de diversão, nada melhor do que uma boa noite de sono, não é mesmo? Ainda mais quando você pode compartilhar esse momento tão relaxante ao lado da família ou dos amigos. ",
+      "img": "https://m.media-amazon.com/images/I/51Q+yg2TsWL._SX428_BO1,204,203,200_.jpg",
+      "price": 9.95
+    },
+    {
+      "id": "63b579884fdfc",
+      "category": "Web development",
+      "name": "Pro Express.Js: Master Express.Js",
+      "author": "Ciranda Cultural",
+      "description": "Este conjunto de dois livros combina os títulos HTML & CSS: Designing and Building Web Sites e JavaScript & jQuery: Interactive Front-End Development . Juntos, esses dois livros formam uma plataforma ideal para quem deseja dominar HTML e CSS antes de avançar para JavaScript e jQuery.",
+      "img": "https://m.media-amazon.com/images/I/41lN34XZ28L._SX404_BO1,204,203,200_.jpg",
+      "price": 375.35
+    },
+    {
+      "id": "63b57aebb5f81",
+      "category": "Web development",
+      "name": "Pro Html5 Programming: Powerful APIs for Richer Internet Application Development",
+      "author": "Peter Lubbers",
+      "description": "O HTML5 está aqui e, com ele, os aplicativos da Web adquirem poder, facilidade, escalabilidade e capacidade de resposta como nunca antes.",
+      "img": "https://m.media-amazon.com/images/I/51eBBlehcLL._SX404_BO1,204,203,200_.jpg",
+      "price": 416.32
+    },
+    {
+      "id": "63b57ae3bbe2e",
+      "category": "Web development",
+      "name": "Python Django For Web Development",
+      "author": "Emenwa Global",
+      "description": "O Django é empolgante se você estiver interessado em construir sites. Django é um framework para fazer websites. Isso economiza muito tempo e torna a criação de sites mais fácil e divertida. O Django facilita a construção e manutenção de aplicações web de alta qualidade.",
+      "img": "https://m.media-amazon.com/images/I/41l66zmG3fL.jpg",
+      "price": 321.32
+    },
+    {
+      "id": "63b594bf04f0d",
+      "category": "Web development",
+      "name": "Construindo uma Aplicação web Completa com PHP e MySQL",
+      "author": "William Pereira Alves ",
+      "description": "Este livro oferece ao leitor o conhecimento necessário para desenvolver aplicações para a internet utilizando o servidor web Apache, o servidor de banco de dados MySQL e a linguagem PHP.",
+      "img": "https://m.media-amazon.com/images/I/51hF-oAE2ZL._SX357_BO1,204,203,200_.jpg",
+      "price": 106.99
+    },
+    {
+      "id": "bababa",
+      "category": "romdfasdfe",
+      "name": "A pequenfasfaspadaria do Brooklyn",
+      "author": "aaaaaaaaaaaaaaaaaeitaaaaaaaaaaaaa ratinhonho",
+      "description": "A vida da jovem Sophie Bennings parece bem encaminhada. Ainda que falte um pouco de paixão, ela tem um emprego fixo como editora de gastronomia em Londres e aguarda pacientemente um pedido de casamento do namorado.",
+      "img": "https://m.media-amazon.com/images/I/51V6RqbFBtL._SX346_BO1,204,203,200_.jpg",
+      "price": 54.86
     }
   ]
 }
