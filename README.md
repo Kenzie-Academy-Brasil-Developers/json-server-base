@@ -6,7 +6,7 @@
 Este é o backend da aplicação Do.Ação - Para a utilizaçao  Um hub de portfólios de programadores daqui da Do.Ação.
 </p>
 
-<blockquote align="center">“Sempre passar o que você aprendeu. - Mestre Yoda”</blockquote>
+<blockquote align="center">“Faça ou não faça. A tentativa não existe. - Mestre Yoda”</blockquote>
 
 <p align="center">
   <a href="#endpoints">Endpoints</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
