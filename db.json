@@ -6,6 +6,54 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "renata@mail.com",
+      "password": "$2a$10$FicCjTMhRdnNnfsnpakkQ.EJ7JOHYi2E5I/2X71GXwQfy5N6BNCMa",
+      "name": "Renata Costa",
+      "business_name": "RenataC",
+      "cnpj": "1234567909",
+      "telephone": "123456790910",
+      "address": "rua x",
+      "profile_img_url": "http://localhost3001",
+      "donor": true,
+      "id": 2
+    },
+    {
+      "email": "Laura@mail.com",
+      "password": "$2a$10$K2rCJJgjKEYcwc1oLb5cFuIPMHRSND3HSB4CFoKOU5QtPU1aYQ3N2",
+      "name": "Laura Costa",
+      "businessName": "LauraC",
+      "cnpj": "1234567909",
+      "telephone": "123456790910",
+      "address": "rua x",
+      "profileImgUrl": "http://localhost3001",
+      "donor": true,
+      "id": 3
+    }
+  ],
+  "donation": [
+    {
+      "userId": 2,
+      "img": "bananaImagem",
+      "title": "Banana",
+      "category": "Fruits",
+      "validation": "01/02/23",
+      "descripition": "Docao de uma remeça de Bananas quase vencisdas",
+      "amounts": "51",
+      "address": "rua x",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "img": "teste",
+      "title": "teste",
+      "category": "Fruits",
+      "validation": "01/02/23",
+      "descripition": "Docao de uma remeça de Maça quase vencisdas",
+      "amounts": "51",
+      "address": "rua x",
+      "id": 2
     }
   ]
 }
