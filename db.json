@@ -5,18 +5,29 @@
       "password": "$2a$10$FSiQBECicTk5Po9hknfFyuzpfI1tGw0T3Vq.avPZ/StWqXvEUiw3C",
       "name": "Teste",
       "businessName": "Testando",
-      "cnpj": "1234567909",
+      "cnpj": "000112345678910",
       "telephone": "123456790910",
       "address": "rua x",
-      "profileImgUrl": "http://localhost3001",
+      "profileImgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
       "donor": true,
-      "id": 4
+      "id": 1
+    },
+    {
+      "email": "teste2@mail.com",
+      "password": "$2a$10$FSiQBECicTk5Po9hknfFyuzpfI1tGw0T3Vq.avPZ/StWqXvEUiw3C",
+      "name": "TesteReceptor",
+      "cpf": "1234456789",
+      "telephone": "123456790910",
+      "address": "rua x",
+      "profileImgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+      "donor": false,
+      "id": 2
     }
   ],
   "donation": [
     {
-      "userId": 2,
-      "img": "bananaImagem",
+      "userId": 1,
+      "img": "Frutas",
       "title": "Banana",
       "category": "Fruits",
       "validation": "01/02/23",
@@ -24,6 +35,17 @@
       "amounts": "51",
       "address": "rua x",
       "id": 1
+    },
+    {
+      "userId": 1,
+      "img": "CestaBasica",
+      "title": "Cesta Basica",
+      "category": "Fruits",
+      "validation": "01/02/23",
+      "descripition": "Docao de uma remeça de Maçã quase vencisdas",
+      "amounts": "51",
+      "address": "rua x",
+      "id": 3
     }
   ]
 }
