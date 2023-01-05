@@ -6,6 +6,67 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "gorimar@mail.com",
+      "password": "$2a$10$B2V.XZW.AtY9srOA/eWj2.AzBr9c6/MjmAocpMUf1.FV.Z7Xxij6u",
+      "id": 2
+    },
+    {
+      "email": "alex@mail.com",
+      "password": "$2a$10$Jl8HAehtaWw0J8dxBSX53OlgpCvH5KFcaH0r1VIQ8fU81ADffvLaK",
+      "id": 3
+    },
+    {
+      "email": "alex12345@mail.com",
+      "password": "$2a$10$nqTbBS300xJNRMIT1y9EnuM.nNxQ9KsyZ.xyh1gnrItkuWwTi4BSC",
+      "id": 4
+    },
+    {
+      "email": "lucas123@mail.com",
+      "password": "$2a$10$OWXT5sxDwCdpZ.ZvgoCNFuq.P5oLZ3yOlO9QkUlYEory57VMZoBJS",
+      "id": 5
+    },
+    {
+      "email": "vilson123@mail.com",
+      "password": "$2a$10$VzfjExqVA23dlCFofl67P.INZ0t5.EFZ5sGXWi73SBtToiDciBg9G",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "userId": 1,
+      "img": "https://a-static.mlcdn.com.br/1500x1500/cimento-todas-as-obras-50kg-votorantim/ceccasaeconstrucao/7cf42d78912457af4337112226580041/8211a2e9aaef87e30714dd6b47ac9076.jpeg",
+      "name": "Cimento Votorantim 50kg",
+      "stock": "50",
+      "type": "Cimento",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "img": "https://d365e82sgxmduv.cloudfront.net/Custom/Content/Products/11/06/1106528_joelho-90graus-esgoto-sec-40-tigre_m1_636600773795136557.jpg",
+      "name": "Joelho 90°",
+      "stock": "30",
+      "type": "Conexoes",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "img": "https://ducacec.com.br/product_images/o/971/2__98583_std.png",
+      "name": "Tijolo baiano",
+      "description": "São blocos de cerâmica ou argila cozidos em forno. São usados para construir paredes e estruturas de suporte",
+      "stock": "200",
+      "type": "Tijolo",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "img": "https://cdn.leroymerlin.com.br/products/estanho_em_fio_para_solda_1mm_60x40_500g_vonder_87447402_0001_600x600.jpg",
+      "name": "Estanho",
+      "description": "Feitos para soldar componentes eletrônicos",
+      "stock": "2000",
+      "type": "Solda",
+      "id": 6
     }
   ]
 }
