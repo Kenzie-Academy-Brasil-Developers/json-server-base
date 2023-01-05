@@ -1,35 +1,35 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
+      "email": "uuidgbsdbfccbff@gmail.com",
+      "password": "$2a$10$RNyyvamYvKq0aopXqdYyGe7Zi7tgpf26n3BGa8ElzUZ0OaB5yT2Vm",
+      "name": "testuuid745",
       "isAdmin": false,
-      "id": 1
+      "uuid": "fa579acc-3fdf-442a-bef1-d5b17cab7d2f"
     },
     {
       "email": "admin@mail.com",
-      "password": "$2a$10$A7s88f7qILrI933csLsEk.pnZ1zKcX4iRaLqqUxPHqwjbaBhdZz5y",
+      "password": "$2a$10$J20tmGR/fN1462R2eNQhzu0tSBjeP8U/hvvQrwdN2JyWAZLCvzmDS",
       "name": "Administrador",
       "isAdmin": true,
-      "id": 2
+      "uuid": "72850423-b8c5-4334-bf59-4c8b979107a4"
     },
     {
-      "email": "renan@mail.com",
-      "password": "$2a$10$f52kZNYGzVsOAztS7VrG.uTb2vns2c2yvEN4eu9g0t/pR95HCeoHK",
-      "name": "renan",
-      "isAdmin": false,
-      "id": 3
+      "email": "fer@mail.com",
+      "password": "$2a$10$9vQyca9.x0N3B5EDfWNhouxLE1738YvvDOfSQUErtu0ZAxVPSoBcm",
+      "name": "fernanda",
+      "isAdmin": true,
+      "uuid": "9310eb11-b8d2-44f1-b8ef-d62df38b9ec6"
     }
   ],
-  "createApi": [
+  "apiList": [
     {
       "userId": 2,
       "name": "Pokemon api",
       "description": "api para listar pokemon",
       "img": null,
       "link": "https://pokeapi.co/",
-      "id": 1
+      "uuid": 1
     },
     {
       "userId": 2,
@@ -37,7 +37,7 @@
       "description": "api para listar pokemon",
       "img": null,
       "link": "https://pokeapi.co/",
-      "id": 2
+      "uuid": 2
     },
     {
       "userId": 2,
@@ -45,7 +45,33 @@
       "description": "api para listar pokemon",
       "img": null,
       "link": "https://pokeapi.co/",
-      "id": 3
+      "uuid": 3
+    },
+    {
+      "userId": 2,
+      "name": "dragon api",
+      "description": "api para listar dragoes",
+      "img": null,
+      "link": "https://dragoapi.com",
+      "uuid": "3it4b1-3n54-f23fd-f212d"
+    },
+    {
+      "userId": 2,
+      "name": "dragon2 api",
+      "description": "api para listar dragoes",
+      "img": null,
+      "link": "https://dragoapi.com",
+      "uuid": "asd-21d1sad-21d23"
+    }
+  ],
+  "favoriteApi": [
+    {
+      "userId": 2,
+      "name": "Pokemon api",
+      "description": "api para listar pokemon",
+      "img": null,
+      "link": "https://pokeapi.co/",
+      "uuid": 1
     }
   ]
 }
