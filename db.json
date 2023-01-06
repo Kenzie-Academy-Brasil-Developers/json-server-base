@@ -17,14 +17,6 @@
       "is_adm": false
     },
     {
-      "email": "adm@adm.com",
-      "password": "$2a$10$geeo4Kwti.B1IaWc3d8czONcxKDk7aHljxcbeNIUW942olH/H/U2y",
-      "name": "Administrador",
-      "age": 38,
-      "id": "qOZI46L63b58417547b9",
-      "is_adm": true
-    },
-    {
       "email": "teste@123gmail.com",
       "password": "$2a$10$A9yH6P/H5NR/ufzURwOZlefhzumwlUJlJX3QQmzv0Ef4lQ/uBhCVi",
       "name": "teste",
