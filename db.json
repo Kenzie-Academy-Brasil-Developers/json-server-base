@@ -7,7 +7,11 @@
       "businessName": "Testando",
       "cnpj": "000112345678910",
       "telephone": "123456790910",
-      "address": "rua x",
+      "address": {
+        "street": "rua x",
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "profileImgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
       "donor": true,
       "id": 1
@@ -18,7 +22,11 @@
       "name": "TesteReceptor",
       "cpf": "1234456789",
       "telephone": "123456790910",
-      "address": "rua x",
+      "address": {
+        "street": "rua x",
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "profileImgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
       "donor": false,
       "id": 2
@@ -27,25 +35,66 @@
   "donation": [
     {
       "userId": 1,
-      "img": "Frutas",
-      "title": "Banana",
-      "category": "Fruits",
+      "title": "Farinha de Trigo",
+      "category": "Cereals",
       "validation": "01/02/23",
-      "descripition": "Docao de uma remeça de Bananas quase vencisdas",
-      "amounts": "51",
-      "address": "rua x",
+      "descripition": "Doção sacos de trigo",
+      "amounts": "10",
       "id": 1
     },
     {
       "userId": 1,
-      "img": "CestaBasica",
-      "title": "Cesta Basica",
+      "title": "Repolhos",
+      "category": "Vegetables",
+      "validation": "20/02/23",
+      "descripition": "varios Repolhos que sobreram da feira",
+      "amounts": "5",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Banana",
       "category": "Fruits",
-      "validation": "01/02/23",
-      "descripition": "Docao de uma remeça de Maçã quase vencisdas",
-      "amounts": "51",
-      "address": "rua x",
+      "validation": "20/02/23",
+      "descripition": "Bananas que sobrearam da platanção",
+      "amounts": "30",
       "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Ovos que sobraram da granja",
+      "category": "MeatAndEggs",
+      "validation": "20/02/23",
+      "descripition": "algumas Duzias",
+      "amounts": "6",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Leites Quase vencidos",
+      "category": "Milk",
+      "validation": "20/01/23",
+      "descripition": "Leites que Nào forem usados na padaria",
+      "amounts": "30",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "title": "Oleos de amendoa",
+      "category": "oils",
+      "validation": "20/04/23",
+      "descripition": "Genhei e nunca usei",
+      "amounts": "5",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "title": "Algumas cestas Basicas",
+      "category": "basicbasket",
+      "validation": "20/04/23",
+      "descripition": "genhei da frima e Nào vou utilizar",
+      "amounts": "2",
+      "id": 7
     }
   ]
 }
