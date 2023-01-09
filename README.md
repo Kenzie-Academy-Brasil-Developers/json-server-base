@@ -22,7 +22,7 @@ A API tem um total de 13 endpoints, sendo em volta principalmente do usuário (d
 </blockquote>
 <br>
 
-A url base da API é https://kenziehub.herokuapp.com
+A url base da API é https://doacao.onrender.com
 
 ## Rotas que não precisão de autenticação
 
