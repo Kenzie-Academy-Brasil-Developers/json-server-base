@@ -79,6 +79,16 @@
       "price": 10,
       "type": "Solda",
       "id": 6
+    },
+    {
+      "userId": 1,
+      "img": "https://cdn.leroymerlin.com.br/products/estanho_em_fio_para_solda_1mm_60x40_500g_vonder_87447402_0001_600x600.jpg",
+      "name": "Estanho",
+      "description": "Feitos para soldar componentes eletrônicos",
+      "stock": "2000",
+      "price": 20,
+      "type": "Solda",
+      "id": 7
     }
   ]
 }
