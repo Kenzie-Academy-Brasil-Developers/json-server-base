@@ -12,25 +12,44 @@ Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/pack
 ### Cadastro
 
 POST /register <br/>
-
-
-
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+{
+      "email": "adm123@adm.com",
+      "password": "Adm1234@",
+      "name": "Admistrador",
+      "age": 1000,
+      "id": "ayHinpj63b5855938b62",
+      "is_adm":"true"
+    }
 
 
 ### Login
 
 POST /login <br/>
+    {
+	"email": "teste@123gmail.com",
+	"password": "teste123"
+}
 
 ### Products *precisa de token*
 GET /products 
+
 GET /products/{id}
+
 PATCH /product/{id} *precisa de um body*
+    {
+	"id": "63b57adc9f552",
+	"category": "Web development",
+	"name": "Web Development for beginners",
+	"author": "aaaaaaaaaaaaaaaaaaaa",
+	"description": "The book you were waiting for to learn how to develop a website !",
+	"img": "https://m.media-amazon.com/images/I/41+Bik0tUlL.jpg",
+	"price": 141.58
+}
 DELETE /product/{id}
 
 ### Products *precisa de token*
 GET /users
+
 GET /users{id}
 
 
