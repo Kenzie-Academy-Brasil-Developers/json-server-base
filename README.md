@@ -164,39 +164,45 @@ Nessa aplicação o usuário com o login ou cadastrado pode ver as doações já
 
 ```json
 [
-  {
-    "userId": 2,
-    "img": "bananaImagem",
-    "title": "Banana",
-    "category": "Fruits",
-    "validation": "01/02/23",
-    "descripition": "Estou doando Varias Bananas de Feira",
-    "amounts": "51",
-    "address": "rua x",
-    "id": 1
-  },
-  {
-    "userId": 4,
-    "img": "limào",
-    "title": "limào",
-    "category": "Fruits",
-    "validation": "01/02/23",
-    "descripition": "Docao de uma remeça de Maças do hortifrut da rtegião",
-    "amounts": "51",
-    "address": "rua x",
-    "id": 2
-  },
-  {
-    "userId": 4,
-    "img": "limão",
-    "title": "limão",
-    "category": "Fruits",
-    "validation": "01/02/23",
-    "descripition": "Docao de uma remeça de limão da fazenda",
-    "amounts": "51",
-    "address": "rua x",
-    "id": 3
-  }
+ {
+      "userId": 1,
+      "title": "Farinha de Trigo",
+      "category": "Cereais",
+      "validation": "01/02/23",
+      "descripition": "Doção sacos de trigo",
+      "amounts": 10,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Repolhos",
+      "category": "Hortaliças",
+      "validation": "20/02/23",
+      "descripition": "varios Repolhos que sobreram da feira",
+      "amounts": 5,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Banana",
+      "category": "Frutas",
+      "validation": "20/02/23",
+      "descripition": "Bananas que sobrearam da platanção",
+      "amounts": 30,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
+      "id": 3
+    },
 ]
 ```
 
@@ -207,28 +213,32 @@ Com o parâmetro tech, podemos filtrar por tecnologia.
 
 ```json
 [
-  {
-    "userId": 1,
-    "img": "Frutas",
-    "title": "Banana",
-    "category": "Fruits",
-    "validation": "01/02/23",
-    "descripition": "Docao de uma remeça de Bananas quase vencisdas",
-    "amounts": "51",
-    "address": "rua x",
-    "id": 1
-  },
-  {
-    "userId": 1,
-    "img": "Frutas",
-    "title": "limão",
-    "category": "Fruits",
-    "validation": "10/02/23",
-    "descripition": "Docao de uma remeça de limão quase vencisdas",
-    "amounts": "51",
-    "address": "rua x",
-    "id": 2
-  }
+ {
+      "userId": 1,
+      "title": "Farinha de Trigo",
+      "category": "Cereais",
+      "validation": "01/02/23",
+      "descripition": "Doção sacos de trigo",
+      "amounts": 10,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Repolhos",
+      "category": "Hortaliças",
+      "validation": "20/02/23",
+      "descripition": "varios Repolhos que sobreram da feira",
+      "amounts": 5,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
+      "id": 2
+    },
 ]
 ```
 
