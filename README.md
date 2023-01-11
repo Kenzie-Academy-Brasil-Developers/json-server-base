@@ -45,6 +45,16 @@ PATCH /product/{id} *precisa de um body*
 	"img": "https://m.media-amazon.com/images/I/41+Bik0tUlL.jpg",
 	"price": 141.58
 }
+POST /product/ *precisa de um body* para postar um novo produto
+    {
+	"id": "63b57adc9f552",
+	"category": "Web development",
+	"name": "Web Development for beginners",
+	"author": "aaaaaaaaaaaaaaaaaaaa",
+	"description": "The book you were waiting for to learn how to develop a website !",
+	"img": "https://m.media-amazon.com/images/I/41+Bik0tUlL.jpg",
+	"price": 141.58
+}
 DELETE /product/{id}
 
 ### Products *precisa de token*
