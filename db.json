@@ -45,18 +45,20 @@
     {
       "userId": 1,
       "img": "https://a-static.mlcdn.com.br/1500x1500/cimento-todas-as-obras-50kg-votorantim/ceccasaeconstrucao/7cf42d78912457af4337112226580041/8211a2e9aaef87e30714dd6b47ac9076.jpeg",
-      "name": "Cimento Votorantim 50kg",
+      "name": "Cimento 50kg votorantim ",
+      "description": "Ideal para construções de casas e edifícios",
       "stock": 50,
-      "price": 2002,
-      "type": "Cimento",
+      "price": 22,
+      "type": "Massa",
       "id": 1
     },
     {
       "userId": 1,
       "img": "https://d365e82sgxmduv.cloudfront.net/Custom/Content/Products/11/06/1106528_joelho-90graus-esgoto-sec-40-tigre_m1_636600773795136557.jpg",
-      "name": "Joelho 90°",
+      "name": "Joelho 90° Tigre",
+      "description": "Conexão de esgoto usada para conexão hidráulica",
       "stock": 30,
-      "price": 30,
+      "price": 3,
       "type": "Conexoes",
       "id": 2
     },
@@ -68,7 +70,7 @@
       "stock": 200,
       "price": 2002,
       "type": "Tijolo",
-      "id": 4
+      "id": 3
     },
     {
       "userId": 5,
@@ -78,17 +80,81 @@
       "stock": 2000,
       "price": 10,
       "type": "Solda",
-      "id": 6
+      "id": 4
     },
     {
-      "userId": 1,
-      "img": "https://cdn.leroymerlin.com.br/products/estanho_em_fio_para_solda_1mm_60x40_500g_vonder_87447402_0001_600x600.jpg",
-      "name": "Estanho",
-      "description": "Feitos para soldar componentes eletrônicos",
-      "stock": 2000,
-      "price": 20,
-      "type": "Solda",
+      "userId": 7,
+      "img": "https://http2.mlstatic.com/D_NQ_NP_944598-MLB44826768863_022021-O.webp",
+      "name": "Disco De Corte Starrett",
+      "description": "Ideal para fazer cortes em metal e aço inox 4.1/2",
+      "stock": 3000,
+      "price": 4,
+      "type": "Disco",
+      "id": 5
+    },{
+      "userId": 7,
+      "img": "https://cdn.leroymerlin.com.br/products/joelho_45o_solda_marrom_25mm_3_4_tigre_85307082_0001_600x600.jpg",
+      "name": "Joelho 45° 25Mm Tigre",
+      "description": "Conexão reforçada para conexão hidráulica",
+      "stock": 50,
+      "price": 30,
+      "type": "Conexoes",
+      "id": 6
+    },{
+      "userId": 7,
+      "img": "https://lojaacal.vteximg.com.br/arquivos/ids/160945-1000-1000/colamix-gesso-em-po-1kg-rejuntamix.jpg?v=637357108030570000",
+      "name": "Gesso 1 Kg Rejuntamix",
+      "description": "Indicado para revestimento de paredes de alvenaria de blocos cerâmicos ou de concreto",
+      "stock": 200,
+      "price": 26,
+      "type": "Massa",
       "id": 7
+    },{
+      "userId": 7,
+      "img": "https://cdn.leroymerlin.com.br/products/massa_corrida_25_kg__89900916_0001_600x600.jpg",
+      "name": "Massa corrida 25kg Coral",
+      "description": "Indicada para uniformizar, nivelar e corrigir pequenas imperfeições",
+      "stock": 200,
+      "price": 95,
+      "type": "Massa",
+      "id": 8
+    },{
+      "userId": 7,
+      "img": "https://tinboltintas.com.br/wp-content/uploads/2021/02/Tinta-Acrilica-Emborrachada-Protecao-Total-36l-Suvinil.jpg",
+      "name": "Tinta acrílica  Suvinil",
+      "description": "Indicada para primeira pintura e repintura de área externa",
+      "stock": 40,
+      "price": 235,
+      "type": "Tinta",
+      "id": 9
+    },{
+      "userId": 7,
+      "img": "https://www.cstintas.com.br/wp-content/uploads/coral-standard-acrilico-fosco-rende-muito-galao.jpg",
+      "name": "Tinta Standard Coral",
+      "description": "Tinta Standard de fácil aplicação e baixíssimo respingamento",
+      "stock": 100,
+      "price": 75,
+      "type": "Tinta",
+      "id": 10
+    },{
+      "userId": 7,
+      "img": "https://cdn.leroymerlin.com.br/products/adesivo_de_contato_cascola_2,8kg_henkel_87368666_0001_600x600.jpg",
+      "name": "Adesivo de Contato Cascola",
+      "description": "É indicado para a colagem de pisos de borracha, couro, metais, madeiras",
+      "stock": 30,
+      "price": 134,
+      "type": "Cola",
+      "id": 11
+    },{
+      "userId": 7,
+      "img": "https://img.lojadomecanico.com.br/IMAGENS/37/431/118659/Disco-de-Serra-Circular-165-x-20mm-com-1-makita-d-513061.JPG",
+      "name": "Disco De Serra Circular",
+      "description": "Indicado pata cortes em madeira no geral.",
+      "stock": 3,
+      "price": 35,
+      "type": "Disco",
+      "id": 13
     }
+
   ]
 }
