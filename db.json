@@ -1,11 +1,81 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "email": "admin@mail.com",
+      "password": "$2a$10$iUo.09.9iS2mjlJrAsJog.lgQ4P1Ips9P4F9vq.SZUHfshJfu5fX.",
+      "name": "Admin",
+      "passwordConfirmation": "Admin@123",
+      "avatarLink": "https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/314627578_2002956029895527_772552199282403264_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFKX3qMxdDEDT4FTCjhl0HUECRFVWxc6_UQJEVVbFzr9Usc8hnGpWVgZQluz8-SWXMPpOqzx0bOlrDCRrEVXck8&_nc_ohc=dPiPzkXZc2IAX8ETvMH&tn=tyTM-3r-srdN_zap&_nc_ht=scontent.fplu37-1.fna&oh=00_AfDcNGUbqbA7VemZLA9YTPWr3QMLiW30wwLreeazyjd1dA&oe=6404CE06",
+      "isAdmin": true,
       "id": 1
+    }
+  ],
+  "movies": [
+    {
+      "name": "Vingadores: Guerra Infinita",
+      "synopsis": "Em Vingadores: Guerra Infinita, Thanos (Josh Brolin) enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças entre alguns de seus integrantes.",
+      "cover": "https://br.web.img3.acsta.net/c_310_420/pictures/18/03/16/15/08/2019826.jpg",
+      "release": "26/04/2018",
+      "duration": "2h36min",
+      "genre": "Ação, Fantasia, Aventura",
+      "classification": "12 anos",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Vingadores: Ultimato",
+      "synopsis": "Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.",
+      "cover": "https://br.web.img2.acsta.net/c_310_420/pictures/19/04/26/17/30/2428965.jpg",
+      "release": "25/04/2019",
+      "duration": "3h01min",
+      "genre": "Ação, Fantasia, Aventura",
+      "classification": "12 anos",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Homem Aranha: Sem Volta Para Casa",
+      "synopsis": "Em Homem-Aranha: Sem Volta para Casa, Peter Parker (Tom Holland) precisará lidar com as consequências da sua identidade como o herói mais querido do mundo após ter sido revelada pela reportagem do Clarim Diário, com uma gravação feita por Mysterio (Jake Gyllenhaal) no filme anterior. Incapaz de separar sua vida normal das aventuras de ser um super-herói, além de ter sua reputação arruinada por acharem que foi ele quem matou Mysterio e pondo em risco seus entes mais queridos, Parker pede ao Doutor Estranho (Benedict Cumberbatch) para que todos esqueçam sua verdadeira identidade. Entretanto, o feitiço não sai como planejado e a situação torna-se ainda mais perigosa quando vilões de outras versões de Homem-Aranha de outro universos acabam indo para seu mundo. Agora, Peter não só deter vilões de suas outras versões e fazer com que eles voltem para seu universo original, mas também aprender que, com grandes poderes vem grandes responsabilidades.",
+      "cover": "https://br.web.img3.acsta.net/c_310_420/pictures/21/11/08/16/02/3963914.png",
+      "release": "16/12/2021",
+      "duration": "02h28min",
+      "genre": "Ação, Aventura, Fantasia",
+      "classification": "12 anos",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "name": "Harry Potter e o Prisioneiro de Azkaban",
+      "synopsis": "O 3º ano de ensino na Escola de Magia e Bruxaria de Hogwarts se aproxima. Porém um grande perigo ronda a escola: o assassino Sirius Black (Gary Oldman) fugiu da prisão de Azkaban, considerada até então como à prova de fugas. Para proteger a escola são enviados os Dementadores, estranhos seres que sugam a energia vital de quem se aproxima deles, que tanto podem defender a escola como piorar ainda mais a situação.",
+      "cover": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/93/88/04/20282944.jpg",
+      "release": "04/06/2004",
+      "duration": "02h20min",
+      "genre": "Fantasia, Aventura",
+      "classification": "Livre",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "Avatar",
+      "synopsis": "Jake Sully (Sam Worthington) ficou paraplégico após um combate na Terra. Ele é selecionado para participar do programa Avatar em substituição ao seu irmão gêmeo, falecido. Jake viaja a Pandora, uma lua extraterrestre, onde encontra diversas e estranhas formas de vida. O local é também o lar dos Na'Vi, seres humanóides que, apesar de primitivos, possuem maior capacidade física que os humanos. Os Na'Vi têm três metros de altura, pele azulada e vivem em paz com a natureza de Pandora. Os humanos desejam explorar a lua, de forma a encontrar metais valiosos, o que faz com que os Na'Vi aperfeiçoem suas habilidades guerreiras. Como são incapazes de respirar o ar de Pandora, os humanos criam seres híbridos chamados de Avatar. Eles são controlados por seres humanos, através de uma tecnologia que permite que seus pensamentos sejam aplicados no corpo do Avatar. Desta forma Jake pode novamente voltar à ativa, com seu Avatar percorrendo as florestas de Pandora e liderando soldados. Até conhecer Neytiri (Zoe Saldana), uma feroz Na'Vi que conhece acidentalmente e que serve de tutora para sua ambientação na civilização alienígena.",
+      "cover": "https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/87/30/40/20028676.jpg",
+      "release": "16/11/2009",
+      "duration": "02h42min",
+      "genre": "Ficção científica, Aventura",
+      "classification": "Livre",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "name": "Interestelar",
+      "synopsis": "Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper (Matthew McConaughey) é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand (Anne Hathaway), Jenkins (Marlon Sanders) e Doyle (Wes Bentley), ele seguirá em busca de uma nova casa. Com o passar dos anos, sua filha Murph (Mackenzie Foy e Jessica Chastain) investirá numa própria jornada para também tentar salvar a população do planeta.",
+      "cover": "https://br.web.img3.acsta.net/c_310_420/pictures/14/10/31/20/39/476171.jpg",
+      "release": "06/11/2014",
+      "duration": "02h49min",
+      "genre": "Ficção científica, Drama",
+      "classification": "10 anos",
+      "userId": 1,
+      "id": 6
     }
   ]
 }
