@@ -19,6 +19,7 @@
       "duration": "2h36min",
       "genre": "Ação, Fantasia, Aventura",
       "classification": "12 anos",
+      "verified": true,
       "userId": 1,
       "id": 1
     },
@@ -30,6 +31,7 @@
       "duration": "3h01min",
       "genre": "Ação, Fantasia, Aventura",
       "classification": "12 anos",
+      "verified": true,
       "userId": 1,
       "id": 2
     },
@@ -41,6 +43,7 @@
       "duration": "02h28min",
       "genre": "Ação, Aventura, Fantasia",
       "classification": "12 anos",
+      "verified": true,
       "userId": 1,
       "id": 3
     },
@@ -52,6 +55,7 @@
       "duration": "02h20min",
       "genre": "Fantasia, Aventura",
       "classification": "Livre",
+      "verified": true,
       "userId": 1,
       "id": 4
     },
@@ -63,6 +67,7 @@
       "duration": "02h42min",
       "genre": "Ficção científica, Aventura",
       "classification": "Livre",
+      "verified": true,
       "userId": 1,
       "id": 5
     },
@@ -74,6 +79,7 @@
       "duration": "02h49min",
       "genre": "Ficção científica, Drama",
       "classification": "10 anos",
+      "verified": true,
       "userId": 1,
       "id": 6
     }
