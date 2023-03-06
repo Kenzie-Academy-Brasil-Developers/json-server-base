@@ -15,5 +15,17 @@
       "age": "42",
       "id": 2
     }
+  ],
+  "teams": [
+    {
+      "nameTeam": "Toledo Time",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "nameTeam": "Toledo Time",
+      "userId": 1,
+      "id": 2
+    }
   ]
 }
