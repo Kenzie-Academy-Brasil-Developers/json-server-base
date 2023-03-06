@@ -1,6 +1,10 @@
 - [URL Repo API kenzieDex](https://github.com/M3-T15-Projeto-Front-2023/KenzieDex-Json-server)
 - [URL API kenzieDex](https://kenziedex.onrender.com/)
 
+- Clique no botão para importar direto no Insomnia
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=KenzieDex%20API&uri=https%3A%2F%2Fgithub.com%2FM3-T15-Projeto-Front-2023%2FKenzieDex-Json-server%2Fblob%2Fmaster%2FInsomnia_kenzieDex.json)
+
 # json-server-base
 
 Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
