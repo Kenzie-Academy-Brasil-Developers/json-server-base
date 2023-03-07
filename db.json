@@ -1,31 +1,4 @@
 {
-  "users": [
-    {
-      "email": "toledo@mail.com",
-      "password": "$2a$10$vNavN2sNRHAuewEMBwkbH.pLpJE1h/Adcf0TyMCyNp.JNrDYARQUm",
-      "name": "toledo",
-      "age": 42,
-      "id": 1
-    },
-    {
-      "email": "toledo@gmail.com",
-      "password": "$2a$10$8i7IrrhN6NoPv69wnNsxhOQ3yYlMFtYkAa.S8CwNu3rnRGJofb3Ue",
-      "name": "Toledo",
-      "nickname": "toledo",
-      "age": "42",
-      "id": 2
-    }
-  ],
-  "teams": [
-    {
-      "nameTeam": "Toledo Time",
-      "userId": 2,
-      "id": 1
-    },
-    {
-      "nameTeam": "Toledo Time",
-      "userId": 1,
-      "id": 2
-    }
-  ]
+  "users": [],
+  "teams": []
 }
