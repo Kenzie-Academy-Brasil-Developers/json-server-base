@@ -29,4 +29,8 @@ Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do
 POST /login <br/>
 POST /signin
 
+### Team
+
+POST /teams <br/>
+
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
