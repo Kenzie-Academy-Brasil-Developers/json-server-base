@@ -1,13 +1,4 @@
 {
-  "users": [
-    {
-      "email": "toledo@mail.com",
-      "password": "$2a$10$Q2AAU0CCLNeqPUk2Mk2DauKJVl4G1XnJgcqtby4nQfTkuZjwA49gO",
-      "name": "Toledo",
-      "nickname": "toledo",
-      "age": "42",
-      "id": 1
-    }
-  ],
+  "users": [],
   "teams": []
 }
