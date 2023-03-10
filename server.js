@@ -10,7 +10,7 @@ app.db = router.db;
 
 const rules = auth.rewriter({
   users: 600,
-  teams: 640,
+  teams: 600,
 });
 
 app.use(cors());
