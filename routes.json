@@ -1,4 +1,9 @@
 {
   "users": 600,
+<<<<<<< HEAD
   "teams": 600
+=======
+  "teams": 600,
+  "battles": 600
+>>>>>>> 33f2ee2e7424d2336c1922f2f9b0ff36f9f822ac
 }
