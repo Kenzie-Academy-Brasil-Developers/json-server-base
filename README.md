@@ -35,7 +35,3 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 POST /teams <br/>
 DELETE /teams/id <br/>
-
-## Battle
-
-GET /battles <br/>
