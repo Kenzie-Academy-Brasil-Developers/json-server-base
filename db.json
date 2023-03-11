@@ -1,4 +1,12 @@
 {
-  "users": [],
-  "teams": []
+  "users": [
+    {
+      "email": "toledo@mail.com",
+      "password": "$2a$10$lHcpIt1juskT47UQIE11HO1GiiFS7NOl3wJh0FE0XvntXorx4/ANS",
+      "name": "toledo",
+      "id": 1
+    }
+  ],
+  "teams": [],
+  "battles": []
 }
