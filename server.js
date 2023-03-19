@@ -1,6 +1,6 @@
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
-const cors = require("cors");
+import cors from "cors";
 const port = process.env.PORT || 3001;
 
 const app = jsonServer.create();
