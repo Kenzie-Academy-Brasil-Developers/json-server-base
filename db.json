@@ -7,70 +7,41 @@
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "image": "url",
       "isAdmin": true
-    },
-    {
-      "email": "thomaz@mail.com",
-      "password": "$2a$10$71x5obySrwT7ClaaXmv5teUs7ZzQbxzI/lQtP0810Mu/em2N3g9Oq",
-      "id": 2
-    },
-    {
-      "email": "thomaz1@mail.com",
-      "password": "$2a$10$msFgmivvjl8xrivhElwtJuPxKeIL/XGVmc1dtm0ZTlsx310JiZ03u",
-      "id": 3
-    },
-    {
-      "email": "thomaz12@mail.com",
-      "password": "$2a$10$x8H.FMv70jvEgRcLOhme7e8/qbrcwzqQi4Dl8TMNB2XuItfO26uFS",
-      "id": 4
-    },
-    {
-      "email": "testeo@mail.com",
-      "password": "$2a$10$9abUilu8YbQn3QJpj93Ip.m.Ml84mZlg1/mjj9nsUvsa4xRXCF08i",
-      "id": 5
-    },
-    {
-      "email": "teste90@mail.com",
-      "password": "$2a$10$rZ46HdQO8nnkn2cUFV.W6e5.r/L.fsmSHmSFCXGJIq1CowwQ0MbYq",
-      "name": "thomaz",
-      "qqlr": "qqq",
-      "id": 6
     }
   ],
+
   "posts": [
     {
       "id": 1,
-      "title": "CSS",
+      "title": "Como criar um toast no React",
       "description": "Visite o link da documentação",
       "likes": 0,
-      "techCategory": "Liguagens",
-      "postImage": "./",
-      "link": "url",
+      "techCategory": "Bibliotecas",
+      "postImage": "https://user-images.githubusercontent.com/5574267/130804494-a9d2d69c-f170-4576-b2e1-0bb7f13dd92d.gif",
+      "link": "https://www.npmjs.com/package/react-toastify",
       "userId": 1
-    }, 
+    },
 
     {
       "id": 2,
-      "title": "React",
+      "title": "Typescript - Mais técnicas",
       "description": "Visite o link da documentação",
       "likes": 0,
-      "techCategory": "Framework",
-      "postImage": "./",
-      "link": "url",
+      "techCategory": "Linguagens",
+      "postImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      "link": "https://www.typescriptlang.org/",
       "userId": 1
     },
 
     {
       "id": 3,
-      "title": "Typescript",
+      "title": "Styled-components",
       "description": "Visite o link da documentação",
       "likes": 0,
       "techCategory": "Linguagens",
-      "postImage": "./",
-      "link": "url",
+      "postImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.styled-components.com%2F&psig=AOvVaw2T3nvI86y95v6vAGiLk_rR&ust=1682803370871000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDimZvBzf4CFQAAAAAdAAAAABAE",
+      "link": "https://www.npmjs.com/package/styled-components",
       "userId": 1
     }
-
-  ] 
-
-
+  ]
 }
