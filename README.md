@@ -1,185 +1,134 @@
-### Sabios Blog
+Sabios Blog API
+A Sabios Blog API possui um total de 7 endpoints, que permitem criar usuários, realizar login e buscar todos os posts. Há um usuário administrador que tem permissão para cadastrar, editar e excluir posts.
 
-Descrição: A aplicação tem um total de 7 endpoints, podendo cadastrar um usuário, realizar login, buscar todos os posts. Existe um usuário administrador que poderá cadastrar, editar e deletar um post.
+URL da API
+https://sabiusapi.onrender.com/
+Endpoints
+POST /users
+Cria um novo usuário na aplicação.
 
-### URL da api.
+Requisição:
+{
+    "name": "Kenzinho",
+    "email": "kenzinhoteste@mail.com",
+    "password": "123456",
+    "image": "url"
+}
 
-### Endpoints
+Resposta de sucesso: 
+STATUS 201
+{
+    "accessToken": "[token de acesso gerado]",
+    "user": {
+        "id": 1,
+        "name": "Kenzinho",
+        "email": "kenzinho@mail.com",
+        "image": "url",
+        "isAdmin": true
+    }
+}
+Possíveis erros:
 
-POST /users - criação de um usuário, necessitará de um corpo.
+Requisição inválida:
+STATUS 400
+{
+  "message": "Email and password are required"
+}
+
+Senha muito curta:
+STATUS 400
+{
+  "message": "Password is too short"
+}
+E-mail já cadastrado:
+STATUS 400
+{
+  "message": "Email already exists"
+}
+POST /login
+Realiza o login de um usuário na aplicação.
+
+Requisição:
+ STATUS 200
+{
+    "email": "kenzinhoteste@mail.com",
+    "password": "123456"
+}
+Resposta de sucesso:
+{
+    "accessToken": "[token de acesso gerado]",
+    "user": {
+        "id": 1,
+        "name": "Kenzinho",
+        "email": "kenzinho@mail.com",
+        "image": "url",
+        "isAdmin": true
+    }
+}
+Possíveis erros:
+Requisição inválida:
+STATUS 400
+{
+  "message": "Email and password are required"
+}
+E-mail não cadastrado:
+STATUS 400
 
 {
-"name": "Kenzinho",
-"email": "kenzinhoteste@mail.com",
-"password": "123456",
-"image": "url"
+  "message": "Cannot find user"
 }
-
-POST /users - FORMATO DA RESPOSTA - STATUS 201
-
+Senha incorreta:
+STATUS 400
 {
-"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtlbnppbmhvQG1haWwuY29tIiwiaWF0IjoxNjgyNjkyNzkwLCJleHAiOjE2ODI2OTYzOTAsInN1YiI6IjEifQ.pH4_Tv414ph1pC-zXuyNPuL3iqw4KeZIKZor9A85_Fo",
-"user": {
-"id": 1,
-"name": "Kenzinho",
-"email": "kenzinho@mail.com",
-"image": "url",
-"isAdmin": true
+  "message": "Incorrect password"
 }
 
-}
+GET /users/:user_id
+Recupera as informações de um usuário específico.
 
-//POSSÍVEIS ERROS
-
-Caso você acabe errando e mandando algum campo errado, a resposta de erro será assim:
-
-A senha precisa de pelo menos 6 caracteres contendo pelo menos uma letra maiuscula, uma minúscula e um caractere especial
-
-POST /users - FORMATO DA RESPOSTA - STATUS 400
-
-"message":"Password is too short"
-
-Email já cadastrado:
-
-POST /users - FORMATO DA RESPOSTA - STATUS 400
-
-"message":"Email already exists"
-
-Campo de requisição vazio ou incompleto
-
-POST /users - FORMATO DA RESPOSTA - STATUS 400
-
-"message":"Email and password are required"
-
-POST /login - FORMATO DA REQUISIÇÃO
-
+Resposta de sucesso:
+ STATUS 200
 {
-"email": "kenzinhoteste@mail.com",
-"password": "123456"
+    "id": 1,
+    "name": "Kenzinho",
+    "email": "kenzinho@mail.com",
+    "password": "[senha criptografada]",
+    "image": "url",
+    "isAdmin": true
 }
+Possíveis erros:
 
-Caso dê tudo certo, a resposta será assim:
-
-POST /login - FORMATO DA RESPOSTA - STATUS 200
-
+Token de acesso ausente:
+STATUS 400
 {
-"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtlbnppbmhvQG1haWwuY29tIiwiaWF0IjoxNjgyNjkyNzkwLCJleHAiOjE2ODI2OTYzOTAsInN1YiI6IjEifQ.pH4_Tv414ph1pC-zXuyNPuL3iqw4KeZIKZor9A85_Fo",
-"user": {
-"id": 1,
-"name": "Kenzinho",
-"email": "kenzinho@mail.com",
-"image": "url",
-"isAdmin": true
+  "message": "Missing authorization header"
 }
-}
-
-//POSSÍVEIS ERROS
-
-Caso exista erro no login, a resposta será assim:
-
-POST /login - FORMATO DA RESPOSTA - STATUS 400
-
-"message": "Incorrect password"
-
-A senha está incorreta.
-
-POST /login - FORMATO DA RESPOSTA - STATUS 400
-
-"message": "Cannot find user";
-
-O e-mail não está cadastrado.
-
-POST /login - FORMATO DA RESPOSTA - STATUS 400
-
-"message": "Email and password are required";
-
-Campo de requisição vazio ou incompleto
-
-GET /users/:user_id - autologin: o usuário não logado não conseguirá ir para a página de dashboard assim como o usuário logado será redirecionado do login para a dashboard.
-
-Caso dê tudo certo, a resposta será assim:
-
-GET /users/:user_id - FORMATO DA RESPOSTA - STATUS 200
-
+Token de acesso inválido:
+STATUS 400
 {
-"id": 1,
-"name": "Kenzinho",
-"email": "kenzinho@mail.com",
-"password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-"image": "url",
-"isAdmin": true
+  "message": "jwt malformed"
 }
-
-//POSSÍVEIS ERROS
-
-Caso exista erro no login, a resposta será assim:
-
-GET /users/:user_id - FORMATO DA RESPOSTA - STATUS 401
-
-"message: "Missing authorization header"
-
-Token não existe.
-
-GET /users/:user_id - FORMATO DA RESPOSTA - STATUS 401
-
-"message": "jwt malformed"
-
-Token inválido.
-
-GET /users/:user_id - FORMATO DA RESPOSTA - STATUS 401
-
-"message": "jwt expired"
-
-Token expirado.
-
-GET /posts - renderização dos posts criados pelo adm.
-
-Caso dê tudo certo, a resposta será assim:
-
-GET /posts - FORMATO DA RESPOSTA - STATUS 200
-
-[
+Token de acesso expirado:
+STATUS 400
 {
-"userId": 1,
-"postId": 1,
-"title": "Post sobre React",
-"description": "Visite o link da documentação",
-"likes": 0,
-"techCategory": "Framework",
-"postImage": "?",
-"postDate": "date",
-"link": "url"
+  "message": "jwt expired"
 }
-]
+GET /posts
+Recupera todos os posts criados pelo administrador.
+Resposta de sucesso:
+STATUS 200
+    {
+        "userId": 1,
+        "postId": 1,
+        "title": "Post sobre React",
+        "description": "Visite o link da documentação",
+        "likes": 0,
+    }
 
-//POSSÍVEIS ERROS
-
-Caso exista erro no login, a resposta será assim:
-
-GET /users/:user_id - FORMATO DA RESPOSTA - STATUS 401
-
-"message: "Missing authorization header"
-
-Token não existe.
-
-GET /users/:user_id - FORMATO DA RESPOSTA - STATUS 401
-
-"message": "jwt malformed"
-
-Token inválido.
-
-GET /users/:user_id - FORMATO DA RESPOSTA - STATUS 401
-
-"message": "jwt expired"
-
-Token expirado.
-
-POST /posts - criação dos posts.
-
-Caso dê tudo certo, a resposta será assim:
-
-POST /posts - FORMATO DA RESPOSTA - STATUS 200
-
+POST /posts 
+Criação de novos posts, apenas o administrador poderá criar novos posts.
+Resposta de sucesso:
+STATUS 201
 {
 "userId": 1,
 "title": "Post sobre React2",
@@ -189,4 +138,65 @@ POST /posts - FORMATO DA RESPOSTA - STATUS 200
 "postDate": "date",
 "link": "url",
 "id": 1
+}
+Possíveis erros:
+ID não passado no corpo. 
+STATUS 401
+{
+"Message": "Private resource creation: request body must have a reference to the owner id"
+}
+
+Não autorizado, token inválido. 
+STATUS 401
+{
+"Message": "Invalid token"
+}
+
+
+PATCH /posts
+Edita as informações dos posts criados pelo administrador.
+Resposta de sucesso:
+STATUS 200
+{
+    "title": "Teste",
+    "description": "Teste",
+    "likes": 0,
+    "techCategory": "Teste",
+    "postImage": "https://user-images.githubusercontent.com/5574267/130804494-a9d2d69c-f170-4576-b2e1-0bb7f13dd92d.gif",
+    "link": "https://www.npmjs.com/package/react-toastify",
+    "userId": 1,
+    "id": 4
+}
+Possíveis erros:
+Caso o usuário não passe o ID do post.
+STATUS 401
+{
+"Message": "Missing authorization header"
+}
+
+Token inválido. 
+STATUS 403
+{
+"Message": "Missing authorization header"
+}
+ID do post não encontrado.
+STATUS 403
+{
+	"Message": "Cannot read property 'userId' of undefined"
+}
+
+
+DELETE /posts/:posts_id
+Não necessita de um corpo de requisição. 
+Possíveis erros:
+Token inválido 
+STATUS 401
+{
+"Message": "Missing authorization header"
+}
+
+Token inválido, apenas o administrador pode excluir os posts. 
+STATUS 403
+{
+	"Message": "Private resource access: entity must have a reference to the owner id"
 }
