@@ -83,8 +83,8 @@ STATUS 400
   "message": "Incorrect password"
 }
 
-## GET /users/:user_id
-Recupera as informações de um usuário específico.
+## GET /users/:userId
+Recupera as informações de um usuário logado.
 
 # Resposta de sucesso:
  STATUS 200
@@ -115,7 +115,9 @@ STATUS 400
 }
 ## GET /posts
 Recupera todos os posts criados pelo administrador.
-Resposta de sucesso:
+
+
+# Resposta de sucesso:
 STATUS 200
     {
         "userId": 1,
@@ -127,7 +129,17 @@ STATUS 200
 
 ## POST /posts 
 Criação de novos posts, apenas o administrador poderá criar novos posts.
-Resposta de sucesso:
+
+# Requisição:
+{
+    "title": "TESTE EDIT",
+    "description": "Visite o link da documentação",
+    "tech_category": "Framework",
+    "postImage": "./",
+    "link": "url",
+}
+
+# Resposta de sucesso:
 STATUS 201
 {
 "userId": 1,
@@ -140,13 +152,14 @@ STATUS 201
 "id": 1
 }
 ## Possíveis erros:
-ID não passado no corpo. 
+
+# ID não passado no corpo. 
 STATUS 401
 {
 "Message": "Private resource creation: request body must have a reference to the owner id"
 }
 
-Não autorizado, token inválido. 
+# Não autorizado, token inválido. 
 STATUS 401
 {
 "Message": "Invalid token"
@@ -155,7 +168,18 @@ STATUS 401
 
 ## PATCH /posts/:postId
 Edita as informações dos posts criados pelo administrador.
-Resposta de sucesso:
+
+# Requisição:
+{
+    "title": "TESTE EDIT",
+    "description": "Visite o link da documentação",
+    "tech_category": "Framework",
+    "postImage": "./",
+    "link": "url",
+    "id": 4,
+}
+
+# Resposta de sucesso:
 STATUS 200
 {
     "title": "Teste",
@@ -186,7 +210,7 @@ STATUS 403
 }
 
 
-## DELETE /posts/:posts_id
+## DELETE /posts/:postsId
 Não necessita de um corpo de requisição. 
 Possíveis erros:
 # Token inválido 
