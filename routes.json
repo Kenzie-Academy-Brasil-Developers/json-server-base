@@ -1,3 +1,6 @@
 {
-  "users": 600
+  "/titulo": {
+    "GET": true,
+    "POST": true
+  }
 }

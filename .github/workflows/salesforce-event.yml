@@ -1,0 +1,46 @@
+name: Send Commit Event to Salesforce
+
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  notify-salesforce:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Authenticate Salesforce
+        run: |
+          echo "Authenticating with Salesforce..."
+
+          RESPONSE=$(curl -s https://test.salesforce.com/services/oauth2/token \
+            -d "grant_type=password" \
+            -d "client_id=${{ secrets.SF_CLIENT_ID }}" \
+            -d "client_secret=${{ secrets.SF_CLIENT_SECRET }}" \
+            -d "username=${{ secrets.SF_USERNAME }}" \
+            -d "password=${{ secrets.SF_PASSWORD }}${{ secrets.SF_SECURITY_TOKEN }}")
+
+          echo "Salesforce response:"
+          echo $RESPONSE
+
+          ACCESS_TOKEN=$(echo $RESPONSE | jq -r '.access_token')
+          INSTANCE_URL=$(echo $RESPONSE | jq -r '.instance_url')
+
+          echo "ACCESS_TOKEN=$ACCESS_TOKEN" >> $GITHUB_ENV
+          echo "INSTANCE_URL=$INSTANCE_URL" >> $GITHUB_ENV
+
+      - name: Send Platform Event
+        run: |
+          echo "Sending Platform Event..."
+
+          curl -v -X POST "$INSTANCE_URL/services/data/v60.0/sobjects/Git_Merge_Event__e" \
+          -H "Authorization: Bearer $ACCESS_TOKEN" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "Repository__c": "${{ github.repository }}",
+            "Branch__c": "${{ github.ref_name }}",
+            "CommitId__c": "${{ github.sha }}",
+            "Author__c": "${{ github.actor }}"
+          }'
